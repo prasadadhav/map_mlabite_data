@@ -1,0 +1,27 @@
+{
+  "table": "dataset",
+  "mode": "upsert",
+  "key": [
+    "id"
+  ],
+  "columns": {
+    "id": {
+      "from": "<CSV_id>"
+    },
+    "source": {
+      "from": "<CSV_source>"
+    },
+    "version": {
+      "from": "<CSV_version>"
+    },
+    "licensing": {
+      "from": "<CSV_licensing>"
+    },
+    "type": {
+      "from": "<CSV_type>"
+    },
+    "datashape_id": {
+      "from": "<CSV_datashape_id>"
+    }
+  }
+}

@@ -1,0 +1,19 @@
+# Spec template for table: project
+# Generated from ai_sandbox_PSA_16_Oct_2025.db
+# Map your CSV columns to DB columns below.
+# mode:
+#   - 'insert'  → always insert
+#   - 'upsert'  → requires a UNIQUE or PRIMARY KEY on 'key' columns
+
+table: project
+mode: upsert  # or 'insert'
+key: ['id']
+columns:
+  # id: type=INTEGER; PK; AUTOINC-LIKE
+  # Tip: usually omit mapping for autoincrement PKs and let the DB assign them.
+  # id: { from: "<CSV_id>", optional: true }
+  id: { const: 1, as_type: int }
+  # name: type=VARCHAR(100); REQUIRED
+  name: { const: "DB Discussion from 13 Oct 2025" }
+  # status: type=VARCHAR(8); REQUIRED
+  status: { const: "Pending" }

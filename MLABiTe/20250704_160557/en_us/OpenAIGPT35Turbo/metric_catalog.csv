@@ -1,0 +1,18 @@
+metric_name,metric_description
+Input Type,text
+Reflection Type,text
+Template,text
+Oracle Evaluation,condition
+Oracle Prediction,text
+Evaluation,Pass_Fail
+Reflection Type,text
+Passed Nr,count
+Failed Nr,count
+Error Nr,count
+Passed Pct,count
+Failed Pct,count
+Total,count
+Tolerance,percent
+Tolerance Evaluation,Pass_Fail
+Instance,text
+Response,text

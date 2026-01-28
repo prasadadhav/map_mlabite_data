@@ -1,0 +1,16 @@
+{
+  "table": "evaluation_element",
+  "mode": "upsert",
+  "key": [
+    "ref",
+    "eval"
+  ],
+  "columns": {
+    "ref": {
+      "from": "<CSV_ref>"
+    },
+    "eval": {
+      "from": "<CSV_eval>"
+    }
+  }
+}

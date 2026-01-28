@@ -1,0 +1,33 @@
+{
+  "table": "measure",
+  "mode": "upsert",
+  "key": [
+    "id"
+  ],
+  "columns": {
+    "id": {
+      "from": "<CSV_id>"
+    },
+    "value": {
+      "from": "<CSV_value>"
+    },
+    "error": {
+      "from": "<CSV_error>"
+    },
+    "uncertainty": {
+      "from": "<CSV_uncertainty>"
+    },
+    "unit": {
+      "from": "<CSV_unit>"
+    },
+    "metric_id": {
+      "from": "<CSV_metric_id>"
+    },
+    "observation_id": {
+      "from": "<CSV_observation_id>"
+    },
+    "measurand_id": {
+      "from": "<CSV_measurand_id>"
+    }
+  }
+}

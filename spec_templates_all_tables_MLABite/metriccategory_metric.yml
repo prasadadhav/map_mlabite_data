@@ -1,0 +1,17 @@
+# Spec template for table: metriccategory_metric
+# Generated from ai_sandbox_PSA_16_Oct_2025.db
+# Map your CSV columns to DB columns below.
+# mode:
+#   - 'insert'  → always insert
+#   - 'upsert'  → requires a UNIQUE or PRIMARY KEY on 'key' columns
+
+table: metriccategory_metric
+mode: upsert  # or 'insert'
+key: ['category', 'metrics']
+columns:
+  # category: type=INTEGER; PK; AUTOINC-LIKE; FK→metriccategory.id
+  # Tip: usually omit mapping for autoincrement PKs and let the DB assign them.
+  # category: { from: "<CSV_category>", optional: true }
+  # metrics: type=INTEGER; PK; AUTOINC-LIKE; FK→metric.id
+  # Tip: usually omit mapping for autoincrement PKs and let the DB assign them.
+  # metrics: { from: "<CSV_metrics>", optional: true }

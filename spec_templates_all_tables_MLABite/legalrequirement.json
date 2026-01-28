@@ -1,0 +1,24 @@
+{
+  "table": "legalrequirement",
+  "mode": "upsert",
+  "key": [
+    "id"
+  ],
+  "columns": {
+    "id": {
+      "from": "<CSV_id>"
+    },
+    "legal_ref": {
+      "from": "<CSV_legal_ref>"
+    },
+    "standard": {
+      "from": "<CSV_standard>"
+    },
+    "principle": {
+      "from": "<CSV_principle>"
+    },
+    "project_1_id": {
+      "from": "<CSV_project_1_id>"
+    }
+  }
+}

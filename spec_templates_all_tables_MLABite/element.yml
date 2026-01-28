@@ -1,0 +1,22 @@
+# Spec template for table: element
+# Generated from ai_sandbox_PSA_16_Oct_2025.db
+# Map your CSV columns to DB columns below.
+# mode:
+#   - 'insert'  → always insert
+#   - 'upsert'  → requires a UNIQUE or PRIMARY KEY on 'key' columns
+
+table: element
+mode: upsert  # or 'insert'
+key: ['id']
+columns:
+  # id: type=INTEGER; PK; AUTOINC-LIKE
+  # Tip: usually omit mapping for autoincrement PKs and let the DB assign them.
+  # id: { from: "<CSV_id>", optional: true }
+  # project_id: type=INTEGER; REQUIRED; FK→project.id
+  project_id: { from: "<CSV_project_id>" }
+  # type_spec: type=VARCHAR(50); REQUIRED
+  type_spec: { from: "<CSV_type_spec>" }
+  # name: type=VARCHAR(100); REQUIRED
+  name: { from: "<CSV_name>" }
+  # description: type=VARCHAR(100); REQUIRED
+  description: { from: "<CSV_description>" }

@@ -1,0 +1,24 @@
+# Spec template for table: confparam
+# Generated from ai_sandbox_PSA_16_Oct_2025.db
+# Map your CSV columns to DB columns below.
+# mode:
+#   - 'insert'  → always insert
+#   - 'upsert'  → requires a UNIQUE or PRIMARY KEY on 'key' columns
+
+table: confparam
+mode: upsert  # or 'insert'
+key: ['id']
+columns:
+  # id: type=INTEGER; PK; AUTOINC-LIKE
+  # Tip: usually omit mapping for autoincrement PKs and let the DB assign them.
+  # id: { from: "<CSV_id>", optional: true }
+  # param_type: type=VARCHAR(100); REQUIRED
+  param_type: { const: "NA" }
+  # value: type=VARCHAR(100); REQUIRED
+  value: { from: "confparam_value" }
+  # conf_id: type=INTEGER; REQUIRED; FK→configuration.id
+  conf_id: { const: 1, as_type: int }
+  # name: type=VARCHAR(100); REQUIRED
+  name: { from: "confparam_name" }
+  # description: type=VARCHAR(100); REQUIRED
+  description: { const: "NA" }

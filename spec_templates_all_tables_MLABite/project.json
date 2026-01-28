@@ -1,0 +1,18 @@
+{
+  "table": "project",
+  "mode": "upsert",
+  "key": [
+    "id"
+  ],
+  "columns": {
+    "id": {
+      "from": "<CSV_id>"
+    },
+    "name": {
+      "from": "<CSV_name>"
+    },
+    "status": {
+      "from": "<CSV_status>"
+    }
+  }
+}

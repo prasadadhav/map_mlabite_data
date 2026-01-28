@@ -1,0 +1,27 @@
+{
+  "table": "feature",
+  "mode": "upsert",
+  "key": [
+    "id"
+  ],
+  "columns": {
+    "id": {
+      "from": "<CSV_id>"
+    },
+    "feature_type": {
+      "from": "<CSV_feature_type>"
+    },
+    "min_value": {
+      "from": "<CSV_min_value>"
+    },
+    "max_value": {
+      "from": "<CSV_max_value>"
+    },
+    "date_id": {
+      "from": "<CSV_date_id>"
+    },
+    "features_id": {
+      "from": "<CSV_features_id>"
+    }
+  }
+}

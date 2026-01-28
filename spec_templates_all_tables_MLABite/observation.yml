@@ -1,0 +1,29 @@
+# Spec template for table: observation
+# Generated from ai_sandbox_PSA_16_Oct_2025.db
+# Map your CSV columns to DB columns below.
+# mode:
+#   - 'insert'  → always insert
+#   - 'upsert'  → requires a UNIQUE or PRIMARY KEY on 'key' columns
+
+table: observation
+mode: upsert  # or 'insert'
+key: ['id']
+columns:
+  # id: type=INTEGER; PK; AUTOINC-LIKE
+  # Tip: usually omit mapping for autoincrement PKs and let the DB assign them.
+  # id: { from: "<CSV_id>", optional: true }
+  # observer: type=VARCHAR(100); REQUIRED
+  observer: { from: "???" }
+  # whenObserved: type=DATETIME; REQUIRED
+  whenObserved: { from: "????" }
+  # tool_id: type=INTEGER; REQUIRED; FK→tool.id
+  tool_id: { const: 1, as_type: int }
+  # eval_id: type=INTEGER; REQUIRED; FK→evaluation.id
+  eval_id: { const: 1, as_type: int }
+  # eval_id: { from: "<CSV_eval_id>" }
+  # dataset_2_id: type=INTEGER; REQUIRED; FK→dataset.id
+  dataset_2_id: { from: "<CSV_dataset_2_id>" }
+  # name: type=VARCHAR(100); REQUIRED
+  name: { from: "Concern" }
+  # description: type=VARCHAR(100); REQUIRED
+  description: { const: "NA" }

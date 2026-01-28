@@ -1,0 +1,18 @@
+{
+  "table": "metriccategory",
+  "mode": "upsert",
+  "key": [
+    "id"
+  ],
+  "columns": {
+    "id": {
+      "from": "<CSV_id>"
+    },
+    "name": {
+      "from": "<CSV_name>"
+    },
+    "description": {
+      "from": "<CSV_description>"
+    }
+  }
+}

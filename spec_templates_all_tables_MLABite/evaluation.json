@@ -1,0 +1,21 @@
+{
+  "table": "evaluation",
+  "mode": "upsert",
+  "key": [
+    "id"
+  ],
+  "columns": {
+    "id": {
+      "from": "<CSV_id>"
+    },
+    "status": {
+      "from": "<CSV_status>"
+    },
+    "project_id": {
+      "from": "<CSV_project_id>"
+    },
+    "config_id": {
+      "from": "<CSV_config_id>"
+    }
+  }
+}

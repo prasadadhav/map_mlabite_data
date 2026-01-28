@@ -1,0 +1,16 @@
+{
+  "table": "evaluates_eval",
+  "mode": "upsert",
+  "key": [
+    "evaluates",
+    "evalu"
+  ],
+  "columns": {
+    "evaluates": {
+      "from": "<CSV_evaluates>"
+    },
+    "evalu": {
+      "from": "<CSV_evalu>"
+    }
+  }
+}

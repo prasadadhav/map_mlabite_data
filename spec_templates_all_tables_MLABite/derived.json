@@ -1,0 +1,15 @@
+{
+  "table": "derived",
+  "mode": "upsert",
+  "key": [
+    "id"
+  ],
+  "columns": {
+    "id": {
+      "from": "<CSV_id>"
+    },
+    "expression": {
+      "from": "<CSV_expression>"
+    }
+  }
+}

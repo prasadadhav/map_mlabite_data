@@ -1,0 +1,16 @@
+{
+  "table": "derived_metric",
+  "mode": "upsert",
+  "key": [
+    "baseMetric",
+    "derivedBy"
+  ],
+  "columns": {
+    "baseMetric": {
+      "from": "<CSV_baseMetric>"
+    },
+    "derivedBy": {
+      "from": "<CSV_derivedBy>"
+    }
+  }
+}

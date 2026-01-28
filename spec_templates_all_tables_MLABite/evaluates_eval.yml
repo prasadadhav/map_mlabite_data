@@ -1,0 +1,17 @@
+# Spec template for table: evaluates_eval
+# Generated from ai_sandbox_PSA_16_Oct_2025.db
+# Map your CSV columns to DB columns below.
+# mode:
+#   - 'insert'  → always insert
+#   - 'upsert'  → requires a UNIQUE or PRIMARY KEY on 'key' columns
+
+table: evaluates_eval
+mode: upsert  # or 'insert'
+key: ['evaluates', 'evalu']
+columns:
+  # evaluates: type=INTEGER; PK; AUTOINC-LIKE; FK→element.id
+  # Tip: usually omit mapping for autoincrement PKs and let the DB assign them.
+  # evaluates: { from: "<CSV_evaluates>", optional: true }
+  # evalu: type=INTEGER; PK; AUTOINC-LIKE; FK→evaluation.id
+  # Tip: usually omit mapping for autoincrement PKs and let the DB assign them.
+  # evalu: { from: "<CSV_evalu>", optional: true }

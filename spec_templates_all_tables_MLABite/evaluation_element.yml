@@ -1,0 +1,17 @@
+# Spec template for table: evaluation_element
+# Generated from ai_sandbox_PSA_16_Oct_2025.db
+# Map your CSV columns to DB columns below.
+# mode:
+#   - 'insert'  → always insert
+#   - 'upsert'  → requires a UNIQUE or PRIMARY KEY on 'key' columns
+
+table: evaluation_element
+mode: upsert  # or 'insert'
+key: ['ref', 'eval']
+columns:
+  # ref: type=INTEGER; PK; AUTOINC-LIKE; FK→element.id
+  # Tip: usually omit mapping for autoincrement PKs and let the DB assign them.
+  # ref: { from: "<CSV_ref>", optional: true }
+  # eval: type=INTEGER; PK; AUTOINC-LIKE; FK→evaluation.id
+  # Tip: usually omit mapping for autoincrement PKs and let the DB assign them.
+  # eval: { from: "<CSV_eval>", optional: true }

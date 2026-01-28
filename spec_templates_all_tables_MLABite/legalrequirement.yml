@@ -1,0 +1,22 @@
+# Spec template for table: legalrequirement
+# Generated from ai_sandbox_PSA_16_Oct_2025.db
+# Map your CSV columns to DB columns below.
+# mode:
+#   - 'insert'  → always insert
+#   - 'upsert'  → requires a UNIQUE or PRIMARY KEY on 'key' columns
+
+table: legalrequirement
+mode: upsert  # or 'insert'
+key: ['id']
+columns:
+  # id: type=INTEGER; PK; AUTOINC-LIKE
+  # Tip: usually omit mapping for autoincrement PKs and let the DB assign them.
+  # id: { from: "<CSV_id>", optional: true }
+  # legal_ref: type=VARCHAR(100); REQUIRED
+  legal_ref: { from: "<CSV_legal_ref>" }
+  # standard: type=VARCHAR(100); REQUIRED
+  standard: { from: "<CSV_standard>" }
+  # principle: type=VARCHAR(100); REQUIRED
+  principle: { from: "<CSV_principle>" }
+  # project_1_id: type=INTEGER; REQUIRED; FK→project.id
+  project_1_id: { from: "<CSV_project_1_id>" }

@@ -1,0 +1,16 @@
+{
+  "table": "metriccategory_metric",
+  "mode": "upsert",
+  "key": [
+    "category",
+    "metrics"
+  ],
+  "columns": {
+    "category": {
+      "from": "<CSV_category>"
+    },
+    "metrics": {
+      "from": "<CSV_metrics>"
+    }
+  }
+}

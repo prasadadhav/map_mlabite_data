@@ -1,0 +1,23 @@
+# Spec template for table: configuration
+# Generated from ai_sandbox_PSA_16_Oct_2025.db
+# Map your CSV columns to DB columns below.
+# mode:
+#   - 'insert'  → always insert
+#   - 'upsert'  → requires a UNIQUE or PRIMARY KEY on 'key' columns
+
+# python313 .\csv_to_sql_loader.py `
+#   --db ".\ai_sandbox_PSA_16_Oct_2025_MLABite.db" `
+#   --csv ".\MLABiTe\20250704_160557\en_us\OpenAIGPT35Turbo\20250704160636_global_evaluation.csv" `
+#   --spec ".\spec_templates_all_tables_MLABite\configuration.yml"
+
+table: configuration
+mode: upsert  # or 'insert'
+key: ['id']
+columns:
+  # id: type=INTEGER; PK; AUTOINC-LIKE
+  # Tip: usually omit mapping for autoincrement PKs and let the DB assign them.
+  id: { const: 1, as_type: int }
+  # name: type=VARCHAR(100); REQUIRED
+  name: { const: "config" }
+  # description: type=VARCHAR(100); REQUIRED
+  description: { const: "test" }

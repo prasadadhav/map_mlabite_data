@@ -1,0 +1,33 @@
+# Spec template for table: measure
+# Generated from ai_sandbox_PSA_16_Oct_2025.db
+# Map your CSV columns to DB columns below.
+# mode:
+#   - 'insert'  → always insert
+#   - 'upsert'  → requires a UNIQUE or PRIMARY KEY on 'key' columns
+
+_metric: &MET "Tolerance Evaluation"
+
+table: measure
+mode: upsert  # or 'insert'
+key: ['id']
+columns:
+  # id: type=INTEGER; PK; AUTOINC-LIKE
+  # Tip: usually omit mapping for autoincrement PKs and let the DB assign them.
+  # id: { from: "<CSV_id>", optional: true }
+  # value: type=VARCHAR(100); REQUIRED
+  # value: { from: *MET, as_type: float }
+  value: { from: *MET}
+  # value: { const: "NA"}
+  # error: type=VARCHAR(100); REQUIRED
+  error: { const: "NA" }
+  # uncertainty: type=FLOAT; REQUIRED
+  uncertainty: { const: 999, as_type: float }
+  # unit: type=VARCHAR(100); REQUIRED
+  unit: { const: "NA" }
+  # metric_id: type=INTEGER; REQUIRED; FK→metric.id
+  # metric_id: { from: "<CSV_metric_id>" }
+  metric_id: { const: 15 }
+  # observation_id: type=INTEGER; REQUIRED; FK→observation.id
+  observation_id: { const: "NA" }
+  # measurand_id: type=INTEGER; REQUIRED; FK→element.id
+  measurand_id: { const: 999, as_type: int }

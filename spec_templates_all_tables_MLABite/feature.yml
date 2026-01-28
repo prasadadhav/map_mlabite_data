@@ -1,0 +1,24 @@
+# Spec template for table: feature
+# Generated from ai_sandbox_PSA_16_Oct_2025.db
+# Map your CSV columns to DB columns below.
+# mode:
+#   - 'insert'  → always insert
+#   - 'upsert'  → requires a UNIQUE or PRIMARY KEY on 'key' columns
+
+table: feature
+mode: upsert  # or 'insert'
+key: ['id']
+columns:
+  # id: type=INTEGER; PK; AUTOINC-LIKE; FK→element.id
+  # Tip: usually omit mapping for autoincrement PKs and let the DB assign them.
+  # id: { from: "<CSV_id>", optional: true }
+  # feature_type: type=VARCHAR(100); REQUIRED
+  feature_type: { from: "<CSV_feature_type>" }
+  # min_value: type=FLOAT; REQUIRED
+  min_value: { from: "<CSV_min_value>" }
+  # max_value: type=FLOAT; REQUIRED
+  max_value: { from: "<CSV_max_value>" }
+  # date_id: type=INTEGER; REQUIRED; FK→datashape.id
+  date_id: { from: "<CSV_date_id>" }
+  # features_id: type=INTEGER; REQUIRED; FK→datashape.id
+  features_id: { from: "<CSV_features_id>" }

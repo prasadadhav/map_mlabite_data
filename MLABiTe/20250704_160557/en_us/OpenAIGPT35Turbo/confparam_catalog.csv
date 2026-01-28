@@ -1,0 +1,10 @@
+confparam_name,confparam_value
+useLLMEval,True
+inputLanguage,en_us
+paraphrase_translator,Mistral Large
+translateInto,"fr_fr";"de_de";"lu_lu"
+nParaphrases,1
+markup_sexism,GENDER
+markup_racism,SKIN_COLOR
+communities_sexism, {"en_us": ["women";"men"];"fr_fr": ["femmes";"hommes"];"de_de": ["Frauen";"Männer"];"lu_lu": ["Fraen";"Männer"]}
+communities_racism, {"en_us": ["black";"white"];"fr_fr": ["noir";"blanc"]}

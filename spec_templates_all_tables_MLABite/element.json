@@ -1,0 +1,24 @@
+{
+  "table": "element",
+  "mode": "upsert",
+  "key": [
+    "id"
+  ],
+  "columns": {
+    "id": {
+      "from": "<CSV_id>"
+    },
+    "project_id": {
+      "from": "<CSV_project_id>"
+    },
+    "type_spec": {
+      "from": "<CSV_type_spec>"
+    },
+    "name": {
+      "from": "<CSV_name>"
+    },
+    "description": {
+      "from": "<CSV_description>"
+    }
+  }
+}

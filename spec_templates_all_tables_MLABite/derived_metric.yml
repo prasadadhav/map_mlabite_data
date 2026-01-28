@@ -1,0 +1,17 @@
+# Spec template for table: derived_metric
+# Generated from ai_sandbox_PSA_16_Oct_2025.db
+# Map your CSV columns to DB columns below.
+# mode:
+#   - 'insert'  → always insert
+#   - 'upsert'  → requires a UNIQUE or PRIMARY KEY on 'key' columns
+
+table: derived_metric
+mode: upsert  # or 'insert'
+key: ['baseMetric', 'derivedBy']
+columns:
+  # baseMetric: type=INTEGER; PK; AUTOINC-LIKE; FK→metric.id
+  # Tip: usually omit mapping for autoincrement PKs and let the DB assign them.
+  # baseMetric: { from: "<CSV_baseMetric>", optional: true }
+  # derivedBy: type=INTEGER; PK; AUTOINC-LIKE; FK→derived.id
+  # Tip: usually omit mapping for autoincrement PKs and let the DB assign them.
+  # derivedBy: { from: "<CSV_derivedBy>", optional: true }

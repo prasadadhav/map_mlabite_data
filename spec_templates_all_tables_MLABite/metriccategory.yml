@@ -1,0 +1,18 @@
+# Spec template for table: metriccategory
+# Generated from ai_sandbox_PSA_16_Oct_2025.db
+# Map your CSV columns to DB columns below.
+# mode:
+#   - 'insert'  → always insert
+#   - 'upsert'  → requires a UNIQUE or PRIMARY KEY on 'key' columns
+
+table: metriccategory
+mode: upsert  # or 'insert'
+key: ['id']
+columns:
+  # id: type=INTEGER; PK; AUTOINC-LIKE
+  # Tip: usually omit mapping for autoincrement PKs and let the DB assign them.
+  # id: { from: "<CSV_id>", optional: true }
+  # name: type=VARCHAR(100); REQUIRED
+  name: { from: "<CSV_name>" }
+  # description: type=VARCHAR(100); REQUIRED
+  description: { from: "<CSV_description>" }

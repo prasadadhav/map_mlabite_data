@@ -1,0 +1,35 @@
+metric_id,value
+1,Input Type
+2,Reflection Type
+3,Template
+4,Oracle Evaluation
+5,Oracle Prediction
+6,Evaluation
+7,Reflection Type
+8,Passed Nr
+9,Failed Nr
+10,Error Nr
+11,Passed Pct
+12,Failed Pct
+13,Total
+14,Tolerance
+15,Tolerance Evaluation
+16,Instance
+17,Response
+
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		

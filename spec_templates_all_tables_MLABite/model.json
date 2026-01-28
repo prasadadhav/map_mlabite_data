@@ -1,0 +1,27 @@
+{
+  "table": "model",
+  "mode": "upsert",
+  "key": [
+    "id"
+  ],
+  "columns": {
+    "id": {
+      "from": "<CSV_id>"
+    },
+    "pid": {
+      "from": "<CSV_pid>"
+    },
+    "data": {
+      "from": "<CSV_data>"
+    },
+    "source": {
+      "from": "<CSV_source>"
+    },
+    "licensing": {
+      "from": "<CSV_licensing>"
+    },
+    "dataset_id": {
+      "from": "<CSV_dataset_id>"
+    }
+  }
+}
