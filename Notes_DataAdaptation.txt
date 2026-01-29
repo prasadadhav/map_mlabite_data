@@ -1,0 +1,189 @@
+## ----------------------------------------------------
+## Working with BESSER SQL DB
+## ----------------------------------------------------
+
+# first set the python env alias
+Set-Alias python313 "C:\Users\adhav\AppData\Local\Programs\Python\Python313\python.exe"
+
+# to generate the SQL DB run the py script generated from the BESSER web platform
+python313 ./name_of_sql_alchemy_file.py
+
+# Now you will have a DB file
+# now we have multiple options to explore the file
+
+1.Open Command palette
+- View > Command Palette or Ctl + Shift + Palette
+- SQL: Open Database > Select the file. On the side abr you will nbow see the DB outline
+Note: if another DB is already open you need to SQL: Close DB in command palette before opening a new DB
+- Now you can right click on the DB to Query the DB, this will opne a new file$
+- you can select a line or multiple lines of the query and do Ctl + Shift + Q to run the query
+
+2. With SQL Lite Viewer plugin we can just see the DB but not query it
+
+
+
+
+
+## ----------------------------------------------------
+## running the scripts to load different metrics for different output data
+## ----------------------------------------------------
+# We have different csv outputs from different tests.
+# we want to now populate them into the DB schema
+# The best way to ensure correctness in populating and also to ensure reproducability, 
+# a bunch of yml files are made for each table
+# in these yml files, we can pass the name of the column in the CSV
+# it is recommended that the metric name and the measure "column" name in should be the same.
+
+# We start from the model yml file
+# From some JSON file we usually know what are the models, but for Cedric's data we had model as a column
+# When it is from some JSON, we add it manually as "const"
+
+# Then in config same thing usually, the json has the information
+# for configParameters, we might need another csv for different params as there can be multiple config params
+
+# then we add the different metrics using the metric catalog
+
+https://llmluxapp-a7tpfn2c5tgk8pqzecquvh.streamlit.app/
+
+python313 -c "import sqlite3; db=r'.\lux_data_2026_map.db'; sql=open(r'.\spec_templates_all_tables_Cedric_LUX\add_unique_metric.sql','r',encoding='utf-8').read(); con=sqlite3.connect(db); con.executescript(sql); con.close(); print('OK')"
+
+python313 .\csv_to_sql_loader.py `
+  --db ".\ai_sandbox_PSA_16_Oct_2025_MLARAGAS_v2.db" `
+  --csv ".\MLARagas_results\results\20250923_181049_multilingual_eval_gdpr_EN\agg.csv" `
+  --spec ".\spec_templates_all_tables_MLARagas\model.yml"
+  
+  
+
+python313 .\csv_to_sql_loader.py `
+  --db ".\ai_sandbox_PSA_16_Oct_2025_MLARAGAS_v2.db" `
+  --csv ".\MLARagas_results\results\20250923_181049_multilingual_eval_gdpr_EN\metric_catalog_agg.csv" `
+  --spec ".\spec_templates_all_tables_MLARagas\metric.yml"
+  
+  
+python313 .\csv_to_sql_loader.py `
+  --db ".\ai_sandbox_PSA_16_Oct_2025_MLARAGAS_v2.db" `
+  --csv ".\MLARagas_results\results\20250923_181049_multilingual_eval_gdpr_EN\metric_catalog_agg.csv" `
+  --spec ".\spec_templates_all_tables_MLARagas\metric.yml"
+  
+python313 .\csv_to_sql_loader.py `
+  --db ".\ai_sandbox_PSA_16_Oct_2025_MLARAGAS_v2.db" `
+  --csv ".\MLARagas_results\results\20250923_181049_multilingual_eval_gdpr_EN\metric_catalog_raw.csv" `
+  --spec ".\spec_templates_all_tables_MLARagas\metric.yml"
+
+# Now we have bunch of metrics so we have to change the name in the measure yml  
+# before you start populating the measures table run a query on the metric table to know the metric name and id
+# since the automation is not done as such, we have to modify the yml and rerun the script multiple times
+
+python313 .\csv_to_sql_loader.py `
+  --db ".\ai_sandbox_PSA_16_Oct_2025_MLARAGAS_v2.db" `
+  --csv ".\MLARagas_results\results\20250923_181049_multilingual_eval_gdpr_EN\agg.csv" `
+  --spec ".\spec_templates_all_tables_MLARagas\measure.yml"
+
+# Note: if we have nan, Null, or missing values it becomes a problem to load the data.
+# if the whole column is missing just put { const: "NA" }, 
+# or if only a few values are missing use pandas or something else to fill the values
+
+python313 .\csv_to_sql_loader.py `
+  --db ".\ai_sandbox_PSA_16_Oct_2025_MLARAGAS_v2.db" `
+  --csv ".\MLARagas_results\results\20250923_181049_multilingual_eval_gdpr_EN\raw.csv" `
+  --spec ".\spec_templates_all_tables_MLARagas\measure.yml"
+  
+python313 .\csv_to_sql_loader.py `
+  --db ".\ai_sandbox_PSA_16_Oct_2025_MLARAGAS_v2.db" `
+  --csv ".\MLARagas_results\results\20250923_181049_multilingual_eval_gdpr_EN\raw.csv" `
+  --spec ".\spec_templates_all_tables_MLARagas\configuration.yml"
+  
+	
+# For adding the different types of metrics, it is best to use the metric catalog
+# where we create a csv file ourselves defining the metric, and what kind of metric it is.
+# then we use the metric catalog yml to populate the different kinds of metrics
+# then you can use the py script to populate the DB
+# I did not yet figure out how we can iterate over the metric and metric ID, pass it to the measure yml 
+
+
+
+
+#--------------------------------------
+# 		MLABiTe
+#--------------------------------------
+
+Set-Alias python313 "C:\Users\adhav\AppData\Local\Programs\Python\Python313\python.exe"
+
+python313 --version
+
+python313 .\csv_to_sql_loader.py `
+  --db ".\ai_sandbox_PSA_16_Oct_2025_MLABite.db" `
+  --csv ".\MLABiTe\20250704_160557\en_us\OpenAIGPT35Turbo\20250704160636_global_evaluation.csv" `
+  --spec ".\spec_templates_all_tables_MLABite\project.yml"
+
+
+# in the MLABiTe results need to change the ; to a comma or else we get an error
+python313 .\csv_to_sql_loader.py `
+  --db ".\ai_sandbox_PSA_16_Oct_2025_MLABite.db" `
+  --csv ".\MLABiTe\20250704_160557\en_us\OpenAIGPT35Turbo\20250704160636_global_evaluation.csv" `
+  --spec ".\spec_templates_all_tables_MLABite\model.yml"
+
+python313 .\csv_to_sql_loader.py `
+  --db ".\ai_sandbox_PSA_16_Oct_2025_MLABite.db" `
+  --csv ".\MLABiTe\20250704_160557\en_us\OpenAIGPT35Turbo\20250704160636_global_evaluation.csv" `
+  --spec ".\spec_templates_all_tables_MLABite\configuration.yml"
+
+python313 .\csv_to_sql_loader.py `
+  --db ".\ai_sandbox_PSA_16_Oct_2025_MLABite.db" `
+  --csv ".\MLABiTe\20250704_160557\en_us\OpenAIGPT35Turbo\confparam_catalog.csv" `
+  --spec ".\spec_templates_all_tables_MLABite\confparam.yml"
+
+python313 .\csv_to_sql_loader.py `
+  --db ".\ai_sandbox_PSA_16_Oct_2025_MLABite.db" `
+  --csv ".\MLABiTe\20250704_160557\en_us\OpenAIGPT35Turbo\20250704160636_global_evaluation.csv" `
+  --spec ".\spec_templates_all_tables_MLABite\evaluation.yml"
+  
+python313 .\csv_to_sql_loader.py `
+  --db ".\ai_sandbox_PSA_16_Oct_2025_MLABite.db" `
+  --csv ".\MLABiTe\20250704_160557\en_us\OpenAIGPT35Turbo\metric_catalog.csv" `
+  --spec ".\spec_templates_all_tables_MLABite\metric.yml"
+
+python313 .\csv_to_sql_loader.py `
+  --db ".\ai_sandbox_PSA_16_Oct_2025_MLABite.db" `
+  --csv ".\MLABiTe\20250704_160557\en_us\OpenAIGPT35Turbo\20250704160636_global_evaluation.csv" `
+  --spec ".\spec_templates_all_tables_MLABite\tool.yml"
+
+python313 .\csv_to_sql_loader.py `
+  --db ".\ai_sandbox_PSA_16_Oct_2025_MLABite.db" `
+  --csv ".\MLABiTe\20250704_160557\en_us\OpenAIGPT35Turbo\20250704160636_global_evaluation.csv" `
+  --spec ".\spec_templates_all_tables_MLABite\dataset.yml"
+
+python313 .\csv_to_sql_loader.py `
+  --db ".\ai_sandbox_PSA_16_Oct_2025_MLABite.db" `
+  --csv ".\MLABiTe\20250704_160557\en_us\OpenAIGPT35Turbo\datashape_catalog.csv" `
+  --spec ".\spec_templates_all_tables_MLABite\datashape.yml"
+
+
+# Once the metrics are loaded, exported a csv, this csv can be used by measure to load the data Instead of manually changing these values
+
+python313 .\csv_to_sql_loader.py `
+  --db ".\ai_sandbox_PSA_16_Oct_2025_MLABite.db" `
+  --csv ".\MLABiTe\20250704_160557\en_us\OpenAIGPT35Turbo\20250704160636_global_evaluation.csv" `
+  --spec ".\spec_templates_all_tables_MLABite\measure.yml"
+
+python313 .\csv_to_sql_loader.py `
+  --db ".\ai_sandbox_PSA_16_Oct_2025_MLABite.db" `
+  --csv ".\MLABiTe\20250704_160557\en_us\OpenAIGPT35Turbo\20250704160636_evaluations.csv" `
+  --spec ".\spec_templates_all_tables_MLABite\measure.yml"
+
+python313 .\csv_to_sql_loader.py `
+  --db ".\ai_sandbox_PSA_16_Oct_2025_MLABite.db" `
+  --csv ".\MLABiTe\20250704_160557\en_us\OpenAIGPT35Turbo\20250704160636_responses.csv" `
+  --spec ".\spec_templates_all_tables_MLABite\measure.yml"
+
+
+#--------------------------------------
+# Now I will try to load the measures for different metrics in a for loop rather than loading them manually
+#--------------------------------------
+
+
+
+
+
+
+
