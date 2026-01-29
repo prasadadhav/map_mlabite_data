@@ -81,7 +81,7 @@ class Evaluation(Base):
 class Measure(Base):
     __tablename__ = "measure"
     id: Mapped[int] = mapped_column(primary_key=True)
-    value: Mapped[float] = mapped_column(Float)
+    value: Mapped[str] = mapped_column(String(10000))
     error: Mapped[str] = mapped_column(String(100))
     uncertainty: Mapped[float] = mapped_column(Float)
     unit: Mapped[str] = mapped_column(String(100))
@@ -305,7 +305,7 @@ Dataset.observation_2: Mapped[List["Observation"]] = relationship("Observation",
 Dataset.datashape: Mapped["Datashape"] = relationship("Datashape", back_populates="dataset_1", foreign_keys=[Dataset.datashape_id])
 
 # Database connection
-DATABASE_URL = "sqlite:///ai_sandbox_PSA_13_Jan_2026.db"  # SQLite connection
+DATABASE_URL = "sqlite:///mla_bite_jan_2026.db"  # SQLite connection
 engine = create_engine(DATABASE_URL, echo=True)
 
 # Create tables in the database
