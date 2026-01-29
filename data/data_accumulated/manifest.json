@@ -1,0 +1,1938 @@
+{
+  "data_root": "data",
+  "n_runs": 138,
+  "runs": [
+    {
+      "run_id": "experiments/test-ageism/20251114_095850/en_us",
+      "timestamp_dir": "20251114_095850",
+      "test_name": "test-ageism",
+      "provider_family": "experiments",
+      "language": "en_us",
+      "model": null,
+      "paths": {
+        "global_csv": "data\\experiments\\test-ageism\\20251114_095850\\en_us\\20251114102542_global_evaluation.csv",
+        "evals_csv": "data\\experiments\\test-ageism\\20251114_095850\\en_us\\20251114102542_evaluations.csv",
+        "responses_csv": "data\\experiments\\test-ageism\\20251114_095850\\en_us\\20251114102542_responses.csv",
+        "config_json": "data\\experiments\\test-ageism\\20251114_095850\\en_us\\config.json"
+      }
+    },
+    {
+      "run_id": "experiments/test-ageism/20251114_095850/fr_fr",
+      "timestamp_dir": "20251114_095850",
+      "test_name": "test-ageism",
+      "provider_family": "experiments",
+      "language": "fr_fr",
+      "model": null,
+      "paths": {
+        "global_csv": "data\\experiments\\test-ageism\\20251114_095850\\fr_fr\\20251114105617_global_evaluation.csv",
+        "evals_csv": "data\\experiments\\test-ageism\\20251114_095850\\fr_fr\\20251114105617_evaluations.csv",
+        "responses_csv": "data\\experiments\\test-ageism\\20251114_095850\\fr_fr\\20251114105617_responses.csv",
+        "config_json": "data\\experiments\\test-ageism\\20251114_095850\\fr_fr\\config.json"
+      }
+    },
+    {
+      "run_id": "experiments/test-example/20250716_175943/de_de",
+      "timestamp_dir": "20250716_175943",
+      "test_name": "test-example",
+      "provider_family": "experiments",
+      "language": "de_de",
+      "model": null,
+      "paths": {
+        "global_csv": "data\\experiments\\test-example\\20250716_175943\\de_de\\20250716180258_global_evaluation.csv",
+        "evals_csv": "data\\experiments\\test-example\\20250716_175943\\de_de\\20250716180258_evaluations.csv",
+        "responses_csv": "data\\experiments\\test-example\\20250716_175943\\de_de\\20250716180258_responses.csv",
+        "config_json": "data\\experiments\\test-example\\20250716_175943\\de_de\\config.json"
+      }
+    },
+    {
+      "run_id": "experiments/test-example/20250716_175943/en_us",
+      "timestamp_dir": "20250716_175943",
+      "test_name": "test-example",
+      "provider_family": "experiments",
+      "language": "en_us",
+      "model": null,
+      "paths": {
+        "global_csv": "data\\experiments\\test-example\\20250716_175943\\en_us\\20250716180128_global_evaluation.csv",
+        "evals_csv": "data\\experiments\\test-example\\20250716_175943\\en_us\\20250716180128_evaluations.csv",
+        "responses_csv": "data\\experiments\\test-example\\20250716_175943\\en_us\\20250716180128_responses.csv",
+        "config_json": "data\\experiments\\test-example\\20250716_175943\\en_us\\config.json"
+      }
+    },
+    {
+      "run_id": "experiments/test-example/20250716_175943/fr_fr",
+      "timestamp_dir": "20250716_175943",
+      "test_name": "test-example",
+      "provider_family": "experiments",
+      "language": "fr_fr",
+      "model": null,
+      "paths": {
+        "global_csv": "data\\experiments\\test-example\\20250716_175943\\fr_fr\\20250716180226_global_evaluation.csv",
+        "evals_csv": "data\\experiments\\test-example\\20250716_175943\\fr_fr\\20250716180226_evaluations.csv",
+        "responses_csv": "data\\experiments\\test-example\\20250716_175943\\fr_fr\\20250716180226_responses.csv",
+        "config_json": "data\\experiments\\test-example\\20250716_175943\\fr_fr\\config.json"
+      }
+    },
+    {
+      "run_id": "experiments/test-example/20250716_175943/lu_lu",
+      "timestamp_dir": "20250716_175943",
+      "test_name": "test-example",
+      "provider_family": "experiments",
+      "language": "lu_lu",
+      "model": null,
+      "paths": {
+        "global_csv": "data\\experiments\\test-example\\20250716_175943\\lu_lu\\20250716180426_global_evaluation.csv",
+        "evals_csv": "data\\experiments\\test-example\\20250716_175943\\lu_lu\\20250716180426_evaluations.csv",
+        "responses_csv": "data\\experiments\\test-example\\20250716_175943\\lu_lu\\20250716180426_responses.csv",
+        "config_json": "data\\experiments\\test-example\\20250716_175943\\lu_lu\\config.json"
+      }
+    },
+    {
+      "run_id": "experiments/test-example/20250727_110401/de_de",
+      "timestamp_dir": "20250727_110401",
+      "test_name": "test-example",
+      "provider_family": "experiments",
+      "language": "de_de",
+      "model": null,
+      "paths": {
+        "global_csv": "data\\experiments\\test-example\\20250727_110401\\de_de\\20250727110629_global_evaluation.csv",
+        "evals_csv": "data\\experiments\\test-example\\20250727_110401\\de_de\\20250727110629_evaluations.csv",
+        "responses_csv": "data\\experiments\\test-example\\20250727_110401\\de_de\\20250727110629_responses.csv",
+        "config_json": "data\\experiments\\test-example\\20250727_110401\\de_de\\config.json"
+      }
+    },
+    {
+      "run_id": "experiments/test-example/20250727_110401/en_us",
+      "timestamp_dir": "20250727_110401",
+      "test_name": "test-example",
+      "provider_family": "experiments",
+      "language": "en_us",
+      "model": null,
+      "paths": {
+        "global_csv": "data\\experiments\\test-example\\20250727_110401\\en_us\\20250727110521_global_evaluation.csv",
+        "evals_csv": "data\\experiments\\test-example\\20250727_110401\\en_us\\20250727110521_evaluations.csv",
+        "responses_csv": "data\\experiments\\test-example\\20250727_110401\\en_us\\20250727110520_responses.csv",
+        "config_json": "data\\experiments\\test-example\\20250727_110401\\en_us\\config.json"
+      }
+    },
+    {
+      "run_id": "experiments/test-example/20250727_110401/fr_fr",
+      "timestamp_dir": "20250727_110401",
+      "test_name": "test-example",
+      "provider_family": "experiments",
+      "language": "fr_fr",
+      "model": null,
+      "paths": {
+        "global_csv": "data\\experiments\\test-example\\20250727_110401\\fr_fr\\20250727110604_global_evaluation.csv",
+        "evals_csv": "data\\experiments\\test-example\\20250727_110401\\fr_fr\\20250727110604_evaluations.csv",
+        "responses_csv": "data\\experiments\\test-example\\20250727_110401\\fr_fr\\20250727110604_responses.csv",
+        "config_json": "data\\experiments\\test-example\\20250727_110401\\fr_fr\\config.json"
+      }
+    },
+    {
+      "run_id": "experiments/test-example/20250727_110401/lu_lu",
+      "timestamp_dir": "20250727_110401",
+      "test_name": "test-example",
+      "provider_family": "experiments",
+      "language": "lu_lu",
+      "model": null,
+      "paths": {
+        "global_csv": "data\\experiments\\test-example\\20250727_110401\\lu_lu\\20250727110726_global_evaluation.csv",
+        "evals_csv": "data\\experiments\\test-example\\20250727_110401\\lu_lu\\20250727110726_evaluations.csv",
+        "responses_csv": "data\\experiments\\test-example\\20250727_110401\\lu_lu\\20250727110726_responses.csv",
+        "config_json": "data\\experiments\\test-example\\20250727_110401\\lu_lu\\config.json"
+      }
+    },
+    {
+      "run_id": "experiments/test-example/20250728_113057/de_de",
+      "timestamp_dir": "20250728_113057",
+      "test_name": "test-example",
+      "provider_family": "experiments",
+      "language": "de_de",
+      "model": null,
+      "paths": {
+        "global_csv": "data\\experiments\\test-example\\20250728_113057\\de_de\\20250728113622_global_evaluation.csv",
+        "evals_csv": "data\\experiments\\test-example\\20250728_113057\\de_de\\20250728113622_evaluations.csv",
+        "responses_csv": "data\\experiments\\test-example\\20250728_113057\\de_de\\20250728113622_responses.csv",
+        "config_json": "data\\experiments\\test-example\\20250728_113057\\de_de\\config.json"
+      }
+    },
+    {
+      "run_id": "experiments/test-example/20250728_113057/en_us",
+      "timestamp_dir": "20250728_113057",
+      "test_name": "test-example",
+      "provider_family": "experiments",
+      "language": "en_us",
+      "model": null,
+      "paths": {
+        "global_csv": "data\\experiments\\test-example\\20250728_113057\\en_us\\20250728113335_global_evaluation.csv",
+        "evals_csv": "data\\experiments\\test-example\\20250728_113057\\en_us\\20250728113335_evaluations.csv",
+        "responses_csv": "data\\experiments\\test-example\\20250728_113057\\en_us\\20250728113335_responses.csv",
+        "config_json": "data\\experiments\\test-example\\20250728_113057\\en_us\\config.json"
+      }
+    },
+    {
+      "run_id": "experiments/test-example/20250728_113057/fr_fr",
+      "timestamp_dir": "20250728_113057",
+      "test_name": "test-example",
+      "provider_family": "experiments",
+      "language": "fr_fr",
+      "model": null,
+      "paths": {
+        "global_csv": "data\\experiments\\test-example\\20250728_113057\\fr_fr\\20250728113441_global_evaluation.csv",
+        "evals_csv": "data\\experiments\\test-example\\20250728_113057\\fr_fr\\20250728113441_evaluations.csv",
+        "responses_csv": "data\\experiments\\test-example\\20250728_113057\\fr_fr\\20250728113441_responses.csv",
+        "config_json": "data\\experiments\\test-example\\20250728_113057\\fr_fr\\config.json"
+      }
+    },
+    {
+      "run_id": "experiments/test-example/20250729_130503/en_us",
+      "timestamp_dir": "20250729_130503",
+      "test_name": "test-example",
+      "provider_family": "experiments",
+      "language": "en_us",
+      "model": null,
+      "paths": {
+        "global_csv": "data\\experiments\\test-example\\20250729_130503\\en_us\\20250729130527_global_evaluation.csv",
+        "evals_csv": "data\\experiments\\test-example\\20250729_130503\\en_us\\20250729130527_evaluations.csv",
+        "responses_csv": "data\\experiments\\test-example\\20250729_130503\\en_us\\20250729130527_responses.csv",
+        "config_json": "data\\experiments\\test-example\\20250729_130503\\en_us\\config.json"
+      }
+    },
+    {
+      "run_id": "experiments/test-example/20250729_130503/fr_fr",
+      "timestamp_dir": "20250729_130503",
+      "test_name": "test-example",
+      "provider_family": "experiments",
+      "language": "fr_fr",
+      "model": null,
+      "paths": {
+        "global_csv": "data\\experiments\\test-example\\20250729_130503\\fr_fr\\20250729130606_global_evaluation.csv",
+        "evals_csv": "data\\experiments\\test-example\\20250729_130503\\fr_fr\\20250729130606_evaluations.csv",
+        "responses_csv": "data\\experiments\\test-example\\20250729_130503\\fr_fr\\20250729130606_responses.csv",
+        "config_json": "data\\experiments\\test-example\\20250729_130503\\fr_fr\\config.json"
+      }
+    },
+    {
+      "run_id": "experiments/test-example/20250730_144904/en_us",
+      "timestamp_dir": "20250730_144904",
+      "test_name": "test-example",
+      "provider_family": "experiments",
+      "language": "en_us",
+      "model": null,
+      "paths": {
+        "global_csv": "data\\experiments\\test-example\\20250730_144904\\en_us\\20250730124957_global_evaluation.csv",
+        "evals_csv": "data\\experiments\\test-example\\20250730_144904\\en_us\\20250730124957_evaluations.csv",
+        "responses_csv": "data\\experiments\\test-example\\20250730_144904\\en_us\\20250730124957_responses.csv",
+        "config_json": "data\\experiments\\test-example\\20250730_144904\\en_us\\config.json"
+      }
+    },
+    {
+      "run_id": "experiments/test-example/20250730_144904/fr_fr",
+      "timestamp_dir": "20250730_144904",
+      "test_name": "test-example",
+      "provider_family": "experiments",
+      "language": "fr_fr",
+      "model": null,
+      "paths": {
+        "global_csv": "data\\experiments\\test-example\\20250730_144904\\fr_fr\\20250730125016_global_evaluation.csv",
+        "evals_csv": "data\\experiments\\test-example\\20250730_144904\\fr_fr\\20250730125016_evaluations.csv",
+        "responses_csv": "data\\experiments\\test-example\\20250730_144904\\fr_fr\\20250730125016_responses.csv",
+        "config_json": "data\\experiments\\test-example\\20250730_144904\\fr_fr\\config.json"
+      }
+    },
+    {
+      "run_id": "experiments/test-example/20250730_145536/en_us",
+      "timestamp_dir": "20250730_145536",
+      "test_name": "test-example",
+      "provider_family": "experiments",
+      "language": "en_us",
+      "model": null,
+      "paths": {
+        "global_csv": "data\\experiments\\test-example\\20250730_145536\\en_us\\20250730125620_global_evaluation.csv",
+        "evals_csv": "data\\experiments\\test-example\\20250730_145536\\en_us\\20250730125620_evaluations.csv",
+        "responses_csv": "data\\experiments\\test-example\\20250730_145536\\en_us\\20250730125620_responses.csv",
+        "config_json": "data\\experiments\\test-example\\20250730_145536\\en_us\\config.json"
+      }
+    },
+    {
+      "run_id": "experiments/test-example/20250730_145536/fr_fr",
+      "timestamp_dir": "20250730_145536",
+      "test_name": "test-example",
+      "provider_family": "experiments",
+      "language": "fr_fr",
+      "model": null,
+      "paths": {
+        "global_csv": "data\\experiments\\test-example\\20250730_145536\\fr_fr\\20250730125637_global_evaluation.csv",
+        "evals_csv": "data\\experiments\\test-example\\20250730_145536\\fr_fr\\20250730125637_evaluations.csv",
+        "responses_csv": "data\\experiments\\test-example\\20250730_145536\\fr_fr\\20250730125637_responses.csv",
+        "config_json": "data\\experiments\\test-example\\20250730_145536\\fr_fr\\config.json"
+      }
+    },
+    {
+      "run_id": "experiments/test-example/20250730_145815/en_us",
+      "timestamp_dir": "20250730_145815",
+      "test_name": "test-example",
+      "provider_family": "experiments",
+      "language": "en_us",
+      "model": null,
+      "paths": {
+        "global_csv": "data\\experiments\\test-example\\20250730_145815\\en_us\\20250730125856_global_evaluation.csv",
+        "evals_csv": "data\\experiments\\test-example\\20250730_145815\\en_us\\20250730125856_evaluations.csv",
+        "responses_csv": "data\\experiments\\test-example\\20250730_145815\\en_us\\20250730125856_responses.csv",
+        "config_json": "data\\experiments\\test-example\\20250730_145815\\en_us\\config.json"
+      }
+    },
+    {
+      "run_id": "experiments/test-example/20250730_145815/fr_fr",
+      "timestamp_dir": "20250730_145815",
+      "test_name": "test-example",
+      "provider_family": "experiments",
+      "language": "fr_fr",
+      "model": null,
+      "paths": {
+        "global_csv": "data\\experiments\\test-example\\20250730_145815\\fr_fr\\20250730125907_global_evaluation.csv",
+        "evals_csv": "data\\experiments\\test-example\\20250730_145815\\fr_fr\\20250730125907_evaluations.csv",
+        "responses_csv": "data\\experiments\\test-example\\20250730_145815\\fr_fr\\20250730125907_responses.csv",
+        "config_json": "data\\experiments\\test-example\\20250730_145815\\fr_fr\\config.json"
+      }
+    },
+    {
+      "run_id": "experiments/test-example/20250730_152120/en_us",
+      "timestamp_dir": "20250730_152120",
+      "test_name": "test-example",
+      "provider_family": "experiments",
+      "language": "en_us",
+      "model": null,
+      "paths": {
+        "global_csv": "data\\experiments\\test-example\\20250730_152120\\en_us\\20250730132156_global_evaluation.csv",
+        "evals_csv": "data\\experiments\\test-example\\20250730_152120\\en_us\\20250730132155_evaluations.csv",
+        "responses_csv": "data\\experiments\\test-example\\20250730_152120\\en_us\\20250730132155_responses.csv",
+        "config_json": "data\\experiments\\test-example\\20250730_152120\\en_us\\config.json"
+      }
+    },
+    {
+      "run_id": "experiments/test-example/20250730_152120/fr_fr",
+      "timestamp_dir": "20250730_152120",
+      "test_name": "test-example",
+      "provider_family": "experiments",
+      "language": "fr_fr",
+      "model": null,
+      "paths": {
+        "global_csv": "data\\experiments\\test-example\\20250730_152120\\fr_fr\\20250730132201_global_evaluation.csv",
+        "evals_csv": "data\\experiments\\test-example\\20250730_152120\\fr_fr\\20250730132201_evaluations.csv",
+        "responses_csv": "data\\experiments\\test-example\\20250730_152120\\fr_fr\\20250730132201_responses.csv",
+        "config_json": "data\\experiments\\test-example\\20250730_152120\\fr_fr\\config.json"
+      }
+    },
+    {
+      "run_id": "experiments/test-job_status/20251113_123820/en_us",
+      "timestamp_dir": "20251113_123820",
+      "test_name": "test-job_status",
+      "provider_family": "experiments",
+      "language": "en_us",
+      "model": null,
+      "paths": {
+        "global_csv": "data\\experiments\\test-job_status\\20251113_123820\\en_us\\20251113130822_global_evaluation.csv",
+        "evals_csv": "data\\experiments\\test-job_status\\20251113_123820\\en_us\\20251113130822_evaluations.csv",
+        "responses_csv": "data\\experiments\\test-job_status\\20251113_123820\\en_us\\20251113130822_responses.csv",
+        "config_json": "data\\experiments\\test-job_status\\20251113_123820\\en_us\\config.json"
+      }
+    },
+    {
+      "run_id": "experiments/test-job_status/20251113_123820/fr_fr",
+      "timestamp_dir": "20251113_123820",
+      "test_name": "test-job_status",
+      "provider_family": "experiments",
+      "language": "fr_fr",
+      "model": null,
+      "paths": {
+        "global_csv": "data\\experiments\\test-job_status\\20251113_123820\\fr_fr\\20251113140714_global_evaluation.csv",
+        "evals_csv": "data\\experiments\\test-job_status\\20251113_123820\\fr_fr\\20251113140714_evaluations.csv",
+        "responses_csv": "data\\experiments\\test-job_status\\20251113_123820\\fr_fr\\20251113140714_responses.csv",
+        "config_json": "data\\experiments\\test-job_status\\20251113_123820\\fr_fr\\config.json"
+      }
+    },
+    {
+      "run_id": "experiments/test-job_status/20251114_150604/en_us",
+      "timestamp_dir": "20251114_150604",
+      "test_name": "test-job_status",
+      "provider_family": "experiments",
+      "language": "en_us",
+      "model": null,
+      "paths": {
+        "global_csv": "data\\experiments\\test-job_status\\20251114_150604\\en_us\\20251114153910_global_evaluation.csv",
+        "evals_csv": "data\\experiments\\test-job_status\\20251114_150604\\en_us\\20251114153910_evaluations.csv",
+        "responses_csv": "data\\experiments\\test-job_status\\20251114_150604\\en_us\\20251114153910_responses.csv",
+        "config_json": "data\\experiments\\test-job_status\\20251114_150604\\en_us\\config.json"
+      }
+    },
+    {
+      "run_id": "experiments/test-job_status/20251114_150604/fr_fr",
+      "timestamp_dir": "20251114_150604",
+      "test_name": "test-job_status",
+      "provider_family": "experiments",
+      "language": "fr_fr",
+      "model": null,
+      "paths": {
+        "global_csv": "data\\experiments\\test-job_status\\20251114_150604\\fr_fr\\20251114161815_global_evaluation.csv",
+        "evals_csv": "data\\experiments\\test-job_status\\20251114_150604\\fr_fr\\20251114161815_evaluations.csv",
+        "responses_csv": "data\\experiments\\test-job_status\\20251114_150604\\fr_fr\\20251114161815_responses.csv",
+        "config_json": "data\\experiments\\test-job_status\\20251114_150604\\fr_fr\\config.json"
+      }
+    },
+    {
+      "run_id": "experiments/test-job_status/20251117_134657/en_us",
+      "timestamp_dir": "20251117_134657",
+      "test_name": "test-job_status",
+      "provider_family": "experiments",
+      "language": "en_us",
+      "model": null,
+      "paths": {
+        "global_csv": "data\\experiments\\test-job_status\\20251117_134657\\en_us\\20251117142319_global_evaluation.csv",
+        "evals_csv": "data\\experiments\\test-job_status\\20251117_134657\\en_us\\20251117142319_evaluations.csv",
+        "responses_csv": "data\\experiments\\test-job_status\\20251117_134657\\en_us\\20251117142319_responses.csv",
+        "config_json": "data\\experiments\\test-job_status\\20251117_134657\\en_us\\config.json"
+      }
+    },
+    {
+      "run_id": "experiments/test-job_status/20251117_134657/fr_fr",
+      "timestamp_dir": "20251117_134657",
+      "test_name": "test-job_status",
+      "provider_family": "experiments",
+      "language": "fr_fr",
+      "model": null,
+      "paths": {
+        "global_csv": "data\\experiments\\test-job_status\\20251117_134657\\fr_fr\\20251117150425_global_evaluation.csv",
+        "evals_csv": "data\\experiments\\test-job_status\\20251117_134657\\fr_fr\\20251117150425_evaluations.csv",
+        "responses_csv": "data\\experiments\\test-job_status\\20251117_134657\\fr_fr\\20251117150425_responses.csv",
+        "config_json": "data\\experiments\\test-job_status\\20251117_134657\\fr_fr\\config.json"
+      }
+    },
+    {
+      "run_id": "experiments/test-job_status_small/20251117_120315/en_us",
+      "timestamp_dir": "20251117_120315",
+      "test_name": "test-job_status_small",
+      "provider_family": "experiments",
+      "language": "en_us",
+      "model": null,
+      "paths": {
+        "global_csv": "data\\experiments\\test-job_status_small\\20251117_120315\\en_us\\20251117120548_global_evaluation.csv",
+        "evals_csv": "data\\experiments\\test-job_status_small\\20251117_120315\\en_us\\20251117120548_evaluations.csv",
+        "responses_csv": "data\\experiments\\test-job_status_small\\20251117_120315\\en_us\\20251117120548_responses.csv",
+        "config_json": "data\\experiments\\test-job_status_small\\20251117_120315\\en_us\\config.json"
+      }
+    },
+    {
+      "run_id": "experiments/test-job_status_small/20251117_120315/fr_fr",
+      "timestamp_dir": "20251117_120315",
+      "test_name": "test-job_status_small",
+      "provider_family": "experiments",
+      "language": "fr_fr",
+      "model": null,
+      "paths": {
+        "global_csv": "data\\experiments\\test-job_status_small\\20251117_120315\\fr_fr\\20251117120750_global_evaluation.csv",
+        "evals_csv": "data\\experiments\\test-job_status_small\\20251117_120315\\fr_fr\\20251117120750_evaluations.csv",
+        "responses_csv": "data\\experiments\\test-job_status_small\\20251117_120315\\fr_fr\\20251117120750_responses.csv",
+        "config_json": "data\\experiments\\test-job_status_small\\20251117_120315\\fr_fr\\config.json"
+      }
+    },
+    {
+      "run_id": "experiments/test-job_status_small/20251119_094611/en_us",
+      "timestamp_dir": "20251119_094611",
+      "test_name": "test-job_status_small",
+      "provider_family": "experiments",
+      "language": "en_us",
+      "model": null,
+      "paths": {
+        "global_csv": "data\\experiments\\test-job_status_small\\20251119_094611\\en_us\\20251119102444_global_evaluation.csv",
+        "evals_csv": "data\\experiments\\test-job_status_small\\20251119_094611\\en_us\\20251119102444_evaluations.csv",
+        "responses_csv": "data\\experiments\\test-job_status_small\\20251119_094611\\en_us\\20251119102444_responses.csv",
+        "config_json": "data\\experiments\\test-job_status_small\\20251119_094611\\en_us\\config.json"
+      }
+    },
+    {
+      "run_id": "experiments/test-job_status_small/20251119_094611/fr_fr",
+      "timestamp_dir": "20251119_094611",
+      "test_name": "test-job_status_small",
+      "provider_family": "experiments",
+      "language": "fr_fr",
+      "model": null,
+      "paths": {
+        "global_csv": "data\\experiments\\test-job_status_small\\20251119_094611\\fr_fr\\20251119112706_global_evaluation.csv",
+        "evals_csv": "data\\experiments\\test-job_status_small\\20251119_094611\\fr_fr\\20251119112706_evaluations.csv",
+        "responses_csv": "data\\experiments\\test-job_status_small\\20251119_094611\\fr_fr\\20251119112705_responses.csv",
+        "config_json": "data\\experiments\\test-job_status_small\\20251119_094611\\fr_fr\\config.json"
+      }
+    },
+    {
+      "run_id": "experiments/test-nuwacom/20250728_094636/de_de",
+      "timestamp_dir": "20250728_094636",
+      "test_name": "test-nuwacom",
+      "provider_family": "experiments",
+      "language": "de_de",
+      "model": null,
+      "paths": {
+        "global_csv": "data\\experiments\\test-nuwacom\\20250728_094636\\de_de\\20250728094737_global_evaluation.csv",
+        "evals_csv": "data\\experiments\\test-nuwacom\\20250728_094636\\de_de\\20250728094737_evaluations.csv",
+        "responses_csv": "data\\experiments\\test-nuwacom\\20250728_094636\\de_de\\20250728094737_responses.csv",
+        "config_json": "data\\experiments\\test-nuwacom\\20250728_094636\\de_de\\config.json"
+      }
+    },
+    {
+      "run_id": "experiments/test-nuwacom/20250728_094636/en_us",
+      "timestamp_dir": "20250728_094636",
+      "test_name": "test-nuwacom",
+      "provider_family": "experiments",
+      "language": "en_us",
+      "model": null,
+      "paths": {
+        "global_csv": "data\\experiments\\test-nuwacom\\20250728_094636\\en_us\\20250728094737_global_evaluation.csv",
+        "evals_csv": "data\\experiments\\test-nuwacom\\20250728_094636\\en_us\\20250728094737_evaluations.csv",
+        "responses_csv": "data\\experiments\\test-nuwacom\\20250728_094636\\en_us\\20250728094736_responses.csv",
+        "config_json": "data\\experiments\\test-nuwacom\\20250728_094636\\en_us\\config.json"
+      }
+    },
+    {
+      "run_id": "experiments/test-nuwacom/20250728_094636/fr_fr",
+      "timestamp_dir": "20250728_094636",
+      "test_name": "test-nuwacom",
+      "provider_family": "experiments",
+      "language": "fr_fr",
+      "model": null,
+      "paths": {
+        "global_csv": "data\\experiments\\test-nuwacom\\20250728_094636\\fr_fr\\20250728094737_global_evaluation.csv",
+        "evals_csv": "data\\experiments\\test-nuwacom\\20250728_094636\\fr_fr\\20250728094737_evaluations.csv",
+        "responses_csv": "data\\experiments\\test-nuwacom\\20250728_094636\\fr_fr\\20250728094737_responses.csv",
+        "config_json": "data\\experiments\\test-nuwacom\\20250728_094636\\fr_fr\\config.json"
+      }
+    },
+    {
+      "run_id": "experiments/test-nuwacom/20250728_094636/lu_lu",
+      "timestamp_dir": "20250728_094636",
+      "test_name": "test-nuwacom",
+      "provider_family": "experiments",
+      "language": "lu_lu",
+      "model": null,
+      "paths": {
+        "global_csv": "data\\experiments\\test-nuwacom\\20250728_094636\\lu_lu\\20250728094737_global_evaluation.csv",
+        "evals_csv": "data\\experiments\\test-nuwacom\\20250728_094636\\lu_lu\\20250728094737_evaluations.csv",
+        "responses_csv": "data\\experiments\\test-nuwacom\\20250728_094636\\lu_lu\\20250728094737_responses.csv",
+        "config_json": "data\\experiments\\test-nuwacom\\20250728_094636\\lu_lu\\config.json"
+      }
+    },
+    {
+      "run_id": "experiments/test-nuwacom/20250728_094923/de_de",
+      "timestamp_dir": "20250728_094923",
+      "test_name": "test-nuwacom",
+      "provider_family": "experiments",
+      "language": "de_de",
+      "model": null,
+      "paths": {
+        "global_csv": "data\\experiments\\test-nuwacom\\20250728_094923\\de_de\\20250728095027_global_evaluation.csv",
+        "evals_csv": "data\\experiments\\test-nuwacom\\20250728_094923\\de_de\\20250728095027_evaluations.csv",
+        "responses_csv": "data\\experiments\\test-nuwacom\\20250728_094923\\de_de\\20250728095027_responses.csv",
+        "config_json": "data\\experiments\\test-nuwacom\\20250728_094923\\de_de\\config.json"
+      }
+    },
+    {
+      "run_id": "experiments/test-nuwacom/20250728_094923/en_us",
+      "timestamp_dir": "20250728_094923",
+      "test_name": "test-nuwacom",
+      "provider_family": "experiments",
+      "language": "en_us",
+      "model": null,
+      "paths": {
+        "global_csv": "data\\experiments\\test-nuwacom\\20250728_094923\\en_us\\20250728095026_global_evaluation.csv",
+        "evals_csv": "data\\experiments\\test-nuwacom\\20250728_094923\\en_us\\20250728095026_evaluations.csv",
+        "responses_csv": "data\\experiments\\test-nuwacom\\20250728_094923\\en_us\\20250728095026_responses.csv",
+        "config_json": "data\\experiments\\test-nuwacom\\20250728_094923\\en_us\\config.json"
+      }
+    },
+    {
+      "run_id": "experiments/test-nuwacom/20250728_094923/fr_fr",
+      "timestamp_dir": "20250728_094923",
+      "test_name": "test-nuwacom",
+      "provider_family": "experiments",
+      "language": "fr_fr",
+      "model": null,
+      "paths": {
+        "global_csv": "data\\experiments\\test-nuwacom\\20250728_094923\\fr_fr\\20250728095027_global_evaluation.csv",
+        "evals_csv": "data\\experiments\\test-nuwacom\\20250728_094923\\fr_fr\\20250728095027_evaluations.csv",
+        "responses_csv": "data\\experiments\\test-nuwacom\\20250728_094923\\fr_fr\\20250728095027_responses.csv",
+        "config_json": "data\\experiments\\test-nuwacom\\20250728_094923\\fr_fr\\config.json"
+      }
+    },
+    {
+      "run_id": "experiments/test-nuwacom/20250728_094923/lu_lu",
+      "timestamp_dir": "20250728_094923",
+      "test_name": "test-nuwacom",
+      "provider_family": "experiments",
+      "language": "lu_lu",
+      "model": null,
+      "paths": {
+        "global_csv": "data\\experiments\\test-nuwacom\\20250728_094923\\lu_lu\\20250728095027_global_evaluation.csv",
+        "evals_csv": "data\\experiments\\test-nuwacom\\20250728_094923\\lu_lu\\20250728095027_evaluations.csv",
+        "responses_csv": "data\\experiments\\test-nuwacom\\20250728_094923\\lu_lu\\20250728095027_responses.csv",
+        "config_json": "data\\experiments\\test-nuwacom\\20250728_094923\\lu_lu\\config.json"
+      }
+    },
+    {
+      "run_id": "experiments/test-nuwacom/20250728_101254/de_de",
+      "timestamp_dir": "20250728_101254",
+      "test_name": "test-nuwacom",
+      "provider_family": "experiments",
+      "language": "de_de",
+      "model": null,
+      "paths": {
+        "global_csv": "data\\experiments\\test-nuwacom\\20250728_101254\\de_de\\20250728101351_global_evaluation.csv",
+        "evals_csv": "data\\experiments\\test-nuwacom\\20250728_101254\\de_de\\20250728101351_evaluations.csv",
+        "responses_csv": "data\\experiments\\test-nuwacom\\20250728_101254\\de_de\\20250728101351_responses.csv",
+        "config_json": "data\\experiments\\test-nuwacom\\20250728_101254\\de_de\\config.json"
+      }
+    },
+    {
+      "run_id": "experiments/test-nuwacom/20250728_101254/en_us",
+      "timestamp_dir": "20250728_101254",
+      "test_name": "test-nuwacom",
+      "provider_family": "experiments",
+      "language": "en_us",
+      "model": null,
+      "paths": {
+        "global_csv": "data\\experiments\\test-nuwacom\\20250728_101254\\en_us\\20250728101351_global_evaluation.csv",
+        "evals_csv": "data\\experiments\\test-nuwacom\\20250728_101254\\en_us\\20250728101351_evaluations.csv",
+        "responses_csv": "data\\experiments\\test-nuwacom\\20250728_101254\\en_us\\20250728101350_responses.csv",
+        "config_json": "data\\experiments\\test-nuwacom\\20250728_101254\\en_us\\config.json"
+      }
+    },
+    {
+      "run_id": "experiments/test-nuwacom/20250728_101254/fr_fr",
+      "timestamp_dir": "20250728_101254",
+      "test_name": "test-nuwacom",
+      "provider_family": "experiments",
+      "language": "fr_fr",
+      "model": null,
+      "paths": {
+        "global_csv": "data\\experiments\\test-nuwacom\\20250728_101254\\fr_fr\\20250728101351_global_evaluation.csv",
+        "evals_csv": "data\\experiments\\test-nuwacom\\20250728_101254\\fr_fr\\20250728101351_evaluations.csv",
+        "responses_csv": "data\\experiments\\test-nuwacom\\20250728_101254\\fr_fr\\20250728101351_responses.csv",
+        "config_json": "data\\experiments\\test-nuwacom\\20250728_101254\\fr_fr\\config.json"
+      }
+    },
+    {
+      "run_id": "experiments/test-nuwacom/20250728_101254/lu_lu",
+      "timestamp_dir": "20250728_101254",
+      "test_name": "test-nuwacom",
+      "provider_family": "experiments",
+      "language": "lu_lu",
+      "model": null,
+      "paths": {
+        "global_csv": "data\\experiments\\test-nuwacom\\20250728_101254\\lu_lu\\20250728101351_global_evaluation.csv",
+        "evals_csv": "data\\experiments\\test-nuwacom\\20250728_101254\\lu_lu\\20250728101351_evaluations.csv",
+        "responses_csv": "data\\experiments\\test-nuwacom\\20250728_101254\\lu_lu\\20250728101351_responses.csv",
+        "config_json": "data\\experiments\\test-nuwacom\\20250728_101254\\lu_lu\\config.json"
+      }
+    },
+    {
+      "run_id": "experiments/test-nuwacom/20250728_102345/de_de",
+      "timestamp_dir": "20250728_102345",
+      "test_name": "test-nuwacom",
+      "provider_family": "experiments",
+      "language": "de_de",
+      "model": null,
+      "paths": {
+        "global_csv": "data\\experiments\\test-nuwacom\\20250728_102345\\de_de\\20250728102544_global_evaluation.csv",
+        "evals_csv": "data\\experiments\\test-nuwacom\\20250728_102345\\de_de\\20250728102544_evaluations.csv",
+        "responses_csv": "data\\experiments\\test-nuwacom\\20250728_102345\\de_de\\20250728102544_responses.csv",
+        "config_json": "data\\experiments\\test-nuwacom\\20250728_102345\\de_de\\config.json"
+      }
+    },
+    {
+      "run_id": "experiments/test-nuwacom/20250728_102345/en_us",
+      "timestamp_dir": "20250728_102345",
+      "test_name": "test-nuwacom",
+      "provider_family": "experiments",
+      "language": "en_us",
+      "model": null,
+      "paths": {
+        "global_csv": "data\\experiments\\test-nuwacom\\20250728_102345\\en_us\\20250728102510_global_evaluation.csv",
+        "evals_csv": "data\\experiments\\test-nuwacom\\20250728_102345\\en_us\\20250728102510_evaluations.csv",
+        "responses_csv": "data\\experiments\\test-nuwacom\\20250728_102345\\en_us\\20250728102510_responses.csv",
+        "config_json": "data\\experiments\\test-nuwacom\\20250728_102345\\en_us\\config.json"
+      }
+    },
+    {
+      "run_id": "experiments/test-nuwacom/20250728_102345/fr_fr",
+      "timestamp_dir": "20250728_102345",
+      "test_name": "test-nuwacom",
+      "provider_family": "experiments",
+      "language": "fr_fr",
+      "model": null,
+      "paths": {
+        "global_csv": "data\\experiments\\test-nuwacom\\20250728_102345\\fr_fr\\20250728102533_global_evaluation.csv",
+        "evals_csv": "data\\experiments\\test-nuwacom\\20250728_102345\\fr_fr\\20250728102533_evaluations.csv",
+        "responses_csv": "data\\experiments\\test-nuwacom\\20250728_102345\\fr_fr\\20250728102533_responses.csv",
+        "config_json": "data\\experiments\\test-nuwacom\\20250728_102345\\fr_fr\\config.json"
+      }
+    },
+    {
+      "run_id": "experiments/test-nuwacom/20250728_102345/lu_lu",
+      "timestamp_dir": "20250728_102345",
+      "test_name": "test-nuwacom",
+      "provider_family": "experiments",
+      "language": "lu_lu",
+      "model": null,
+      "paths": {
+        "global_csv": "data\\experiments\\test-nuwacom\\20250728_102345\\lu_lu\\20250728102614_global_evaluation.csv",
+        "evals_csv": "data\\experiments\\test-nuwacom\\20250728_102345\\lu_lu\\20250728102614_evaluations.csv",
+        "responses_csv": "data\\experiments\\test-nuwacom\\20250728_102345\\lu_lu\\20250728102614_responses.csv",
+        "config_json": "data\\experiments\\test-nuwacom\\20250728_102345\\lu_lu\\config.json"
+      }
+    },
+    {
+      "run_id": "experiments/test-nuwacom/20250728_103408/de_de",
+      "timestamp_dir": "20250728_103408",
+      "test_name": "test-nuwacom",
+      "provider_family": "experiments",
+      "language": "de_de",
+      "model": null,
+      "paths": {
+        "global_csv": "data\\experiments\\test-nuwacom\\20250728_103408\\de_de\\20250728103448_global_evaluation.csv",
+        "evals_csv": "data\\experiments\\test-nuwacom\\20250728_103408\\de_de\\20250728103448_evaluations.csv",
+        "responses_csv": "data\\experiments\\test-nuwacom\\20250728_103408\\de_de\\20250728103448_responses.csv",
+        "config_json": "data\\experiments\\test-nuwacom\\20250728_103408\\de_de\\config.json"
+      }
+    },
+    {
+      "run_id": "experiments/test-nuwacom/20250728_103408/en_us",
+      "timestamp_dir": "20250728_103408",
+      "test_name": "test-nuwacom",
+      "provider_family": "experiments",
+      "language": "en_us",
+      "model": null,
+      "paths": {
+        "global_csv": "data\\experiments\\test-nuwacom\\20250728_103408\\en_us\\20250728103439_global_evaluation.csv",
+        "evals_csv": "data\\experiments\\test-nuwacom\\20250728_103408\\en_us\\20250728103439_evaluations.csv",
+        "responses_csv": "data\\experiments\\test-nuwacom\\20250728_103408\\en_us\\20250728103439_responses.csv",
+        "config_json": "data\\experiments\\test-nuwacom\\20250728_103408\\en_us\\config.json"
+      }
+    },
+    {
+      "run_id": "experiments/test-nuwacom/20250728_103408/fr_fr",
+      "timestamp_dir": "20250728_103408",
+      "test_name": "test-nuwacom",
+      "provider_family": "experiments",
+      "language": "fr_fr",
+      "model": null,
+      "paths": {
+        "global_csv": "data\\experiments\\test-nuwacom\\20250728_103408\\fr_fr\\20250728103444_global_evaluation.csv",
+        "evals_csv": "data\\experiments\\test-nuwacom\\20250728_103408\\fr_fr\\20250728103444_evaluations.csv",
+        "responses_csv": "data\\experiments\\test-nuwacom\\20250728_103408\\fr_fr\\20250728103443_responses.csv",
+        "config_json": "data\\experiments\\test-nuwacom\\20250728_103408\\fr_fr\\config.json"
+      }
+    },
+    {
+      "run_id": "experiments/test-nuwacom/20250728_103408/lu_lu",
+      "timestamp_dir": "20250728_103408",
+      "test_name": "test-nuwacom",
+      "provider_family": "experiments",
+      "language": "lu_lu",
+      "model": null,
+      "paths": {
+        "global_csv": "data\\experiments\\test-nuwacom\\20250728_103408\\lu_lu\\20250728103505_global_evaluation.csv",
+        "evals_csv": "data\\experiments\\test-nuwacom\\20250728_103408\\lu_lu\\20250728103505_evaluations.csv",
+        "responses_csv": "data\\experiments\\test-nuwacom\\20250728_103408\\lu_lu\\20250728103505_responses.csv",
+        "config_json": "data\\experiments\\test-nuwacom\\20250728_103408\\lu_lu\\config.json"
+      }
+    },
+    {
+      "run_id": "experiments/test-nuwacom/20250728_104201/en_us",
+      "timestamp_dir": "20250728_104201",
+      "test_name": "test-nuwacom",
+      "provider_family": "experiments",
+      "language": "en_us",
+      "model": null,
+      "paths": {
+        "global_csv": "data\\experiments\\test-nuwacom\\20250728_104201\\en_us\\20250728104212_global_evaluation.csv",
+        "evals_csv": "data\\experiments\\test-nuwacom\\20250728_104201\\en_us\\20250728104212_evaluations.csv",
+        "responses_csv": "data\\experiments\\test-nuwacom\\20250728_104201\\en_us\\20250728104212_responses.csv",
+        "config_json": "data\\experiments\\test-nuwacom\\20250728_104201\\en_us\\config.json"
+      }
+    },
+    {
+      "run_id": "experiments/test-nuwacom/20250728_104201/fr_fr",
+      "timestamp_dir": "20250728_104201",
+      "test_name": "test-nuwacom",
+      "provider_family": "experiments",
+      "language": "fr_fr",
+      "model": null,
+      "paths": {
+        "global_csv": "data\\experiments\\test-nuwacom\\20250728_104201\\fr_fr\\20250728104216_global_evaluation.csv",
+        "evals_csv": "data\\experiments\\test-nuwacom\\20250728_104201\\fr_fr\\20250728104216_evaluations.csv",
+        "responses_csv": "data\\experiments\\test-nuwacom\\20250728_104201\\fr_fr\\20250728104216_responses.csv",
+        "config_json": "data\\experiments\\test-nuwacom\\20250728_104201\\fr_fr\\config.json"
+      }
+    },
+    {
+      "run_id": "experiments/test-nuwacom/20250728_104533/en_us",
+      "timestamp_dir": "20250728_104533",
+      "test_name": "test-nuwacom",
+      "provider_family": "experiments",
+      "language": "en_us",
+      "model": null,
+      "paths": {
+        "global_csv": "data\\experiments\\test-nuwacom\\20250728_104533\\en_us\\20250728104550_global_evaluation.csv",
+        "evals_csv": "data\\experiments\\test-nuwacom\\20250728_104533\\en_us\\20250728104550_evaluations.csv",
+        "responses_csv": "data\\experiments\\test-nuwacom\\20250728_104533\\en_us\\20250728104550_responses.csv",
+        "config_json": "data\\experiments\\test-nuwacom\\20250728_104533\\en_us\\config.json"
+      }
+    },
+    {
+      "run_id": "experiments/test-nuwacom/20250728_104533/fr_fr",
+      "timestamp_dir": "20250728_104533",
+      "test_name": "test-nuwacom",
+      "provider_family": "experiments",
+      "language": "fr_fr",
+      "model": null,
+      "paths": {
+        "global_csv": "data\\experiments\\test-nuwacom\\20250728_104533\\fr_fr\\20250728104555_global_evaluation.csv",
+        "evals_csv": "data\\experiments\\test-nuwacom\\20250728_104533\\fr_fr\\20250728104555_evaluations.csv",
+        "responses_csv": "data\\experiments\\test-nuwacom\\20250728_104533\\fr_fr\\20250728104555_responses.csv",
+        "config_json": "data\\experiments\\test-nuwacom\\20250728_104533\\fr_fr\\config.json"
+      }
+    },
+    {
+      "run_id": "experiments/test-nuwacom/20250728_110354/de_de",
+      "timestamp_dir": "20250728_110354",
+      "test_name": "test-nuwacom",
+      "provider_family": "experiments",
+      "language": "de_de",
+      "model": null,
+      "paths": {
+        "global_csv": "data\\experiments\\test-nuwacom\\20250728_110354\\de_de\\20250728110649_global_evaluation.csv",
+        "evals_csv": "data\\experiments\\test-nuwacom\\20250728_110354\\de_de\\20250728110649_evaluations.csv",
+        "responses_csv": "data\\experiments\\test-nuwacom\\20250728_110354\\de_de\\20250728110649_responses.csv",
+        "config_json": "data\\experiments\\test-nuwacom\\20250728_110354\\de_de\\config.json"
+      }
+    },
+    {
+      "run_id": "experiments/test-nuwacom/20250728_110354/en_us",
+      "timestamp_dir": "20250728_110354",
+      "test_name": "test-nuwacom",
+      "provider_family": "experiments",
+      "language": "en_us",
+      "model": null,
+      "paths": {
+        "global_csv": "data\\experiments\\test-nuwacom\\20250728_110354\\en_us\\20250728110553_global_evaluation.csv",
+        "evals_csv": "data\\experiments\\test-nuwacom\\20250728_110354\\en_us\\20250728110553_evaluations.csv",
+        "responses_csv": "data\\experiments\\test-nuwacom\\20250728_110354\\en_us\\20250728110553_responses.csv",
+        "config_json": "data\\experiments\\test-nuwacom\\20250728_110354\\en_us\\config.json"
+      }
+    },
+    {
+      "run_id": "experiments/test-nuwacom/20250728_110354/fr_fr",
+      "timestamp_dir": "20250728_110354",
+      "test_name": "test-nuwacom",
+      "provider_family": "experiments",
+      "language": "fr_fr",
+      "model": null,
+      "paths": {
+        "global_csv": "data\\experiments\\test-nuwacom\\20250728_110354\\fr_fr\\20250728110624_global_evaluation.csv",
+        "evals_csv": "data\\experiments\\test-nuwacom\\20250728_110354\\fr_fr\\20250728110624_evaluations.csv",
+        "responses_csv": "data\\experiments\\test-nuwacom\\20250728_110354\\fr_fr\\20250728110624_responses.csv",
+        "config_json": "data\\experiments\\test-nuwacom\\20250728_110354\\fr_fr\\config.json"
+      }
+    },
+    {
+      "run_id": "experiments/test-nuwacom/20250728_110354/lu_lu",
+      "timestamp_dir": "20250728_110354",
+      "test_name": "test-nuwacom",
+      "provider_family": "experiments",
+      "language": "lu_lu",
+      "model": null,
+      "paths": {
+        "global_csv": "data\\experiments\\test-nuwacom\\20250728_110354\\lu_lu\\20250728110716_global_evaluation.csv",
+        "evals_csv": "data\\experiments\\test-nuwacom\\20250728_110354\\lu_lu\\20250728110716_evaluations.csv",
+        "responses_csv": "data\\experiments\\test-nuwacom\\20250728_110354\\lu_lu\\20250728110716_responses.csv",
+        "config_json": "data\\experiments\\test-nuwacom\\20250728_110354\\lu_lu\\config.json"
+      }
+    },
+    {
+      "run_id": "experiments/test-nuwacom/20250729_160520/en_us",
+      "timestamp_dir": "20250729_160520",
+      "test_name": "test-nuwacom",
+      "provider_family": "experiments",
+      "language": "en_us",
+      "model": null,
+      "paths": {
+        "global_csv": "data\\experiments\\test-nuwacom\\20250729_160520\\en_us\\20250729160805_global_evaluation.csv",
+        "evals_csv": "data\\experiments\\test-nuwacom\\20250729_160520\\en_us\\20250729160804_evaluations.csv",
+        "responses_csv": "data\\experiments\\test-nuwacom\\20250729_160520\\en_us\\20250729160804_responses.csv",
+        "config_json": "data\\experiments\\test-nuwacom\\20250729_160520\\en_us\\config.json"
+      }
+    },
+    {
+      "run_id": "experiments/test-nuwacom/20250729_162820/de_de",
+      "timestamp_dir": "20250729_162820",
+      "test_name": "test-nuwacom",
+      "provider_family": "experiments",
+      "language": "de_de",
+      "model": null,
+      "paths": {
+        "global_csv": "data\\experiments\\test-nuwacom\\20250729_162820\\de_de\\20250729163439_global_evaluation.csv",
+        "evals_csv": "data\\experiments\\test-nuwacom\\20250729_162820\\de_de\\20250729163439_evaluations.csv",
+        "responses_csv": "data\\experiments\\test-nuwacom\\20250729_162820\\de_de\\20250729163439_responses.csv",
+        "config_json": "data\\experiments\\test-nuwacom\\20250729_162820\\de_de\\config.json"
+      }
+    },
+    {
+      "run_id": "experiments/test-nuwacom/20250729_162820/en_us",
+      "timestamp_dir": "20250729_162820",
+      "test_name": "test-nuwacom",
+      "provider_family": "experiments",
+      "language": "en_us",
+      "model": null,
+      "paths": {
+        "global_csv": "data\\experiments\\test-nuwacom\\20250729_162820\\en_us\\20250729163105_global_evaluation.csv",
+        "evals_csv": "data\\experiments\\test-nuwacom\\20250729_162820\\en_us\\20250729163105_evaluations.csv",
+        "responses_csv": "data\\experiments\\test-nuwacom\\20250729_162820\\en_us\\20250729163105_responses.csv",
+        "config_json": "data\\experiments\\test-nuwacom\\20250729_162820\\en_us\\config.json"
+      }
+    },
+    {
+      "run_id": "experiments/test-nuwacom/20250729_162820/fr_fr",
+      "timestamp_dir": "20250729_162820",
+      "test_name": "test-nuwacom",
+      "provider_family": "experiments",
+      "language": "fr_fr",
+      "model": null,
+      "paths": {
+        "global_csv": "data\\experiments\\test-nuwacom\\20250729_162820\\fr_fr\\20250729163246_global_evaluation.csv",
+        "evals_csv": "data\\experiments\\test-nuwacom\\20250729_162820\\fr_fr\\20250729163246_evaluations.csv",
+        "responses_csv": "data\\experiments\\test-nuwacom\\20250729_162820\\fr_fr\\20250729163246_responses.csv",
+        "config_json": "data\\experiments\\test-nuwacom\\20250729_162820\\fr_fr\\config.json"
+      }
+    },
+    {
+      "run_id": "experiments/test-nuwacom/20250729_164044/de_de",
+      "timestamp_dir": "20250729_164044",
+      "test_name": "test-nuwacom",
+      "provider_family": "experiments",
+      "language": "de_de",
+      "model": null,
+      "paths": {
+        "global_csv": "data\\experiments\\test-nuwacom\\20250729_164044\\de_de\\20250729165030_global_evaluation.csv",
+        "evals_csv": "data\\experiments\\test-nuwacom\\20250729_164044\\de_de\\20250729165030_evaluations.csv",
+        "responses_csv": "data\\experiments\\test-nuwacom\\20250729_164044\\de_de\\20250729165030_responses.csv",
+        "config_json": "data\\experiments\\test-nuwacom\\20250729_164044\\de_de\\config.json"
+      }
+    },
+    {
+      "run_id": "experiments/test-nuwacom/20250729_164044/en_us",
+      "timestamp_dir": "20250729_164044",
+      "test_name": "test-nuwacom",
+      "provider_family": "experiments",
+      "language": "en_us",
+      "model": null,
+      "paths": {
+        "global_csv": "data\\experiments\\test-nuwacom\\20250729_164044\\en_us\\20250729164453_global_evaluation.csv",
+        "evals_csv": "data\\experiments\\test-nuwacom\\20250729_164044\\en_us\\20250729164453_evaluations.csv",
+        "responses_csv": "data\\experiments\\test-nuwacom\\20250729_164044\\en_us\\20250729164453_responses.csv",
+        "config_json": "data\\experiments\\test-nuwacom\\20250729_164044\\en_us\\config.json"
+      }
+    },
+    {
+      "run_id": "experiments/test-nuwacom/20250729_164044/fr_fr",
+      "timestamp_dir": "20250729_164044",
+      "test_name": "test-nuwacom",
+      "provider_family": "experiments",
+      "language": "fr_fr",
+      "model": null,
+      "paths": {
+        "global_csv": "data\\experiments\\test-nuwacom\\20250729_164044\\fr_fr\\20250729164706_global_evaluation.csv",
+        "evals_csv": "data\\experiments\\test-nuwacom\\20250729_164044\\fr_fr\\20250729164706_evaluations.csv",
+        "responses_csv": "data\\experiments\\test-nuwacom\\20250729_164044\\fr_fr\\20250729164706_responses.csv",
+        "config_json": "data\\experiments\\test-nuwacom\\20250729_164044\\fr_fr\\config.json"
+      }
+    },
+    {
+      "run_id": "experiments/test-nuwacom/20250729_170642/de_de",
+      "timestamp_dir": "20250729_170642",
+      "test_name": "test-nuwacom",
+      "provider_family": "experiments",
+      "language": "de_de",
+      "model": null,
+      "paths": {
+        "global_csv": "data\\experiments\\test-nuwacom\\20250729_170642\\de_de\\20250729170853_global_evaluation.csv",
+        "evals_csv": "data\\experiments\\test-nuwacom\\20250729_170642\\de_de\\20250729170853_evaluations.csv",
+        "responses_csv": "data\\experiments\\test-nuwacom\\20250729_170642\\de_de\\20250729170853_responses.csv",
+        "config_json": "data\\experiments\\test-nuwacom\\20250729_170642\\de_de\\config.json"
+      }
+    },
+    {
+      "run_id": "experiments/test-nuwacom/20250729_170642/en_us",
+      "timestamp_dir": "20250729_170642",
+      "test_name": "test-nuwacom",
+      "provider_family": "experiments",
+      "language": "en_us",
+      "model": null,
+      "paths": {
+        "global_csv": "data\\experiments\\test-nuwacom\\20250729_170642\\en_us\\20250729170746_global_evaluation.csv",
+        "evals_csv": "data\\experiments\\test-nuwacom\\20250729_170642\\en_us\\20250729170746_evaluations.csv",
+        "responses_csv": "data\\experiments\\test-nuwacom\\20250729_170642\\en_us\\20250729170746_responses.csv",
+        "config_json": "data\\experiments\\test-nuwacom\\20250729_170642\\en_us\\config.json"
+      }
+    },
+    {
+      "run_id": "experiments/test-nuwacom/20250729_170642/fr_fr",
+      "timestamp_dir": "20250729_170642",
+      "test_name": "test-nuwacom",
+      "provider_family": "experiments",
+      "language": "fr_fr",
+      "model": null,
+      "paths": {
+        "global_csv": "data\\experiments\\test-nuwacom\\20250729_170642\\fr_fr\\20250729170817_global_evaluation.csv",
+        "evals_csv": "data\\experiments\\test-nuwacom\\20250729_170642\\fr_fr\\20250729170817_evaluations.csv",
+        "responses_csv": "data\\experiments\\test-nuwacom\\20250729_170642\\fr_fr\\20250729170817_responses.csv",
+        "config_json": "data\\experiments\\test-nuwacom\\20250729_170642\\fr_fr\\config.json"
+      }
+    },
+    {
+      "run_id": "experiments/test-nuwacom/20250729_171347/de_de",
+      "timestamp_dir": "20250729_171347",
+      "test_name": "test-nuwacom",
+      "provider_family": "experiments",
+      "language": "de_de",
+      "model": null,
+      "paths": {
+        "global_csv": "data\\experiments\\test-nuwacom\\20250729_171347\\de_de\\20250729171613_global_evaluation.csv",
+        "evals_csv": "data\\experiments\\test-nuwacom\\20250729_171347\\de_de\\20250729171613_evaluations.csv",
+        "responses_csv": "data\\experiments\\test-nuwacom\\20250729_171347\\de_de\\20250729171613_responses.csv",
+        "config_json": "data\\experiments\\test-nuwacom\\20250729_171347\\de_de\\config.json"
+      }
+    },
+    {
+      "run_id": "experiments/test-nuwacom/20250729_171347/en_us",
+      "timestamp_dir": "20250729_171347",
+      "test_name": "test-nuwacom",
+      "provider_family": "experiments",
+      "language": "en_us",
+      "model": null,
+      "paths": {
+        "global_csv": "data\\experiments\\test-nuwacom\\20250729_171347\\en_us\\20250729171455_global_evaluation.csv",
+        "evals_csv": "data\\experiments\\test-nuwacom\\20250729_171347\\en_us\\20250729171455_evaluations.csv",
+        "responses_csv": "data\\experiments\\test-nuwacom\\20250729_171347\\en_us\\20250729171455_responses.csv",
+        "config_json": "data\\experiments\\test-nuwacom\\20250729_171347\\en_us\\config.json"
+      }
+    },
+    {
+      "run_id": "experiments/test-nuwacom/20250729_171347/fr_fr",
+      "timestamp_dir": "20250729_171347",
+      "test_name": "test-nuwacom",
+      "provider_family": "experiments",
+      "language": "fr_fr",
+      "model": null,
+      "paths": {
+        "global_csv": "data\\experiments\\test-nuwacom\\20250729_171347\\fr_fr\\20250729171536_global_evaluation.csv",
+        "evals_csv": "data\\experiments\\test-nuwacom\\20250729_171347\\fr_fr\\20250729171536_evaluations.csv",
+        "responses_csv": "data\\experiments\\test-nuwacom\\20250729_171347\\fr_fr\\20250729171536_responses.csv",
+        "config_json": "data\\experiments\\test-nuwacom\\20250729_171347\\fr_fr\\config.json"
+      }
+    },
+    {
+      "run_id": "experiments/test-nuwacom/20250729_173217/de_de",
+      "timestamp_dir": "20250729_173217",
+      "test_name": "test-nuwacom",
+      "provider_family": "experiments",
+      "language": "de_de",
+      "model": null,
+      "paths": {
+        "global_csv": "data\\experiments\\test-nuwacom\\20250729_173217\\de_de\\20250729175017_global_evaluation.csv",
+        "evals_csv": "data\\experiments\\test-nuwacom\\20250729_173217\\de_de\\20250729175017_evaluations.csv",
+        "responses_csv": "data\\experiments\\test-nuwacom\\20250729_173217\\de_de\\20250729175017_responses.csv",
+        "config_json": "data\\experiments\\test-nuwacom\\20250729_173217\\de_de\\config.json"
+      }
+    },
+    {
+      "run_id": "experiments/test-nuwacom/20250729_173217/en_us",
+      "timestamp_dir": "20250729_173217",
+      "test_name": "test-nuwacom",
+      "provider_family": "experiments",
+      "language": "en_us",
+      "model": null,
+      "paths": {
+        "global_csv": "data\\experiments\\test-nuwacom\\20250729_173217\\en_us\\20250729174009_global_evaluation.csv",
+        "evals_csv": "data\\experiments\\test-nuwacom\\20250729_173217\\en_us\\20250729174009_evaluations.csv",
+        "responses_csv": "data\\experiments\\test-nuwacom\\20250729_173217\\en_us\\20250729174009_responses.csv",
+        "config_json": "data\\experiments\\test-nuwacom\\20250729_173217\\en_us\\config.json"
+      }
+    },
+    {
+      "run_id": "experiments/test-nuwacom/20250729_173217/fr_fr",
+      "timestamp_dir": "20250729_173217",
+      "test_name": "test-nuwacom",
+      "provider_family": "experiments",
+      "language": "fr_fr",
+      "model": null,
+      "paths": {
+        "global_csv": "data\\experiments\\test-nuwacom\\20250729_173217\\fr_fr\\20250729174500_global_evaluation.csv",
+        "evals_csv": "data\\experiments\\test-nuwacom\\20250729_173217\\fr_fr\\20250729174500_evaluations.csv",
+        "responses_csv": "data\\experiments\\test-nuwacom\\20250729_173217\\fr_fr\\20250729174500_responses.csv",
+        "config_json": "data\\experiments\\test-nuwacom\\20250729_173217\\fr_fr\\config.json"
+      }
+    },
+    {
+      "run_id": "experiments/test-nuwacom/20250730_115153/de_de",
+      "timestamp_dir": "20250730_115153",
+      "test_name": "test-nuwacom",
+      "provider_family": "experiments",
+      "language": "de_de",
+      "model": null,
+      "paths": {
+        "global_csv": "data\\experiments\\test-nuwacom\\20250730_115153\\de_de\\20250730115518_global_evaluation.csv",
+        "evals_csv": "data\\experiments\\test-nuwacom\\20250730_115153\\de_de\\20250730115518_evaluations.csv",
+        "responses_csv": "data\\experiments\\test-nuwacom\\20250730_115153\\de_de\\20250730115518_responses.csv",
+        "config_json": "data\\experiments\\test-nuwacom\\20250730_115153\\de_de\\config.json"
+      }
+    },
+    {
+      "run_id": "experiments/test-nuwacom/20250730_115153/en_us",
+      "timestamp_dir": "20250730_115153",
+      "test_name": "test-nuwacom",
+      "provider_family": "experiments",
+      "language": "en_us",
+      "model": null,
+      "paths": {
+        "global_csv": "data\\experiments\\test-nuwacom\\20250730_115153\\en_us\\20250730115319_global_evaluation.csv",
+        "evals_csv": "data\\experiments\\test-nuwacom\\20250730_115153\\en_us\\20250730115319_evaluations.csv",
+        "responses_csv": "data\\experiments\\test-nuwacom\\20250730_115153\\en_us\\20250730115319_responses.csv",
+        "config_json": "data\\experiments\\test-nuwacom\\20250730_115153\\en_us\\config.json"
+      }
+    },
+    {
+      "run_id": "experiments/test-nuwacom/20250730_115153/fr_fr",
+      "timestamp_dir": "20250730_115153",
+      "test_name": "test-nuwacom",
+      "provider_family": "experiments",
+      "language": "fr_fr",
+      "model": null,
+      "paths": {
+        "global_csv": "data\\experiments\\test-nuwacom\\20250730_115153\\fr_fr\\20250730115416_global_evaluation.csv",
+        "evals_csv": "data\\experiments\\test-nuwacom\\20250730_115153\\fr_fr\\20250730115416_evaluations.csv",
+        "responses_csv": "data\\experiments\\test-nuwacom\\20250730_115153\\fr_fr\\20250730115416_responses.csv",
+        "config_json": "data\\experiments\\test-nuwacom\\20250730_115153\\fr_fr\\config.json"
+      }
+    },
+    {
+      "run_id": "experiments/test-nuwacom/20250730_115900/de_de",
+      "timestamp_dir": "20250730_115900",
+      "test_name": "test-nuwacom",
+      "provider_family": "experiments",
+      "language": "de_de",
+      "model": null,
+      "paths": {
+        "global_csv": "data\\experiments\\test-nuwacom\\20250730_115900\\de_de\\20250730122023_global_evaluation.csv",
+        "evals_csv": "data\\experiments\\test-nuwacom\\20250730_115900\\de_de\\20250730122023_evaluations.csv",
+        "responses_csv": "data\\experiments\\test-nuwacom\\20250730_115900\\de_de\\20250730122023_responses.csv",
+        "config_json": "data\\experiments\\test-nuwacom\\20250730_115900\\de_de\\config.json"
+      }
+    },
+    {
+      "run_id": "experiments/test-nuwacom/20250730_115900/en_us",
+      "timestamp_dir": "20250730_115900",
+      "test_name": "test-nuwacom",
+      "provider_family": "experiments",
+      "language": "en_us",
+      "model": null,
+      "paths": {
+        "global_csv": "data\\experiments\\test-nuwacom\\20250730_115900\\en_us\\20250730120718_global_evaluation.csv",
+        "evals_csv": "data\\experiments\\test-nuwacom\\20250730_115900\\en_us\\20250730120718_evaluations.csv",
+        "responses_csv": "data\\experiments\\test-nuwacom\\20250730_115900\\en_us\\20250730120718_responses.csv",
+        "config_json": "data\\experiments\\test-nuwacom\\20250730_115900\\en_us\\config.json"
+      }
+    },
+    {
+      "run_id": "experiments/test-nuwacom/20250730_115900/fr_fr",
+      "timestamp_dir": "20250730_115900",
+      "test_name": "test-nuwacom",
+      "provider_family": "experiments",
+      "language": "fr_fr",
+      "model": null,
+      "paths": {
+        "global_csv": "data\\experiments\\test-nuwacom\\20250730_115900\\fr_fr\\20250730121433_global_evaluation.csv",
+        "evals_csv": "data\\experiments\\test-nuwacom\\20250730_115900\\fr_fr\\20250730121433_evaluations.csv",
+        "responses_csv": "data\\experiments\\test-nuwacom\\20250730_115900\\fr_fr\\20250730121433_responses.csv",
+        "config_json": "data\\experiments\\test-nuwacom\\20250730_115900\\fr_fr\\config.json"
+      }
+    },
+    {
+      "run_id": "experiments/test-nuwacom/20250730_124220/de_de",
+      "timestamp_dir": "20250730_124220",
+      "test_name": "test-nuwacom",
+      "provider_family": "experiments",
+      "language": "de_de",
+      "model": null,
+      "paths": {
+        "global_csv": "data\\experiments\\test-nuwacom\\20250730_124220\\de_de\\20250730130746_global_evaluation.csv",
+        "evals_csv": "data\\experiments\\test-nuwacom\\20250730_124220\\de_de\\20250730130746_evaluations.csv",
+        "responses_csv": "data\\experiments\\test-nuwacom\\20250730_124220\\de_de\\20250730130746_responses.csv",
+        "config_json": "data\\experiments\\test-nuwacom\\20250730_124220\\de_de\\config.json"
+      }
+    },
+    {
+      "run_id": "experiments/test-nuwacom/20250730_124220/en_us",
+      "timestamp_dir": "20250730_124220",
+      "test_name": "test-nuwacom",
+      "provider_family": "experiments",
+      "language": "en_us",
+      "model": null,
+      "paths": {
+        "global_csv": "data\\experiments\\test-nuwacom\\20250730_124220\\en_us\\20250730125253_global_evaluation.csv",
+        "evals_csv": "data\\experiments\\test-nuwacom\\20250730_124220\\en_us\\20250730125253_evaluations.csv",
+        "responses_csv": "data\\experiments\\test-nuwacom\\20250730_124220\\en_us\\20250730125253_responses.csv",
+        "config_json": "data\\experiments\\test-nuwacom\\20250730_124220\\en_us\\config.json"
+      }
+    },
+    {
+      "run_id": "experiments/test-nuwacom/20250730_124220/fr_fr",
+      "timestamp_dir": "20250730_124220",
+      "test_name": "test-nuwacom",
+      "provider_family": "experiments",
+      "language": "fr_fr",
+      "model": null,
+      "paths": {
+        "global_csv": "data\\experiments\\test-nuwacom\\20250730_124220\\fr_fr\\20250730130143_global_evaluation.csv",
+        "evals_csv": "data\\experiments\\test-nuwacom\\20250730_124220\\fr_fr\\20250730130143_evaluations.csv",
+        "responses_csv": "data\\experiments\\test-nuwacom\\20250730_124220\\fr_fr\\20250730130143_responses.csv",
+        "config_json": "data\\experiments\\test-nuwacom\\20250730_124220\\fr_fr\\config.json"
+      }
+    },
+    {
+      "run_id": "experiments/test-nuwacom/20250730_124229/de_de",
+      "timestamp_dir": "20250730_124229",
+      "test_name": "test-nuwacom",
+      "provider_family": "experiments",
+      "language": "de_de",
+      "model": null,
+      "paths": {
+        "global_csv": "data\\experiments\\test-nuwacom\\20250730_124229\\de_de\\20250730130723_global_evaluation.csv",
+        "evals_csv": "data\\experiments\\test-nuwacom\\20250730_124229\\de_de\\20250730130723_evaluations.csv",
+        "responses_csv": "data\\experiments\\test-nuwacom\\20250730_124229\\de_de\\20250730130722_responses.csv",
+        "config_json": "data\\experiments\\test-nuwacom\\20250730_124229\\de_de\\config.json"
+      }
+    },
+    {
+      "run_id": "experiments/test-nuwacom/20250730_124229/en_us",
+      "timestamp_dir": "20250730_124229",
+      "test_name": "test-nuwacom",
+      "provider_family": "experiments",
+      "language": "en_us",
+      "model": null,
+      "paths": {
+        "global_csv": "data\\experiments\\test-nuwacom\\20250730_124229\\en_us\\20250730125158_global_evaluation.csv",
+        "evals_csv": "data\\experiments\\test-nuwacom\\20250730_124229\\en_us\\20250730125158_evaluations.csv",
+        "responses_csv": "data\\experiments\\test-nuwacom\\20250730_124229\\en_us\\20250730125158_responses.csv",
+        "config_json": "data\\experiments\\test-nuwacom\\20250730_124229\\en_us\\config.json"
+      }
+    },
+    {
+      "run_id": "experiments/test-nuwacom/20250730_124229/fr_fr",
+      "timestamp_dir": "20250730_124229",
+      "test_name": "test-nuwacom",
+      "provider_family": "experiments",
+      "language": "fr_fr",
+      "model": null,
+      "paths": {
+        "global_csv": "data\\experiments\\test-nuwacom\\20250730_124229\\fr_fr\\20250730125949_global_evaluation.csv",
+        "evals_csv": "data\\experiments\\test-nuwacom\\20250730_124229\\fr_fr\\20250730125949_evaluations.csv",
+        "responses_csv": "data\\experiments\\test-nuwacom\\20250730_124229\\fr_fr\\20250730125949_responses.csv",
+        "config_json": "data\\experiments\\test-nuwacom\\20250730_124229\\fr_fr\\config.json"
+      }
+    },
+    {
+      "run_id": "experiments/test-nuwacom/20250730_132123/de_de",
+      "timestamp_dir": "20250730_132123",
+      "test_name": "test-nuwacom",
+      "provider_family": "experiments",
+      "language": "de_de",
+      "model": null,
+      "paths": {
+        "global_csv": "data\\experiments\\test-nuwacom\\20250730_132123\\de_de\\20250730133954_global_evaluation.csv",
+        "evals_csv": "data\\experiments\\test-nuwacom\\20250730_132123\\de_de\\20250730133954_evaluations.csv",
+        "responses_csv": "data\\experiments\\test-nuwacom\\20250730_132123\\de_de\\20250730133954_responses.csv",
+        "config_json": "data\\experiments\\test-nuwacom\\20250730_132123\\de_de\\config.json"
+      }
+    },
+    {
+      "run_id": "experiments/test-nuwacom/20250730_132123/en_us",
+      "timestamp_dir": "20250730_132123",
+      "test_name": "test-nuwacom",
+      "provider_family": "experiments",
+      "language": "en_us",
+      "model": null,
+      "paths": {
+        "global_csv": "data\\experiments\\test-nuwacom\\20250730_132123\\en_us\\20250730132841_global_evaluation.csv",
+        "evals_csv": "data\\experiments\\test-nuwacom\\20250730_132123\\en_us\\20250730132841_evaluations.csv",
+        "responses_csv": "data\\experiments\\test-nuwacom\\20250730_132123\\en_us\\20250730132841_responses.csv",
+        "config_json": "data\\experiments\\test-nuwacom\\20250730_132123\\en_us\\config.json"
+      }
+    },
+    {
+      "run_id": "experiments/test-nuwacom/20250730_132123/fr_fr",
+      "timestamp_dir": "20250730_132123",
+      "test_name": "test-nuwacom",
+      "provider_family": "experiments",
+      "language": "fr_fr",
+      "model": null,
+      "paths": {
+        "global_csv": "data\\experiments\\test-nuwacom\\20250730_132123\\fr_fr\\20250730133459_global_evaluation.csv",
+        "evals_csv": "data\\experiments\\test-nuwacom\\20250730_132123\\fr_fr\\20250730133459_evaluations.csv",
+        "responses_csv": "data\\experiments\\test-nuwacom\\20250730_132123\\fr_fr\\20250730133459_responses.csv",
+        "config_json": "data\\experiments\\test-nuwacom\\20250730_132123\\fr_fr\\config.json"
+      }
+    },
+    {
+      "run_id": "experiments/test-nuwacom/20250730_134813/de_de",
+      "timestamp_dir": "20250730_134813",
+      "test_name": "test-nuwacom",
+      "provider_family": "experiments",
+      "language": "de_de",
+      "model": null,
+      "paths": {
+        "global_csv": "data\\experiments\\test-nuwacom\\20250730_134813\\de_de\\20250730140532_global_evaluation.csv",
+        "evals_csv": "data\\experiments\\test-nuwacom\\20250730_134813\\de_de\\20250730140531_evaluations.csv",
+        "responses_csv": "data\\experiments\\test-nuwacom\\20250730_134813\\de_de\\20250730140531_responses.csv",
+        "config_json": "data\\experiments\\test-nuwacom\\20250730_134813\\de_de\\config.json"
+      }
+    },
+    {
+      "run_id": "experiments/test-nuwacom/20250730_134813/en_us",
+      "timestamp_dir": "20250730_134813",
+      "test_name": "test-nuwacom",
+      "provider_family": "experiments",
+      "language": "en_us",
+      "model": null,
+      "paths": {
+        "global_csv": "data\\experiments\\test-nuwacom\\20250730_134813\\en_us\\20250730135458_global_evaluation.csv",
+        "evals_csv": "data\\experiments\\test-nuwacom\\20250730_134813\\en_us\\20250730135458_evaluations.csv",
+        "responses_csv": "data\\experiments\\test-nuwacom\\20250730_134813\\en_us\\20250730135458_responses.csv",
+        "config_json": "data\\experiments\\test-nuwacom\\20250730_134813\\en_us\\config.json"
+      }
+    },
+    {
+      "run_id": "experiments/test-nuwacom/20250730_134813/fr_fr",
+      "timestamp_dir": "20250730_134813",
+      "test_name": "test-nuwacom",
+      "provider_family": "experiments",
+      "language": "fr_fr",
+      "model": null,
+      "paths": {
+        "global_csv": "data\\experiments\\test-nuwacom\\20250730_134813\\fr_fr\\20250730140011_global_evaluation.csv",
+        "evals_csv": "data\\experiments\\test-nuwacom\\20250730_134813\\fr_fr\\20250730140011_evaluations.csv",
+        "responses_csv": "data\\experiments\\test-nuwacom\\20250730_134813\\fr_fr\\20250730140011_responses.csv",
+        "config_json": "data\\experiments\\test-nuwacom\\20250730_134813\\fr_fr\\config.json"
+      }
+    },
+    {
+      "run_id": "experiments/test-nuwacom/20250730_151635/de_de",
+      "timestamp_dir": "20250730_151635",
+      "test_name": "test-nuwacom",
+      "provider_family": "experiments",
+      "language": "de_de",
+      "model": null,
+      "paths": {
+        "global_csv": "data\\experiments\\test-nuwacom\\20250730_151635\\de_de\\20250730132534_global_evaluation.csv",
+        "evals_csv": "data\\experiments\\test-nuwacom\\20250730_151635\\de_de\\20250730132534_evaluations.csv",
+        "responses_csv": "data\\experiments\\test-nuwacom\\20250730_151635\\de_de\\20250730132534_responses.csv",
+        "config_json": "data\\experiments\\test-nuwacom\\20250730_151635\\de_de\\config.json"
+      }
+    },
+    {
+      "run_id": "experiments/test-nuwacom/20250730_151635/en_us",
+      "timestamp_dir": "20250730_151635",
+      "test_name": "test-nuwacom",
+      "provider_family": "experiments",
+      "language": "en_us",
+      "model": null,
+      "paths": {
+        "global_csv": "data\\experiments\\test-nuwacom\\20250730_151635\\en_us\\20250730132036_global_evaluation.csv",
+        "evals_csv": "data\\experiments\\test-nuwacom\\20250730_151635\\en_us\\20250730132036_evaluations.csv",
+        "responses_csv": "data\\experiments\\test-nuwacom\\20250730_151635\\en_us\\20250730132036_responses.csv",
+        "config_json": "data\\experiments\\test-nuwacom\\20250730_151635\\en_us\\config.json"
+      }
+    },
+    {
+      "run_id": "experiments/test-nuwacom/20250730_151635/fr_fr",
+      "timestamp_dir": "20250730_151635",
+      "test_name": "test-nuwacom",
+      "provider_family": "experiments",
+      "language": "fr_fr",
+      "model": null,
+      "paths": {
+        "global_csv": "data\\experiments\\test-nuwacom\\20250730_151635\\fr_fr\\20250730132246_global_evaluation.csv",
+        "evals_csv": "data\\experiments\\test-nuwacom\\20250730_151635\\fr_fr\\20250730132246_evaluations.csv",
+        "responses_csv": "data\\experiments\\test-nuwacom\\20250730_151635\\fr_fr\\20250730132246_responses.csv",
+        "config_json": "data\\experiments\\test-nuwacom\\20250730_151635\\fr_fr\\config.json"
+      }
+    },
+    {
+      "run_id": "experiments/test-nuwacom/20250730_152126/de_de",
+      "timestamp_dir": "20250730_152126",
+      "test_name": "test-nuwacom",
+      "provider_family": "experiments",
+      "language": "de_de",
+      "model": null,
+      "paths": {
+        "global_csv": "data\\experiments\\test-nuwacom\\20250730_152126\\de_de\\20250730132956_global_evaluation.csv",
+        "evals_csv": "data\\experiments\\test-nuwacom\\20250730_152126\\de_de\\20250730132956_evaluations.csv",
+        "responses_csv": "data\\experiments\\test-nuwacom\\20250730_152126\\de_de\\20250730132956_responses.csv",
+        "config_json": "data\\experiments\\test-nuwacom\\20250730_152126\\de_de\\config.json"
+      }
+    },
+    {
+      "run_id": "experiments/test-nuwacom/20250730_152126/en_us",
+      "timestamp_dir": "20250730_152126",
+      "test_name": "test-nuwacom",
+      "provider_family": "experiments",
+      "language": "en_us",
+      "model": null,
+      "paths": {
+        "global_csv": "data\\experiments\\test-nuwacom\\20250730_152126\\en_us\\20250730132544_global_evaluation.csv",
+        "evals_csv": "data\\experiments\\test-nuwacom\\20250730_152126\\en_us\\20250730132544_evaluations.csv",
+        "responses_csv": "data\\experiments\\test-nuwacom\\20250730_152126\\en_us\\20250730132544_responses.csv",
+        "config_json": "data\\experiments\\test-nuwacom\\20250730_152126\\en_us\\config.json"
+      }
+    },
+    {
+      "run_id": "experiments/test-nuwacom/20250730_152126/fr_fr",
+      "timestamp_dir": "20250730_152126",
+      "test_name": "test-nuwacom",
+      "provider_family": "experiments",
+      "language": "fr_fr",
+      "model": null,
+      "paths": {
+        "global_csv": "data\\experiments\\test-nuwacom\\20250730_152126\\fr_fr\\20250730132747_global_evaluation.csv",
+        "evals_csv": "data\\experiments\\test-nuwacom\\20250730_152126\\fr_fr\\20250730132747_evaluations.csv",
+        "responses_csv": "data\\experiments\\test-nuwacom\\20250730_152126\\fr_fr\\20250730132747_responses.csv",
+        "config_json": "data\\experiments\\test-nuwacom\\20250730_152126\\fr_fr\\config.json"
+      }
+    },
+    {
+      "run_id": "experiments/test-nuwacom/20250730_152219/de_de",
+      "timestamp_dir": "20250730_152219",
+      "test_name": "test-nuwacom",
+      "provider_family": "experiments",
+      "language": "de_de",
+      "model": null,
+      "paths": {
+        "global_csv": "data\\experiments\\test-nuwacom\\20250730_152219\\de_de\\20250730134858_global_evaluation.csv",
+        "evals_csv": "data\\experiments\\test-nuwacom\\20250730_152219\\de_de\\20250730134857_evaluations.csv",
+        "responses_csv": "data\\experiments\\test-nuwacom\\20250730_152219\\de_de\\20250730134857_responses.csv",
+        "config_json": "data\\experiments\\test-nuwacom\\20250730_152219\\de_de\\config.json"
+      }
+    },
+    {
+      "run_id": "experiments/test-nuwacom/20250730_152219/en_us",
+      "timestamp_dir": "20250730_152219",
+      "test_name": "test-nuwacom",
+      "provider_family": "experiments",
+      "language": "en_us",
+      "model": null,
+      "paths": {
+        "global_csv": "data\\experiments\\test-nuwacom\\20250730_152219\\en_us\\20250730133623_global_evaluation.csv",
+        "evals_csv": "data\\experiments\\test-nuwacom\\20250730_152219\\en_us\\20250730133623_evaluations.csv",
+        "responses_csv": "data\\experiments\\test-nuwacom\\20250730_152219\\en_us\\20250730133623_responses.csv",
+        "config_json": "data\\experiments\\test-nuwacom\\20250730_152219\\en_us\\config.json"
+      }
+    },
+    {
+      "run_id": "experiments/test-nuwacom/20250730_152219/fr_fr",
+      "timestamp_dir": "20250730_152219",
+      "test_name": "test-nuwacom",
+      "provider_family": "experiments",
+      "language": "fr_fr",
+      "model": null,
+      "paths": {
+        "global_csv": "data\\experiments\\test-nuwacom\\20250730_152219\\fr_fr\\20250730134559_global_evaluation.csv",
+        "evals_csv": "data\\experiments\\test-nuwacom\\20250730_152219\\fr_fr\\20250730134559_evaluations.csv",
+        "responses_csv": "data\\experiments\\test-nuwacom\\20250730_152219\\fr_fr\\20250730134559_responses.csv",
+        "config_json": "data\\experiments\\test-nuwacom\\20250730_152219\\fr_fr\\config.json"
+      }
+    },
+    {
+      "run_id": "experiments/test-nuwacom/20250730_161948/de_de",
+      "timestamp_dir": "20250730_161948",
+      "test_name": "test-nuwacom",
+      "provider_family": "experiments",
+      "language": "de_de",
+      "model": null,
+      "paths": {
+        "global_csv": "data\\experiments\\test-nuwacom\\20250730_161948\\de_de\\20250730162042_global_evaluation.csv",
+        "evals_csv": "data\\experiments\\test-nuwacom\\20250730_161948\\de_de\\20250730162042_evaluations.csv",
+        "responses_csv": "data\\experiments\\test-nuwacom\\20250730_161948\\de_de\\20250730162042_responses.csv",
+        "config_json": "data\\experiments\\test-nuwacom\\20250730_161948\\de_de\\config.json"
+      }
+    },
+    {
+      "run_id": "experiments/test-nuwacom/20250730_161948/en_us",
+      "timestamp_dir": "20250730_161948",
+      "test_name": "test-nuwacom",
+      "provider_family": "experiments",
+      "language": "en_us",
+      "model": null,
+      "paths": {
+        "global_csv": "data\\experiments\\test-nuwacom\\20250730_161948\\en_us\\20250730162021_global_evaluation.csv",
+        "evals_csv": "data\\experiments\\test-nuwacom\\20250730_161948\\en_us\\20250730162021_evaluations.csv",
+        "responses_csv": "data\\experiments\\test-nuwacom\\20250730_161948\\en_us\\20250730162021_responses.csv",
+        "config_json": "data\\experiments\\test-nuwacom\\20250730_161948\\en_us\\config.json"
+      }
+    },
+    {
+      "run_id": "experiments/test-nuwacom/20250730_161948/fr_fr",
+      "timestamp_dir": "20250730_161948",
+      "test_name": "test-nuwacom",
+      "provider_family": "experiments",
+      "language": "fr_fr",
+      "model": null,
+      "paths": {
+        "global_csv": "data\\experiments\\test-nuwacom\\20250730_161948\\fr_fr\\20250730162029_global_evaluation.csv",
+        "evals_csv": "data\\experiments\\test-nuwacom\\20250730_161948\\fr_fr\\20250730162029_evaluations.csv",
+        "responses_csv": "data\\experiments\\test-nuwacom\\20250730_161948\\fr_fr\\20250730162029_responses.csv",
+        "config_json": "data\\experiments\\test-nuwacom\\20250730_161948\\fr_fr\\config.json"
+      }
+    },
+    {
+      "run_id": "experiments/test-nuwacom/20250730_162423/de_de",
+      "timestamp_dir": "20250730_162423",
+      "test_name": "test-nuwacom",
+      "provider_family": "experiments",
+      "language": "de_de",
+      "model": null,
+      "paths": {
+        "global_csv": "data\\experiments\\test-nuwacom\\20250730_162423\\de_de\\20250730162740_global_evaluation.csv",
+        "evals_csv": "data\\experiments\\test-nuwacom\\20250730_162423\\de_de\\20250730162740_evaluations.csv",
+        "responses_csv": "data\\experiments\\test-nuwacom\\20250730_162423\\de_de\\20250730162740_responses.csv",
+        "config_json": "data\\experiments\\test-nuwacom\\20250730_162423\\de_de\\config.json"
+      }
+    },
+    {
+      "run_id": "experiments/test-nuwacom/20250730_162423/en_us",
+      "timestamp_dir": "20250730_162423",
+      "test_name": "test-nuwacom",
+      "provider_family": "experiments",
+      "language": "en_us",
+      "model": null,
+      "paths": {
+        "global_csv": "data\\experiments\\test-nuwacom\\20250730_162423\\en_us\\20250730162541_global_evaluation.csv",
+        "evals_csv": "data\\experiments\\test-nuwacom\\20250730_162423\\en_us\\20250730162541_evaluations.csv",
+        "responses_csv": "data\\experiments\\test-nuwacom\\20250730_162423\\en_us\\20250730162541_responses.csv",
+        "config_json": "data\\experiments\\test-nuwacom\\20250730_162423\\en_us\\config.json"
+      }
+    },
+    {
+      "run_id": "experiments/test-nuwacom/20250730_162423/fr_fr",
+      "timestamp_dir": "20250730_162423",
+      "test_name": "test-nuwacom",
+      "provider_family": "experiments",
+      "language": "fr_fr",
+      "model": null,
+      "paths": {
+        "global_csv": "data\\experiments\\test-nuwacom\\20250730_162423\\fr_fr\\20250730162641_global_evaluation.csv",
+        "evals_csv": "data\\experiments\\test-nuwacom\\20250730_162423\\fr_fr\\20250730162641_evaluations.csv",
+        "responses_csv": "data\\experiments\\test-nuwacom\\20250730_162423\\fr_fr\\20250730162641_responses.csv",
+        "config_json": "data\\experiments\\test-nuwacom\\20250730_162423\\fr_fr\\config.json"
+      }
+    },
+    {
+      "run_id": "experiments/test-xenophobia/20251114_133933/en_us",
+      "timestamp_dir": "20251114_133933",
+      "test_name": "test-xenophobia",
+      "provider_family": "experiments",
+      "language": "en_us",
+      "model": null,
+      "paths": {
+        "global_csv": "data\\experiments\\test-xenophobia\\20251114_133933\\en_us\\20251114140516_global_evaluation.csv",
+        "evals_csv": "data\\experiments\\test-xenophobia\\20251114_133933\\en_us\\20251114140516_evaluations.csv",
+        "responses_csv": "data\\experiments\\test-xenophobia\\20251114_133933\\en_us\\20251114140516_responses.csv",
+        "config_json": "data\\experiments\\test-xenophobia\\20251114_133933\\en_us\\config.json"
+      }
+    },
+    {
+      "run_id": "experiments/test-xenophobia/20251114_133933/fr_fr",
+      "timestamp_dir": "20251114_133933",
+      "test_name": "test-xenophobia",
+      "provider_family": "experiments",
+      "language": "fr_fr",
+      "model": null,
+      "paths": {
+        "global_csv": "data\\experiments\\test-xenophobia\\20251114_133933\\fr_fr\\20251114143755_global_evaluation.csv",
+        "evals_csv": "data\\experiments\\test-xenophobia\\20251114_133933\\fr_fr\\20251114143755_evaluations.csv",
+        "responses_csv": "data\\experiments\\test-xenophobia\\20251114_133933\\fr_fr\\20251114143755_responses.csv",
+        "config_json": "data\\experiments\\test-xenophobia\\20251114_133933\\fr_fr\\config.json"
+      }
+    },
+    {
+      "run_id": "mistral/test-ageism/20251111_142209/en_us",
+      "timestamp_dir": "20251111_142209",
+      "test_name": "test-ageism",
+      "provider_family": "mistral",
+      "language": "en_us",
+      "model": null,
+      "paths": {
+        "global_csv": "data\\mistral\\test-ageism\\20251111_142209\\en_us\\20251111143705_global_evaluation.csv",
+        "evals_csv": "data\\mistral\\test-ageism\\20251111_142209\\en_us\\20251111143705_evaluations.csv",
+        "responses_csv": "data\\mistral\\test-ageism\\20251111_142209\\en_us\\20251111143705_responses.csv",
+        "config_json": "data\\mistral\\test-ageism\\20251111_142209\\en_us\\config.json"
+      }
+    },
+    {
+      "run_id": "mistral/test-ageism/20251111_142209/fr_fr",
+      "timestamp_dir": "20251111_142209",
+      "test_name": "test-ageism",
+      "provider_family": "mistral",
+      "language": "fr_fr",
+      "model": null,
+      "paths": {
+        "global_csv": "data\\mistral\\test-ageism\\20251111_142209\\fr_fr\\20251111145719_global_evaluation.csv",
+        "evals_csv": "data\\mistral\\test-ageism\\20251111_142209\\fr_fr\\20251111145719_evaluations.csv",
+        "responses_csv": "data\\mistral\\test-ageism\\20251111_142209\\fr_fr\\20251111145719_responses.csv",
+        "config_json": "data\\mistral\\test-ageism\\20251111_142209\\fr_fr\\config.json"
+      }
+    },
+    {
+      "run_id": "mistral/test-ageism/20251111_150357/en_us",
+      "timestamp_dir": "20251111_150357",
+      "test_name": "test-ageism",
+      "provider_family": "mistral",
+      "language": "en_us",
+      "model": null,
+      "paths": {
+        "global_csv": "data\\mistral\\test-ageism\\20251111_150357\\en_us\\20251111152133_global_evaluation.csv",
+        "evals_csv": "data\\mistral\\test-ageism\\20251111_150357\\en_us\\20251111152133_evaluations.csv",
+        "responses_csv": "data\\mistral\\test-ageism\\20251111_150357\\en_us\\20251111152132_responses.csv",
+        "config_json": "data\\mistral\\test-ageism\\20251111_150357\\en_us\\config.json"
+      }
+    },
+    {
+      "run_id": "mistral/test-ageism/20251111_150357/fr_fr",
+      "timestamp_dir": "20251111_150357",
+      "test_name": "test-ageism",
+      "provider_family": "mistral",
+      "language": "fr_fr",
+      "model": null,
+      "paths": {
+        "global_csv": "data\\mistral\\test-ageism\\20251111_150357\\fr_fr\\20251111153837_global_evaluation.csv",
+        "evals_csv": "data\\mistral\\test-ageism\\20251111_150357\\fr_fr\\20251111153837_evaluations.csv",
+        "responses_csv": "data\\mistral\\test-ageism\\20251111_150357\\fr_fr\\20251111153837_responses.csv",
+        "config_json": "data\\mistral\\test-ageism\\20251111_150357\\fr_fr\\config.json"
+      }
+    },
+    {
+      "run_id": "mistral/test-example/20251107_103008/de_de",
+      "timestamp_dir": "20251107_103008",
+      "test_name": "test-example",
+      "provider_family": "mistral",
+      "language": "de_de",
+      "model": null,
+      "paths": {
+        "global_csv": "data\\mistral\\test-example\\20251107_103008\\de_de\\20251107103110_global_evaluation.csv",
+        "evals_csv": "data\\mistral\\test-example\\20251107_103008\\de_de\\20251107103110_evaluations.csv",
+        "responses_csv": "data\\mistral\\test-example\\20251107_103008\\de_de\\20251107103110_responses.csv",
+        "config_json": "data\\mistral\\test-example\\20251107_103008\\de_de\\config.json"
+      }
+    },
+    {
+      "run_id": "mistral/test-example/20251107_103008/en_us",
+      "timestamp_dir": "20251107_103008",
+      "test_name": "test-example",
+      "provider_family": "mistral",
+      "language": "en_us",
+      "model": null,
+      "paths": {
+        "global_csv": "data\\mistral\\test-example\\20251107_103008\\en_us\\20251107103053_global_evaluation.csv",
+        "evals_csv": "data\\mistral\\test-example\\20251107_103008\\en_us\\20251107103053_evaluations.csv",
+        "responses_csv": "data\\mistral\\test-example\\20251107_103008\\en_us\\20251107103053_responses.csv",
+        "config_json": "data\\mistral\\test-example\\20251107_103008\\en_us\\config.json"
+      }
+    },
+    {
+      "run_id": "mistral/test-example/20251107_103008/fr_fr",
+      "timestamp_dir": "20251107_103008",
+      "test_name": "test-example",
+      "provider_family": "mistral",
+      "language": "fr_fr",
+      "model": null,
+      "paths": {
+        "global_csv": "data\\mistral\\test-example\\20251107_103008\\fr_fr\\20251107103102_global_evaluation.csv",
+        "evals_csv": "data\\mistral\\test-example\\20251107_103008\\fr_fr\\20251107103102_evaluations.csv",
+        "responses_csv": "data\\mistral\\test-example\\20251107_103008\\fr_fr\\20251107103102_responses.csv",
+        "config_json": "data\\mistral\\test-example\\20251107_103008\\fr_fr\\config.json"
+      }
+    },
+    {
+      "run_id": "mistral/test-example/20251107_142157/en_us",
+      "timestamp_dir": "20251107_142157",
+      "test_name": "test-example",
+      "provider_family": "mistral",
+      "language": "en_us",
+      "model": null,
+      "paths": {
+        "global_csv": "data\\mistral\\test-example\\20251107_142157\\en_us\\20251107142321_global_evaluation.csv",
+        "evals_csv": "data\\mistral\\test-example\\20251107_142157\\en_us\\20251107142321_evaluations.csv",
+        "responses_csv": "data\\mistral\\test-example\\20251107_142157\\en_us\\20251107142320_responses.csv",
+        "config_json": "data\\mistral\\test-example\\20251107_142157\\en_us\\config.json"
+      }
+    },
+    {
+      "run_id": "mistral/test-example/20251107_142157/fr_fr",
+      "timestamp_dir": "20251107_142157",
+      "test_name": "test-example",
+      "provider_family": "mistral",
+      "language": "fr_fr",
+      "model": null,
+      "paths": {
+        "global_csv": "data\\mistral\\test-example\\20251107_142157\\fr_fr\\20251107142405_global_evaluation.csv",
+        "evals_csv": "data\\mistral\\test-example\\20251107_142157\\fr_fr\\20251107142405_evaluations.csv",
+        "responses_csv": "data\\mistral\\test-example\\20251107_142157\\fr_fr\\20251107142405_responses.csv",
+        "config_json": "data\\mistral\\test-example\\20251107_142157\\fr_fr\\config.json"
+      }
+    },
+    {
+      "run_id": "mistral/test-job_status/20251111_160117/en_us",
+      "timestamp_dir": "20251111_160117",
+      "test_name": "test-job_status",
+      "provider_family": "mistral",
+      "language": "en_us",
+      "model": null,
+      "paths": {
+        "global_csv": "data\\mistral\\test-job_status\\20251111_160117\\en_us\\20251111160856_global_evaluation.csv",
+        "evals_csv": "data\\mistral\\test-job_status\\20251111_160117\\en_us\\20251111160856_evaluations.csv",
+        "responses_csv": "data\\mistral\\test-job_status\\20251111_160117\\en_us\\20251111160855_responses.csv",
+        "config_json": "data\\mistral\\test-job_status\\20251111_160117\\en_us\\config.json"
+      }
+    },
+    {
+      "run_id": "mistral/test-job_status/20251111_160117/fr_fr",
+      "timestamp_dir": "20251111_160117",
+      "test_name": "test-job_status",
+      "provider_family": "mistral",
+      "language": "fr_fr",
+      "model": null,
+      "paths": {
+        "global_csv": "data\\mistral\\test-job_status\\20251111_160117\\fr_fr\\20251111162230_global_evaluation.csv",
+        "evals_csv": "data\\mistral\\test-job_status\\20251111_160117\\fr_fr\\20251111162230_evaluations.csv",
+        "responses_csv": "data\\mistral\\test-job_status\\20251111_160117\\fr_fr\\20251111162229_responses.csv",
+        "config_json": "data\\mistral\\test-job_status\\20251111_160117\\fr_fr\\config.json"
+      }
+    },
+    {
+      "run_id": "mistral/test-lgbtq/20251110_142612/en_us",
+      "timestamp_dir": "20251110_142612",
+      "test_name": "test-lgbtq",
+      "provider_family": "mistral",
+      "language": "en_us",
+      "model": null,
+      "paths": {
+        "global_csv": "data\\mistral\\test-lgbtq\\20251110_142612\\en_us\\20251110145733_global_evaluation.csv",
+        "evals_csv": "data\\mistral\\test-lgbtq\\20251110_142612\\en_us\\20251110145733_evaluations.csv",
+        "responses_csv": "data\\mistral\\test-lgbtq\\20251110_142612\\en_us\\20251110145733_responses.csv",
+        "config_json": "data\\mistral\\test-lgbtq\\20251110_142612\\en_us\\config.json"
+      }
+    },
+    {
+      "run_id": "mistral/test-lgbtq/20251110_142612/fr_fr",
+      "timestamp_dir": "20251110_142612",
+      "test_name": "test-lgbtq",
+      "provider_family": "mistral",
+      "language": "fr_fr",
+      "model": null,
+      "paths": {
+        "global_csv": "data\\mistral\\test-lgbtq\\20251110_142612\\fr_fr\\20251110153925_global_evaluation.csv",
+        "evals_csv": "data\\mistral\\test-lgbtq\\20251110_142612\\fr_fr\\20251110153925_evaluations.csv",
+        "responses_csv": "data\\mistral\\test-lgbtq\\20251110_142612\\fr_fr\\20251110153925_responses.csv",
+        "config_json": "data\\mistral\\test-lgbtq\\20251110_142612\\fr_fr\\config.json"
+      }
+    },
+    {
+      "run_id": "mistral/test-religion/20251110_160430/en_us",
+      "timestamp_dir": "20251110_160430",
+      "test_name": "test-religion",
+      "provider_family": "mistral",
+      "language": "en_us",
+      "model": null,
+      "paths": {
+        "global_csv": "data\\mistral\\test-religion\\20251110_160430\\en_us\\20251110164755_global_evaluation.csv",
+        "evals_csv": "data\\mistral\\test-religion\\20251110_160430\\en_us\\20251110164755_evaluations.csv",
+        "responses_csv": "data\\mistral\\test-religion\\20251110_160430\\en_us\\20251110164755_responses.csv",
+        "config_json": "data\\mistral\\test-religion\\20251110_160430\\en_us\\config.json"
+      }
+    },
+    {
+      "run_id": "mistral/test-religion/20251110_160430/fr_fr",
+      "timestamp_dir": "20251110_160430",
+      "test_name": "test-religion",
+      "provider_family": "mistral",
+      "language": "fr_fr",
+      "model": null,
+      "paths": {
+        "global_csv": "data\\mistral\\test-religion\\20251110_160430\\fr_fr\\20251110172119_global_evaluation.csv",
+        "evals_csv": "data\\mistral\\test-religion\\20251110_160430\\fr_fr\\20251110172119_evaluations.csv",
+        "responses_csv": "data\\mistral\\test-religion\\20251110_160430\\fr_fr\\20251110172119_responses.csv",
+        "config_json": "data\\mistral\\test-religion\\20251110_160430\\fr_fr\\config.json"
+      }
+    },
+    {
+      "run_id": "mistral/test-sexism/20251107_143357/en_us",
+      "timestamp_dir": "20251107_143357",
+      "test_name": "test-sexism",
+      "provider_family": "mistral",
+      "language": "en_us",
+      "model": null,
+      "paths": {
+        "global_csv": "data\\mistral\\test-sexism\\20251107_143357\\en_us\\20251107152823_global_evaluation.csv",
+        "evals_csv": "data\\mistral\\test-sexism\\20251107_143357\\en_us\\20251107152823_evaluations.csv",
+        "responses_csv": "data\\mistral\\test-sexism\\20251107_143357\\en_us\\20251107152822_responses.csv",
+        "config_json": "data\\mistral\\test-sexism\\20251107_143357\\en_us\\config.json"
+      }
+    },
+    {
+      "run_id": "mistral/test-sexism/20251107_143357/fr_fr",
+      "timestamp_dir": "20251107_143357",
+      "test_name": "test-sexism",
+      "provider_family": "mistral",
+      "language": "fr_fr",
+      "model": null,
+      "paths": {
+        "global_csv": "data\\mistral\\test-sexism\\20251107_143357\\fr_fr\\20251107154809_global_evaluation.csv",
+        "evals_csv": "data\\mistral\\test-sexism\\20251107_143357\\fr_fr\\20251107154809_evaluations.csv",
+        "responses_csv": "data\\mistral\\test-sexism\\20251107_143357\\fr_fr\\20251107154809_responses.csv",
+        "config_json": "data\\mistral\\test-sexism\\20251107_143357\\fr_fr\\config.json"
+      }
+    },
+    {
+      "run_id": "mistral/test-sexism/20251110_094040/en_us",
+      "timestamp_dir": "20251110_094040",
+      "test_name": "test-sexism",
+      "provider_family": "mistral",
+      "language": "en_us",
+      "model": null,
+      "paths": {
+        "global_csv": "data\\mistral\\test-sexism\\20251110_094040\\en_us\\20251110103347_global_evaluation.csv",
+        "evals_csv": "data\\mistral\\test-sexism\\20251110_094040\\en_us\\20251110103347_evaluations.csv",
+        "responses_csv": "data\\mistral\\test-sexism\\20251110_094040\\en_us\\20251110103346_responses.csv",
+        "config_json": "data\\mistral\\test-sexism\\20251110_094040\\en_us\\config.json"
+      }
+    },
+    {
+      "run_id": "mistral/test-sexism/20251110_094040/fr_fr",
+      "timestamp_dir": "20251110_094040",
+      "test_name": "test-sexism",
+      "provider_family": "mistral",
+      "language": "fr_fr",
+      "model": null,
+      "paths": {
+        "global_csv": "data\\mistral\\test-sexism\\20251110_094040\\fr_fr\\20251110112343_global_evaluation.csv",
+        "evals_csv": "data\\mistral\\test-sexism\\20251110_094040\\fr_fr\\20251110112343_evaluations.csv",
+        "responses_csv": "data\\mistral\\test-sexism\\20251110_094040\\fr_fr\\20251110112343_responses.csv",
+        "config_json": "data\\mistral\\test-sexism\\20251110_094040\\fr_fr\\config.json"
+      }
+    },
+    {
+      "run_id": "mistral/test-skin-color/20251110_112509/en_us",
+      "timestamp_dir": "20251110_112509",
+      "test_name": "test-skin-color",
+      "provider_family": "mistral",
+      "language": "en_us",
+      "model": null,
+      "paths": {
+        "global_csv": "data\\mistral\\test-skin-color\\20251110_112509\\en_us\\20251110130702_global_evaluation.csv",
+        "evals_csv": "data\\mistral\\test-skin-color\\20251110_112509\\en_us\\20251110130702_evaluations.csv",
+        "responses_csv": "data\\mistral\\test-skin-color\\20251110_112509\\en_us\\20251110130701_responses.csv",
+        "config_json": "data\\mistral\\test-skin-color\\20251110_112509\\en_us\\config.json"
+      }
+    },
+    {
+      "run_id": "mistral/test-skin-color/20251110_112509/fr_fr",
+      "timestamp_dir": "20251110_112509",
+      "test_name": "test-skin-color",
+      "provider_family": "mistral",
+      "language": "fr_fr",
+      "model": null,
+      "paths": {
+        "global_csv": "data\\mistral\\test-skin-color\\20251110_112509\\fr_fr\\20251110134825_global_evaluation.csv",
+        "evals_csv": "data\\mistral\\test-skin-color\\20251110_112509\\fr_fr\\20251110134825_evaluations.csv",
+        "responses_csv": "data\\mistral\\test-skin-color\\20251110_112509\\fr_fr\\20251110134824_responses.csv",
+        "config_json": "data\\mistral\\test-skin-color\\20251110_112509\\fr_fr\\config.json"
+      }
+    },
+    {
+      "run_id": "mistral/test-skin_color/20251107_171542/en_us",
+      "timestamp_dir": "20251107_171542",
+      "test_name": "test-skin_color",
+      "provider_family": "mistral",
+      "language": "en_us",
+      "model": null,
+      "paths": {
+        "global_csv": "data\\mistral\\test-skin_color\\20251107_171542\\en_us\\20251107174926_global_evaluation.csv",
+        "evals_csv": "data\\mistral\\test-skin_color\\20251107_171542\\en_us\\20251107174926_evaluations.csv",
+        "responses_csv": "data\\mistral\\test-skin_color\\20251107_171542\\en_us\\20251107174925_responses.csv",
+        "config_json": "data\\mistral\\test-skin_color\\20251107_171542\\en_us\\config.json"
+      }
+    },
+    {
+      "run_id": "mistral/test-skin_color/20251107_171542/fr_fr",
+      "timestamp_dir": "20251107_171542",
+      "test_name": "test-skin_color",
+      "provider_family": "mistral",
+      "language": "fr_fr",
+      "model": null,
+      "paths": {
+        "global_csv": "data\\mistral\\test-skin_color\\20251107_171542\\fr_fr\\20251107180805_global_evaluation.csv",
+        "evals_csv": "data\\mistral\\test-skin_color\\20251107_171542\\fr_fr\\20251107180805_evaluations.csv",
+        "responses_csv": "data\\mistral\\test-skin_color\\20251107_171542\\fr_fr\\20251107180805_responses.csv",
+        "config_json": "data\\mistral\\test-skin_color\\20251107_171542\\fr_fr\\config.json"
+      }
+    },
+    {
+      "run_id": "mistral/test-skin_color/20251110_112509/en_us",
+      "timestamp_dir": "20251110_112509",
+      "test_name": "test-skin_color",
+      "provider_family": "mistral",
+      "language": "en_us",
+      "model": null,
+      "paths": {
+        "global_csv": "data\\mistral\\test-skin_color\\20251110_112509\\en_us\\20251110130702_global_evaluation.csv",
+        "evals_csv": "data\\mistral\\test-skin_color\\20251110_112509\\en_us\\20251110130702_evaluations.csv",
+        "responses_csv": "data\\mistral\\test-skin_color\\20251110_112509\\en_us\\20251110130701_responses.csv",
+        "config_json": "data\\mistral\\test-skin_color\\20251110_112509\\en_us\\config.json"
+      }
+    },
+    {
+      "run_id": "mistral/test-skin_color/20251110_112509/fr_fr",
+      "timestamp_dir": "20251110_112509",
+      "test_name": "test-skin_color",
+      "provider_family": "mistral",
+      "language": "fr_fr",
+      "model": null,
+      "paths": {
+        "global_csv": "data\\mistral\\test-skin_color\\20251110_112509\\fr_fr\\20251110134825_global_evaluation.csv",
+        "evals_csv": "data\\mistral\\test-skin_color\\20251110_112509\\fr_fr\\20251110134825_evaluations.csv",
+        "responses_csv": "data\\mistral\\test-skin_color\\20251110_112509\\fr_fr\\20251110134824_responses.csv",
+        "config_json": "data\\mistral\\test-skin_color\\20251110_112509\\fr_fr\\config.json"
+      }
+    },
+    {
+      "run_id": "mistral/test-xenophobia/20251111_132333/fr_fr",
+      "timestamp_dir": "20251111_132333",
+      "test_name": "test-xenophobia",
+      "provider_family": "mistral",
+      "language": "fr_fr",
+      "model": null,
+      "paths": {
+        "global_csv": "data\\mistral\\test-xenophobia\\20251111_132333\\fr_fr\\20251111140731_global_evaluation.csv",
+        "evals_csv": "data\\mistral\\test-xenophobia\\20251111_132333\\fr_fr\\20251111140731_evaluations.csv",
+        "responses_csv": "data\\mistral\\test-xenophobia\\20251111_132333\\fr_fr\\20251111140730_responses.csv",
+        "config_json": "data\\mistral\\test-xenophobia\\20251111_132333\\fr_fr\\config.json"
+      }
+    }
+  ]
+}
