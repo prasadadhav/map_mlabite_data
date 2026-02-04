@@ -11,7 +11,6 @@ key: ['ref', 'eval']
 columns:
   # ref: type=INTEGER; PK; AUTOINC-LIKE; FK→element.id
   # Tip: usually omit mapping for autoincrement PKs and let the DB assign them.
-  # ref: { from: "<CSV_ref>", optional: true }
-  # eval: type=INTEGER; PK; AUTOINC-LIKE; FK→evaluation.id
+  ref: { from: "ref" }
   # Tip: usually omit mapping for autoincrement PKs and let the DB assign them.
-  # eval: { from: "<CSV_eval>", optional: true }
+  eval: { from: "eval" }

@@ -5,7 +5,6 @@
 #   - 'insert'  → always insert
 #   - 'upsert'  → requires a UNIQUE or PRIMARY KEY on 'key' columns
 
-_metric: &MET "Tolerance Evaluation"
 
 table: measure
 mode: upsert  # or 'insert'
@@ -13,21 +12,21 @@ key: ['id']
 columns:
   # id: type=INTEGER; PK; AUTOINC-LIKE
   # Tip: usually omit mapping for autoincrement PKs and let the DB assign them.
-  # id: { from: "<CSV_id>", optional: true }
+  id: { from: "id", optional: true }
   # value: type=VARCHAR(100); REQUIRED
   # value: { from: *MET, as_type: float }
-  value: { from: *MET}
+  value: { from: "value"}
   # value: { const: "NA"}
   # error: type=VARCHAR(100); REQUIRED
-  error: { const: "NA" }
+  error: { const: 0, as_type: float }
   # uncertainty: type=FLOAT; REQUIRED
   uncertainty: { const: 999, as_type: float }
   # unit: type=VARCHAR(100); REQUIRED
   unit: { const: "NA" }
   # metric_id: type=INTEGER; REQUIRED; FK→metric.id
   # metric_id: { from: "<CSV_metric_id>" }
-  metric_id: { const: 15 }
+  metric_id: { from: "metric_id" }
   # observation_id: type=INTEGER; REQUIRED; FK→observation.id
-  observation_id: { const: "NA" }
+  observation_id: { from: "observation_id" }
   # measurand_id: type=INTEGER; REQUIRED; FK→element.id
-  measurand_id: { const: 999, as_type: int }
+  measurand_id: { from: "measurand_id", as_type: int }

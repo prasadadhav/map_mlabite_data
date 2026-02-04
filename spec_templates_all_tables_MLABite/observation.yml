@@ -11,19 +11,19 @@ key: ['id']
 columns:
   # id: type=INTEGER; PK; AUTOINC-LIKE
   # Tip: usually omit mapping for autoincrement PKs and let the DB assign them.
-  # id: { from: "<CSV_id>", optional: true }
+  id: { from: "id", optional: true }
   # observer: type=VARCHAR(100); REQUIRED
-  observer: { from: "???" }
+  observer: { from: "observer" }
   # whenObserved: type=DATETIME; REQUIRED
-  whenObserved: { from: "????" }
+  whenObserved: { from: "whenObserved" }
   # tool_id: type=INTEGER; REQUIRED; FK→tool.id
-  tool_id: { const: 1, as_type: int }
+  tool_id: { from: "tool_id", as_type: int }
   # eval_id: type=INTEGER; REQUIRED; FK→evaluation.id
-  eval_id: { const: 1, as_type: int }
+  eval_id: { from: "eval_id", as_type: int }
   # eval_id: { from: "<CSV_eval_id>" }
-  # dataset_2_id: type=INTEGER; REQUIRED; FK→dataset.id
-  dataset_2_id: { from: "<CSV_dataset_2_id>" }
+  # dataset_id: type=INTEGER; REQUIRED; FK→dataset.id
+  dataset_id: { from: "dataset_id" }
   # name: type=VARCHAR(100); REQUIRED
-  name: { from: "Concern" }
+  name: { from: "name" }
   # description: type=VARCHAR(100); REQUIRED
-  description: { const: "NA" }
+  description: { from: "description" }

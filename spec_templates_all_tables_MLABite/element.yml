@@ -11,12 +11,12 @@ key: ['id']
 columns:
   # id: type=INTEGER; PK; AUTOINC-LIKE
   # Tip: usually omit mapping for autoincrement PKs and let the DB assign them.
-  # id: { from: "<CSV_id>", optional: true }
+  id: { from: "id", optional: true }
   # project_id: type=INTEGER; REQUIRED; FK→project.id
-  project_id: { from: "<CSV_project_id>" }
+  project_id: { from: "project_id" }
   # type_spec: type=VARCHAR(50); REQUIRED
-  type_spec: { from: "<CSV_type_spec>" }
+  type_spec: { from: "type_spec" }
   # name: type=VARCHAR(100); REQUIRED
-  name: { from: "<CSV_name>" }
+  name: { from: "name" }
   # description: type=VARCHAR(100); REQUIRED
-  description: { from: "<CSV_description>" }
+  description: { from: "description" }

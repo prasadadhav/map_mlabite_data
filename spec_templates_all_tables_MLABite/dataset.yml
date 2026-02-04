@@ -11,14 +11,14 @@ key: ['id']
 columns:
   # id: type=INTEGER; PK; AUTOINC-LIKE; FK→element.id
   # Tip: usually omit mapping for autoincrement PKs and let the DB assign them.
-  # id: { from: "<CSV_id>", optional: true }
+  id: { from: "id", optional: true }
   # source: type=VARCHAR(100); REQUIRED
-  source: { const: "LangBite Original Paper" }
+  source: { from: "source" }
   # version: type=VARCHAR(100); REQUIRED
-  version: { const: "NA" }
+  version: { from: "version" }
   # licensing: type=VARCHAR(11); REQUIRED
-  licensing: { const: "Open-source" }
+  licensing: { from: "licensing" }
   # type: type=VARCHAR(10); REQUIRED
-  type: { const: "Test" }
+  type: { from: "dataset_type" }
   # datashape_id: type=INTEGER; REQUIRED; FK→datashape.id
-  datashape_id: { const: "NA" }
+  datashape_id: { from: "datashape_id" }

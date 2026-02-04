@@ -11,10 +11,10 @@ key: ['id']
 columns:
   # id: type=INTEGER; PK; AUTOINC-LIKE
   # Tip: usually omit mapping for autoincrement PKs and let the DB assign them.
-  # id: { from: "<CSV_id>", optional: true }
+  id: { from: "id", optional: true }
   # type_spec: type=VARCHAR(50); REQUIRED
-  type_spec: { const: "NA" }
+  type_spec: { from: "type_spec" }
   # name: type=VARCHAR(100); REQUIRED
-  name: { from: "metric_name" }
+  name: { from: "name" }
   # description: type=VARCHAR(100); REQUIRED
-  description: { from: "metric_description" }
+  description: { from: "description" }

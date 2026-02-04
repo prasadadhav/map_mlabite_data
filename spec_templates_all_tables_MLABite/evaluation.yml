@@ -12,10 +12,10 @@ columns:
   # id: type=INTEGER; PK; AUTOINC-LIKE
   # Tip: usually omit mapping for autoincrement PKs and let the DB assign them.
   # id: { from: "<CSV_id>", optional: true }
-  id: { const: 1, as_type: int }
+  id: { from: "id", as_type: int }
   # status: type=VARCHAR(10); REQUIRED
-  status: { const: "Done" }
+  status: { from: "status" }
   # project_id: type=INTEGER; REQUIRED; FK→project.id
-  project_id: { const: 1, as_type: int }
+  project_id: { from: "project_id", as_type: int }
   # config_id: type=INTEGER; REQUIRED; FK→configuration.id
-  config_id: { const: 1, as_type: int }
+  config_id: { from: "config_id", as_type: int }

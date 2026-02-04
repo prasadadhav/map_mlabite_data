@@ -11,6 +11,6 @@ key: ['id']
 columns:
   # id: type=INTEGER; PK; AUTOINC-LIKE
   # Tip: usually omit mapping for autoincrement PKs and let the DB assign them.
-  # id: { from: "<CSV_id>", optional: true }
+  id: { from: "id", optional: true }
   # accepted_target_values: type=VARCHAR(100); REQUIRED
   accepted_target_values: { from: "accepted_target_values" }

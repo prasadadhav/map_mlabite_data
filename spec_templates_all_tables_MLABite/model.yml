@@ -11,15 +11,15 @@ key: ['id']
 columns:
   # id: type=INTEGER; PK; AUTOINC-LIKE; FK→element.id
   # Tip: usually omit mapping for autoincrement PKs and let the DB assign them.
-  # id: { from: "<CSV_id>", optional: true }
+  id: { from: "id", optional: true }
   # pid: type=VARCHAR(100); REQUIRED
-  pid: { const: "2023-10-10" }
+  pid: { from: "pid" }
   # data: type=VARCHAR(100); REQUIRED
-  data: { const: "Not Available" }
+  data: { from: "data" }
   # source: type=VARCHAR(100); REQUIRED
-  source: { from: "Model" }
+  source: { from: "source" }
   # licensing: type=VARCHAR(11); REQUIRED
-  licensing: { const: "Proprietary" }
+  licensing: { from: "licensing" }
   # dataset_id: type=INTEGER; REQUIRED; FK→dataset.id
-  dataset_id: { const: 999, as_type: int}
+  dataset_id: { from: "dataset_id", as_type: int}
 

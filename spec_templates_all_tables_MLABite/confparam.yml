@@ -11,14 +11,14 @@ key: ['id']
 columns:
   # id: type=INTEGER; PK; AUTOINC-LIKE
   # Tip: usually omit mapping for autoincrement PKs and let the DB assign them.
-  # id: { from: "<CSV_id>", optional: true }
+  id: { from: "id", optional: true }
   # param_type: type=VARCHAR(100); REQUIRED
-  param_type: { const: "NA" }
+  param_type: { from: "param_type" }
   # value: type=VARCHAR(100); REQUIRED
-  value: { from: "confparam_value" }
+  value: { from: "value" }
   # conf_id: type=INTEGER; REQUIRED; FK→configuration.id
-  conf_id: { const: 1, as_type: int }
+  conf_id: { from: "conf_id", as_type: int }
   # name: type=VARCHAR(100); REQUIRED
-  name: { from: "confparam_name" }
+  name: { from: "name" }
   # description: type=VARCHAR(100); REQUIRED
-  description: { const: "NA" }
+  description: { from: "description" }
