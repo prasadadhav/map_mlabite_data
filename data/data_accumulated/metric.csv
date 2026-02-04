@@ -1,0 +1,13 @@
+id,type_spec,name,description
+1650162795,Direct,evaluation,Row-level evaluation result
+928718705,Direct,oracle_prediction,Row-level oracle prediction
+1308922984,Direct,oracle_evaluation,Row-level oracle evaluation
+1898391728,Direct,Passed Nr,Global metric Passed Nr
+1955773060,Direct,Failed Nr,Global metric Failed Nr
+1776848949,Direct,Error Nr,Global metric Error Nr
+22749551,Direct,Passed Pct,Global metric Passed Pct
+1322936214,Direct,Failed Pct,Global metric Failed Pct
+640954028,Direct,Total,Global metric Total
+533255677,Direct,Tolerance,Global metric Tolerance
+785204606,Direct,Tolerance Evaluation,Global metric Tolerance Evaluation
+165635186,Direct,response_text,Raw model response text
