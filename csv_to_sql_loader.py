@@ -142,12 +142,28 @@ def upsert_dataframe(conn, df: pd.DataFrame, table: str, key_cols: list[str]):
     update_set = ", ".join([f'"{c}"=excluded."{c}"' for c in cols if c not in key_cols])
     key_list   = ", ".join([f'"{c}"' for c in key_cols])
 
-    sql = f"""
-    INSERT INTO "{table}" ({col_list})
-    VALUES ({placeholders})
-    ON CONFLICT({key_list}) DO UPDATE SET
-      {update_set};
-    """
+    # PSA
+    # sql = f"""
+    # INSERT INTO "{table}" ({col_list})
+    # VALUES ({placeholders})
+    # ON CONFLICT({key_list}) DO UPDATE SET
+    #   {update_set};
+    # """
+    if not update_set.strip():
+        # Nothing to update (table only has key cols) -> DO NOTHING
+        sql = f"""
+        INSERT INTO "{table}" ({col_list})
+        VALUES ({placeholders})
+        ON CONFLICT({key_list}) DO NOTHING;
+        """
+    else:
+        sql = f"""
+        INSERT INTO "{table}" ({col_list})
+        VALUES ({placeholders})
+        ON CONFLICT({key_list}) DO UPDATE SET
+        {update_set};
+        """
+
     cur = conn.cursor()
     cur.executemany(sql, df[cols].where(pd.notnull(df), None).values.tolist())
     conn.commit()
