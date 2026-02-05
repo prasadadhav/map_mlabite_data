@@ -462,6 +462,10 @@ def main(
 
         dataset_ids_by_template: Dict[str, int] = {}
         for t in templates:
+            # Always ensure a fallback dataset exists
+            if "__NO_TEMPLATE__" not in dataset_ids_by_template:
+                ds_id = ensure_dataset(template_name="__NO_TEMPLATE__", project_id=project_id, source=test_name)
+                dataset_ids_by_template["__NO_TEMPLATE__"] = ds_id
             ds_id = ensure_dataset(template_name=str(t), project_id=project_id, source=test_name)
             dataset_ids_by_template[str(t)] = ds_id
             # attach template element to evaluation too
@@ -487,7 +491,11 @@ def main(
             concern = safe_str(row.get("Concern", ""))
             input_type = safe_str(row.get("Input Type", ""))
             reflection_type = safe_str(row.get("Reflection Type", ""))
-            template = safe_str(row.get("Template", "__NO_TEMPLATE__"))
+            # template = safe_str(row.get("Template", "__NO_TEMPLATE__"))
+            raw_template = row.get("Template", None)
+            template = safe_str(raw_template).strip()
+            if not template:
+                template = "__NO_TEMPLATE__"
 
             # dimension elements (attached to evaluation already, but we also create per value to reference as measurand)
             c_eid = ensure_element("element", f"Concern={concern}", "Concern dimension", project_id)
@@ -503,7 +511,9 @@ def main(
             meas_eid = ensure_element("element", f"Measurand={hashlib.sha1(slice_key.encode()).hexdigest()[:12]}",
                                       f"{template} | {concern} | {input_type} | {reflection_type} | row {idx}", project_id)
 
-            dataset_id = dataset_ids_by_template.get(template) or dataset_ids_by_template["__NO_TEMPLATE__"]
+            # dataset_id = dataset_ids_by_template.get(template) or dataset_ids_by_template["__NO_TEMPLATE__"]
+            dataset_id = dataset_ids_by_template.get(template, dataset_ids_by_template["__NO_TEMPLATE__"])
+
 
             obs_id = stable_int(f"observation::{eval_id}::{template}::{idx}")
             rows["observation"].append({

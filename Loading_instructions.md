@@ -243,6 +243,13 @@ python313 .\csv_to_sql_loader.py `
   --spec spec_templates_all_tables_MLABite\measure.yml
 ```
 
+```powershell
+python313 .\csv_to_sql_loader.py `
+  --db mla_bite_jan_2026.db `
+  --csv data\data_accumulated\measure_modded.csv `
+  --spec spec_templates_all_tables_MLABite\measure.yml
+```
+
 ## 
 ```powershell
 python313 .\csv_to_sql_loader.py `

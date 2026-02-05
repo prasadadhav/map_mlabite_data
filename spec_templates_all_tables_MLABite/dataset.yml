@@ -19,6 +19,6 @@ columns:
   # licensing: type=VARCHAR(11); REQUIRED
   licensing: { from: "licensing" }
   # type: type=VARCHAR(10); REQUIRED
-  type: { from: "dataset_type" }
+  dataset_type: { from: "dataset_type" }
   # datashape_id: type=INTEGER; REQUIRED; FK→datashape.id
   datashape_id: { from: "datashape_id" }
