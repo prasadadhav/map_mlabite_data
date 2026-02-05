@@ -1,0 +1,13 @@
+table: comments
+mode: upsert  # or 'insert'
+key: ['id']
+columns:
+  # id: type=INTEGER; PK; AUTOINC-LIKE
+  # Tip: usually omit mapping for autoincrement PKs and let the DB assign them.
+  # id: { from: "id", optional: true }
+  
+  Name: { from: "Name"}
+  
+  Comments: { from: "Comments"}
+
+  TimeStamp: { from : "TimeStamp" }

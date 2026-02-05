@@ -69,7 +69,7 @@ This guarantees:
 
 ## first set the python313 env alias
 ```bash
-Set-Alias python313313 "C:\Users\adhav\AppData\Local\Programs\Python\Python313\python313.exe"
+Set-Alias python313 "C:\Users\adhav\AppData\Local\Programs\Python\Python313\python313.exe"
 ```
 
 ## to generate the SQL DB run the py script generated from the BESSER web platform
@@ -233,7 +233,10 @@ python313 .\csv_to_sql_loader.py `
 
 ## 
 ```powershell
-
+python313 .\csv_to_sql_loader.py `
+  --db mla_bite_jan_2026.db `
+  --csv data\data_accumulated\comments.csv `
+  --spec spec_templates_all_tables_MLABite\comments.yml
 ```
 
 
