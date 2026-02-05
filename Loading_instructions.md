@@ -68,14 +68,26 @@ This guarantees:
 <!-- ------------------------------------------- -->
 
 ## first set the python313 env alias
-```bash
-Set-Alias python313 "C:\Users\adhav\AppData\Local\Programs\Python\Python313\python313.exe"
+```powershell
+Set-Alias python313 "C:\Users\adhav\AppData\Local\Programs\Python\Python313\python.exe"
 ```
 
 ## to generate the SQL DB run the py script generated from the BESSER web platform
-```bash
-python313313 ./sql_alchemy.py
+```powershell
+python313 .\sql_alchemy.py
 ```
+
+```powershell
+python313 .\discover_run.py
+```
+
+```powershell
+python313 .\accumulate_to_data_accumulated.py
+```
+
+
+
+
 
 
 ## Core tables (minimum viable)
