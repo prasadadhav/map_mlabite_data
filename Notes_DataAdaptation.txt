@@ -7,6 +7,7 @@ Set-Alias python313 "C:\Users\adhav\AppData\Local\Programs\Python\Python313\pyth
 
 # to generate the SQL DB run the py script generated from the BESSER web platform
 python313 ./name_of_sql_alchemy_file.py
+python313 ./sql_alchemy.py
 
 # Now you will have a DB file
 # now we have multiple options to explore the file
