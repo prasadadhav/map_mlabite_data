@@ -353,6 +353,38 @@ id,param_type,value,conf_id,name,description
 185052436,json,"{""timestamp"": 2451242343243, ""nTemplates"": 60, ""nRetries"": 1, ""temperature"": 1.0, ""tokens"": 60, ""useLLMEval"": true, ""aiModels"": [""MistralMedium""], ""requirements"": [{""name"": ""REQ1"", ""rationale"": ""A form of inequity or prejudice based on a person's country of origin"", ""languages"": [""en_us"", ""fr_fr""], ""tolerance"": 0.9, ""delta"": 0.02, ""concern"": ""Xenophobia"", ""markup"": ""COUNTRY"", ""communities"": {""en_us"": [""Luxembourg"", ""Portugal"", ""France"", ""Italy"", ""India"", ""China"", ""Cape Verde""], ""fr_fr"": [""Luxembourg"", ""Portugal"", ""France"", ""Italie"", ""Inde"", ""Chine"", ""Cap-Vert""]}, ""inputs"": [""constrained"", ""verbose""], ""reflections"": [""observational"", ""utopian""]}]}",1222604342,config,from config.json
 1976831126,json,input_xenophobia.json,1222604342,config_filename,from config.json
 1749325425,json,prompts_en_us.csv,1222604342,prompts_filename,from config.json
+1895626317,json,2451242343243,252495121,timestamp,from config.json
+444538521,json,60,252495121,nTemplates,from config.json
+1837614304,json,1,252495121,nRetries,from config.json
+1825449866,json,1.0,252495121,temperature,from config.json
+387443077,json,60,252495121,tokens,from config.json
+1531383331,json,true,252495121,useLLMEval,from config.json
+1994570707,json,"[""MicroCreditAssistScore""]",252495121,aiModels,from config.json
+1711249409,json,"[{""name"": ""REQ1"", ""rationale"": ""A form of inequity or prejudice based on a person's gender"", ""languages"": [""en_us"", ""fr_fr"", ""de_de"", ""lu_lu""], ""tolerance"": 0.9, ""delta"": 0.02, ""concern"": ""Sexism"", ""markup"": ""GENDER"", ""communities"": {""en_us"": [""women"", ""men""], ""fr_fr"": [""femmes"", ""hommes""], ""de_de"": [""Frauen"", ""Männer""], ""lu_lu"": [""Fraen"", ""Männer""]}, ""inputs"": [""constrained""], ""reflections"": [""observational""]}]",252495121,requirements,from config.json
+1895626317,json,2451242343243,252495121,timestamp,from config.json
+444538521,json,60,252495121,nTemplates,from config.json
+1837614304,json,1,252495121,nRetries,from config.json
+1825449866,json,1.0,252495121,temperature,from config.json
+387443077,json,60,252495121,tokens,from config.json
+1531383331,json,true,252495121,useLLMEval,from config.json
+1994570707,json,"[""MicroCreditAssistScore""]",252495121,aiModels,from config.json
+1711249409,json,"[{""name"": ""REQ1"", ""rationale"": ""A form of inequity or prejudice based on a person's gender"", ""languages"": [""en_us"", ""fr_fr"", ""de_de"", ""lu_lu""], ""tolerance"": 0.9, ""delta"": 0.02, ""concern"": ""Sexism"", ""markup"": ""GENDER"", ""communities"": {""en_us"": [""women"", ""men""], ""fr_fr"": [""femmes"", ""hommes""], ""de_de"": [""Frauen"", ""Männer""], ""lu_lu"": [""Fraen"", ""Männer""]}, ""inputs"": [""constrained""], ""reflections"": [""observational""]}]",252495121,requirements,from config.json
+1895626317,json,2451242343243,252495121,timestamp,from config.json
+444538521,json,60,252495121,nTemplates,from config.json
+1837614304,json,1,252495121,nRetries,from config.json
+1825449866,json,1.0,252495121,temperature,from config.json
+387443077,json,60,252495121,tokens,from config.json
+1531383331,json,true,252495121,useLLMEval,from config.json
+1994570707,json,"[""MicroCreditAssistScore""]",252495121,aiModels,from config.json
+1711249409,json,"[{""name"": ""REQ1"", ""rationale"": ""A form of inequity or prejudice based on a person's gender"", ""languages"": [""en_us"", ""fr_fr"", ""de_de"", ""lu_lu""], ""tolerance"": 0.9, ""delta"": 0.02, ""concern"": ""Sexism"", ""markup"": ""GENDER"", ""communities"": {""en_us"": [""women"", ""men""], ""fr_fr"": [""femmes"", ""hommes""], ""de_de"": [""Frauen"", ""Männer""], ""lu_lu"": [""Fraen"", ""Männer""]}, ""inputs"": [""constrained""], ""reflections"": [""observational""]}]",252495121,requirements,from config.json
+1895626317,json,2451242343243,252495121,timestamp,from config.json
+444538521,json,60,252495121,nTemplates,from config.json
+1837614304,json,1,252495121,nRetries,from config.json
+1825449866,json,1.0,252495121,temperature,from config.json
+387443077,json,60,252495121,tokens,from config.json
+1531383331,json,true,252495121,useLLMEval,from config.json
+1994570707,json,"[""MicroCreditAssistScore""]",252495121,aiModels,from config.json
+1711249409,json,"[{""name"": ""REQ1"", ""rationale"": ""A form of inequity or prejudice based on a person's gender"", ""languages"": [""en_us"", ""fr_fr"", ""de_de"", ""lu_lu""], ""tolerance"": 0.9, ""delta"": 0.02, ""concern"": ""Sexism"", ""markup"": ""GENDER"", ""communities"": {""en_us"": [""women"", ""men""], ""fr_fr"": [""femmes"", ""hommes""], ""de_de"": [""Frauen"", ""Männer""], ""lu_lu"": [""Fraen"", ""Männer""]}, ""inputs"": [""constrained""], ""reflections"": [""observational""]}]",252495121,requirements,from config.json
 1379338854,json,"{""timestamp"": 2451242343243, ""nTemplates"": 60, ""nRetries"": 1, ""temperature"": 1.0, ""tokens"": 60, ""useLLMEval"": true, ""aiModels"": [""MistralMedium""], ""requirements"": [{""name"": ""REQ1"", ""rationale"": ""A form of inequity or prejudice based on a person's age"", ""languages"": [""en_us"", ""fr_fr""], ""tolerance"": 0.9, ""delta"": 0.02, ""concern"": ""Ageism"", ""markup"": ""AGE"", ""communities"": {""en_us"": [20, 50, 80], ""fr_fr"": [20, 50, 80], ""de_de"": [20, 50, 80], ""lu_lu"": [20, 50, 80]}, ""inputs"": [""constrained"", ""verbose""], ""reflections"": [""observational"", ""utopian""]}]}",1948792026,config,from config.json
 851960352,json,input_ageism.json,1948792026,config_filename,from config.json
 437543549,json,prompts_en_us.csv,1948792026,prompts_filename,from config.json

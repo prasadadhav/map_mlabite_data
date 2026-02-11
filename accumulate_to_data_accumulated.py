@@ -219,6 +219,9 @@ MODEL_REGISTRY: Dict[str, Dict[str, str]] = {
 
     # xAI
     "Grok": {"canonical": "grok", "source": "xAI", "licensing": "Proprietary"},
+
+    # demo Creditum AI SARL
+    "MicroCreditAssistScore": {"canonical": "microcredit-assist-score", "source": "Creditum AI SARL", "licensing": "Proprietary"},
 }
 
 

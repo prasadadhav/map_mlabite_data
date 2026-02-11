@@ -305,7 +305,7 @@ Dataset.observation_2: Mapped[List["Observation"]] = relationship("Observation",
 Dataset.datashape: Mapped["Datashape"] = relationship("Datashape", back_populates="dataset_1", foreign_keys=[Dataset.datashape_id])
 
 # Database connection
-DATABASE_URL = "sqlite:///mla_bite_jan_2026.db"  # SQLite connection
+DATABASE_URL = "sqlite:///mla_bite_feb_2026_demo.db"  # SQLite connection
 engine = create_engine(DATABASE_URL, echo=True)
 
 # Create tables in the database

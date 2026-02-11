@@ -1,6 +1,6 @@
 {
   "data_root": "data",
-  "n_runs": 138,
+  "n_runs": 142,
   "runs": [
     {
       "run_id": "experiments/test-ageism/20251114_095850/en_us",
@@ -1568,6 +1568,62 @@
         "evals_csv": "data\\experiments\\test-xenophobia\\20251114_133933\\fr_fr\\20251114143755_evaluations.csv",
         "responses_csv": "data\\experiments\\test-xenophobia\\20251114_133933\\fr_fr\\20251114143755_responses.csv",
         "config_json": "data\\experiments\\test-xenophobia\\20251114_133933\\fr_fr\\config.json"
+      }
+    },
+    {
+      "run_id": "microcreditagent/test-ageism/20260211_104628/de_de",
+      "timestamp_dir": "20260211_104628",
+      "test_name": "test-ageism",
+      "provider_family": "microcreditagent",
+      "language": "de_de",
+      "model": null,
+      "paths": {
+        "global_csv": "data\\microcreditagent\\test-ageism\\20260211_104628\\de_de\\20260211104628_global_evaluation.csv",
+        "evals_csv": "data\\microcreditagent\\test-ageism\\20260211_104628\\de_de\\20260211104628_evaluations.csv",
+        "responses_csv": "data\\microcreditagent\\test-ageism\\20260211_104628\\de_de\\20260211104628_responses.csv",
+        "config_json": "data\\microcreditagent\\test-ageism\\20260211_104628\\de_de\\config.json"
+      }
+    },
+    {
+      "run_id": "microcreditagent/test-ageism/20260211_104628/en_us",
+      "timestamp_dir": "20260211_104628",
+      "test_name": "test-ageism",
+      "provider_family": "microcreditagent",
+      "language": "en_us",
+      "model": null,
+      "paths": {
+        "global_csv": "data\\microcreditagent\\test-ageism\\20260211_104628\\en_us\\20260211104628_global_evaluation.csv",
+        "evals_csv": "data\\microcreditagent\\test-ageism\\20260211_104628\\en_us\\20260211104628_evaluations.csv",
+        "responses_csv": "data\\microcreditagent\\test-ageism\\20260211_104628\\en_us\\20260211104628_responses.csv",
+        "config_json": "data\\microcreditagent\\test-ageism\\20260211_104628\\en_us\\config.json"
+      }
+    },
+    {
+      "run_id": "microcreditagent/test-ageism/20260211_104628/fr_fr",
+      "timestamp_dir": "20260211_104628",
+      "test_name": "test-ageism",
+      "provider_family": "microcreditagent",
+      "language": "fr_fr",
+      "model": null,
+      "paths": {
+        "global_csv": "data\\microcreditagent\\test-ageism\\20260211_104628\\fr_fr\\20260211104628_global_evaluation.csv",
+        "evals_csv": "data\\microcreditagent\\test-ageism\\20260211_104628\\fr_fr\\20260211104628_evaluations.csv",
+        "responses_csv": "data\\microcreditagent\\test-ageism\\20260211_104628\\fr_fr\\20260211104628_responses.csv",
+        "config_json": "data\\microcreditagent\\test-ageism\\20260211_104628\\fr_fr\\config.json"
+      }
+    },
+    {
+      "run_id": "microcreditagent/test-ageism/20260211_104628/lu_lu",
+      "timestamp_dir": "20260211_104628",
+      "test_name": "test-ageism",
+      "provider_family": "microcreditagent",
+      "language": "lu_lu",
+      "model": null,
+      "paths": {
+        "global_csv": "data\\microcreditagent\\test-ageism\\20260211_104628\\lu_lu\\20260211104628_global_evaluation.csv",
+        "evals_csv": "data\\microcreditagent\\test-ageism\\20260211_104628\\lu_lu\\20260211104628_evaluations.csv",
+        "responses_csv": "data\\microcreditagent\\test-ageism\\20260211_104628\\lu_lu\\20260211104628_responses.csv",
+        "config_json": "data\\microcreditagent\\test-ageism\\20260211_104628\\lu_lu\\config.json"
       }
     },
     {
