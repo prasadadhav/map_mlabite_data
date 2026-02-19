@@ -77,15 +77,22 @@ Set-Alias python313 "C:\Users\adhav\AppData\Local\Programs\Python\Python313\pyth
 python313 .\sql_alchemy.py
 ```
 
+
+## generate the db
 ```powershell
 python313 .\discover_run.py
 ```
 
+## accumulate the data into csvs
+old
 ```powershell
 python313 .\accumulate_to_data_accumulated.py
 ```
 
-
+refactored
+```powershell
+python313 accumulate_to_data_accumulated_refactored_v2.py --repo . --manifest manifest.json --out data/data_accumulated
+```
 
 
 
@@ -119,7 +126,7 @@ python313 .\accumulate_to_data_accumulated.py
 ## Project
 ```powershell
 python313 .\csv_to_sql_loader.py `
-  --db mla_bite_feb_2026_demo.db `
+  --db mla_bite_feb_2026_refactor.db `
   --csv data\data_accumulated\project.csv `
   --spec spec_templates_all_tables_MLABite\project.yml
 ```
@@ -127,7 +134,7 @@ python313 .\csv_to_sql_loader.py `
 ## Tools
 ```powershell
 python313 .\csv_to_sql_loader.py `
-  --db mla_bite_feb_2026_demo.db `
+  --db mla_bite_feb_2026_refactor.db `
   --csv data\data_accumulated\tool.csv `
   --spec spec_templates_all_tables_MLABite\tool.yml
 ```
@@ -136,7 +143,7 @@ python313 .\csv_to_sql_loader.py `
 ## Datashape
 ```powershell
 python313 .\csv_to_sql_loader.py `
-  --db mla_bite_feb_2026_demo.db `
+  --db mla_bite_feb_2026_refactor.db `
   --csv data\data_accumulated\datashape.csv `
   --spec spec_templates_all_tables_MLABite\datashape.yml
 ```
@@ -145,7 +152,7 @@ python313 .\csv_to_sql_loader.py `
 ## Element (⚠️ critical parent table)
 ```powershell
 python313 .\csv_to_sql_loader.py `
-  --db mla_bite_feb_2026_demo.db `
+  --db mla_bite_feb_2026_refactor.db `
   --csv data\data_accumulated\element.csv `
   --spec spec_templates_all_tables_MLABite\element.yml
 ```
@@ -154,7 +161,7 @@ python313 .\csv_to_sql_loader.py `
 ## Dataset
 ```powershell
 python313 .\csv_to_sql_loader.py `
-  --db mla_bite_feb_2026_demo.db `
+  --db mla_bite_feb_2026_refactor.db `
   --csv data\data_accumulated\dataset.csv `
   --spec spec_templates_all_tables_MLABite\dataset.yml
 ```
@@ -164,7 +171,7 @@ python313 .\csv_to_sql_loader.py `
 ## Model
 ```powershell
 python313 .\csv_to_sql_loader.py `
-  --db mla_bite_feb_2026_demo.db `
+  --db mla_bite_feb_2026_refactor.db `
   --csv data\data_accumulated\model.csv `
   --spec spec_templates_all_tables_MLABite\model.yml
 ```
@@ -173,7 +180,7 @@ python313 .\csv_to_sql_loader.py `
 ## Configuration
 ```powershell
 python313 .\csv_to_sql_loader.py `
-  --db mla_bite_feb_2026_demo.db `
+  --db mla_bite_feb_2026_refactor.db `
   --csv data\data_accumulated\configuration.csv `
   --spec spec_templates_all_tables_MLABite\configuration.yml
 ```
@@ -182,7 +189,7 @@ python313 .\csv_to_sql_loader.py `
 ## ConfParam
 ```powershell
 python313 .\csv_to_sql_loader.py `
-  --db mla_bite_feb_2026_demo.db `
+  --db mla_bite_feb_2026_refactor.db `
   --csv data\data_accumulated\confparam.csv `
   --spec spec_templates_all_tables_MLABite\confparam.yml
 ```
@@ -192,7 +199,7 @@ python313 .\csv_to_sql_loader.py `
 ## Evaluation
 ```powershell
 python313 .\csv_to_sql_loader.py `
-  --db mla_bite_feb_2026_demo.db `
+  --db mla_bite_feb_2026_refactor.db `
   --csv data\data_accumulated\evaluation.csv `
   --spec spec_templates_all_tables_MLABite\evaluation.yml
 ```
@@ -201,7 +208,7 @@ python313 .\csv_to_sql_loader.py `
 ## Evaluation ↔ Element (dimension linking)
 ```powershell
 python313 .\csv_to_sql_loader.py `
-  --db mla_bite_feb_2026_demo.db `
+  --db mla_bite_feb_2026_refactor.db `
   --csv data\data_accumulated\evaluation_element.csv `
   --spec spec_templates_all_tables_MLABite\evaluation_element.yml
 ```
@@ -211,7 +218,7 @@ python313 .\csv_to_sql_loader.py `
 ## Metric
 ```powershell
 python313 .\csv_to_sql_loader.py `
-  --db mla_bite_feb_2026_demo.db `
+  --db mla_bite_feb_2026_refactor.db `
   --csv data\data_accumulated\metric.csv `
   --spec spec_templates_all_tables_MLABite\metric.yml
 ```
@@ -220,7 +227,7 @@ python313 .\csv_to_sql_loader.py `
 ## Direct (metric subtype)
 ```powershell
 python313 .\csv_to_sql_loader.py `
-  --db mla_bite_feb_2026_demo.db `
+  --db mla_bite_feb_2026_refactor.db `
   --csv data\data_accumulated\direct.csv `
   --spec spec_templates_all_tables_MLABite\direct.yml
 ```
@@ -229,7 +236,7 @@ python313 .\csv_to_sql_loader.py `
 ## Observation
 ```powershell
 python313 .\csv_to_sql_loader.py `
-  --db mla_bite_feb_2026_demo.db `
+  --db mla_bite_feb_2026_refactor.db `
   --csv data\data_accumulated\observation.csv `
   --spec spec_templates_all_tables_MLABite\observation.yml
 ```
@@ -238,7 +245,7 @@ python313 .\csv_to_sql_loader.py `
 ## Measure (final leaf table)
 ```powershell
 python313 .\csv_to_sql_loader.py `
-  --db mla_bite_feb_2026_demo.db `
+  --db mla_bite_feb_2026_refactor.db `
   --csv data\data_accumulated\measure.csv `
   --spec spec_templates_all_tables_MLABite\measure.yml
 ```
@@ -246,14 +253,14 @@ python313 .\csv_to_sql_loader.py `
 
 ```powershell
 python313 .\csv_to_sql_loader.py `
-  --db mla_bite_feb_2026_demo.db `
+  --db mla_bite_feb_2026_refactor.db `
   --csv data\data_accumulated\measure_drop_na.csv `
   --spec spec_templates_all_tables_MLABite\measure.yml
 ```
 
 ```powershell
 python313 .\csv_to_sql_loader.py `
-  --db mla_bite_feb_2026_demo.db `
+  --db mla_bite_feb_2026_refactor.db `
   --csv data\data_accumulated\measure_modded.csv `
   --spec spec_templates_all_tables_MLABite\measure.yml
 ```
@@ -261,11 +268,46 @@ python313 .\csv_to_sql_loader.py `
 ## 
 ```powershell
 python313 .\csv_to_sql_loader.py `
-  --db mla_bite_feb_2026_demo.db `
+  --db mla_bite_feb_2026_refactor.db `
   --csv data\data_accumulated\comments.csv `
   --spec spec_templates_all_tables_MLABite\comments.yml
 ```
 
+
+## 
+```powershell
+python313 .\csv_to_sql_loader.py `
+  --db mla_bite_feb_2026_refactor.db `
+  --csv data\data_accumulated\metriccategory_metric.csv `
+  --spec spec_templates_all_tables_MLABite\metriccategory_metric.yml
+```
+
+
+## 
+```powershell
+python313 .\csv_to_sql_loader.py `
+  --db mla_bite_feb_2026_refactor.db `
+  --csv data\data_accumulated\metriccategory.csv `
+  --spec spec_templates_all_tables_MLABite\metriccategory.yml
+```
+
+
+## 
+```powershell
+
+```
+
+
+## 
+```powershell
+
+```
+
+
+## 
+```powershell
+
+```
 
 ## 
 ```powershell
