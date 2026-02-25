@@ -10,8 +10,9 @@ mode: upsert  # or 'insert'
 key: ['category', 'metrics']
 columns:
   # category: type=INTEGER; PK; AUTOINC-LIKE; FK→metriccategory.id
+  # id: { from: "id", optional: true }
   # Tip: usually omit mapping for autoincrement PKs and let the DB assign them.
-  # category: { from: "<CSV_category>", optional: true }
+  category: { from: "metriccategory_id", optional: true }
   # metrics: type=INTEGER; PK; AUTOINC-LIKE; FK→metric.id
   # Tip: usually omit mapping for autoincrement PKs and let the DB assign them.
-  # metrics: { from: "<CSV_metrics>", optional: true }
+  metrics: { from: "metric_id", optional: true }

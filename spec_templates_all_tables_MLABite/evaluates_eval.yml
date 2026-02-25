@@ -11,7 +11,7 @@ key: ['evaluates', 'evalu']
 columns:
   # evaluates: type=INTEGER; PK; AUTOINC-LIKE; FK→element.id
   # Tip: usually omit mapping for autoincrement PKs and let the DB assign them.
-  # evaluates: { from: "<CSV_evaluates>", optional: true }
+  evaluates: { from: "evaluates", optional: true }
   # evalu: type=INTEGER; PK; AUTOINC-LIKE; FK→evaluation.id
   # Tip: usually omit mapping for autoincrement PKs and let the DB assign them.
-  # evalu: { from: "<CSV_evalu>", optional: true }
+  evalu: { from: "evalu", optional: true }
