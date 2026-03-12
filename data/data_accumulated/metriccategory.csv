@@ -1,0 +1,9 @@
+id,name,description
+257377812,ageism,Metric category 'ageism' derived from Concern column (or folder fallback)
+1781197396,sexism,Metric category 'sexism' derived from Concern column
+1986196730,racism,Metric category 'racism' derived from Concern column
+1630052112,religion,Metric category 'religion' derived from Concern column
+1594267652,classism,Metric category 'classism' derived from Concern column
+1679722788,xenophobia,Metric category 'xenophobia' derived from Concern column (or folder fallback)
+1803196503,lgtbiqphobia,Metric category 'lgtbiqphobia' derived from Concern column
+1068836192,i_do_not_thinkpassed,Metric category 'i_do_not_thinkpassed' derived from Concern column
