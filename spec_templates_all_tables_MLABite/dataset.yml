@@ -22,3 +22,7 @@ columns:
   dataset_type: { from: "dataset_type" }
   # datashape_id: type=INTEGER; REQUIRED; FK→datashape.id
   datashape_id: { from: "datashape_id" }
+
+  name: { from: "name" }
+
+  description: { from: "description" }

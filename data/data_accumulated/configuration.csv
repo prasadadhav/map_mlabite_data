@@ -1,61 +1,285 @@
 id,name,description
-591373618,config_experiments_ageism_0bb92fa9019058c8,Config for experiments/ageism (sig=0bb92fa9019058c8)
-768023668,config_experiments_sexism_9437d3336570f0ff,Config for experiments/sexism (sig=9437d3336570f0ff)
-739391012,config_experiments_racism_9437d3336570f0ff,Config for experiments/racism (sig=9437d3336570f0ff)
-1972049000,config_experiments_racism_88fe510485aea6f6,Config for experiments/racism (sig=88fe510485aea6f6)
-243466862,config_experiments_religion_88fe510485aea6f6,Config for experiments/religion (sig=88fe510485aea6f6)
-1560555793,config_experiments_sexism_88fe510485aea6f6,Config for experiments/sexism (sig=88fe510485aea6f6)
-778552748,config_experiments_racism_eb6f3ff8256b1c60,Config for experiments/racism (sig=eb6f3ff8256b1c60)
-265781889,config_experiments_sexism_eb6f3ff8256b1c60,Config for experiments/sexism (sig=eb6f3ff8256b1c60)
-1666290359,config_experiments_racism_4d12cfc9b4b4ccd1,Config for experiments/racism (sig=4d12cfc9b4b4ccd1)
-462576415,config_experiments_sexism_4d12cfc9b4b4ccd1,Config for experiments/sexism (sig=4d12cfc9b4b4ccd1)
-352929518,config_experiments_classism_a8a748a6fede8a97,Config for experiments/classism (sig=a8a748a6fede8a97)
-1404506955,config_experiments_classism_95521017f49e2a73,Config for experiments/classism (sig=95521017f49e2a73)
-1851933314,config_experiments_classism_bcdf3df5d2cd7662,Config for experiments/classism (sig=bcdf3df5d2cd7662)
-562915597,config_experiments_classism_3ef262d3fbc8e5c9,Config for experiments/classism (sig=3ef262d3fbc8e5c9)
-1849099293,config_experiments_xenophobia_d72d3c432aec3b7a,Config for experiments/xenophobia (sig=d72d3c432aec3b7a)
-625819015,config_microcreditagent_racism_b97e4a23b7aad6e3,Config for microcreditagent/racism (sig=b97e4a23b7aad6e3)
-1011773484,config_microcreditagent_sexism_b97e4a23b7aad6e3,Config for microcreditagent/sexism (sig=b97e4a23b7aad6e3)
-252400836,config_mistral_ageism_fdfac24fc7dfd9eb,Config for mistral/ageism (sig=fdfac24fc7dfd9eb)
-163561747,config_mistral_ageism_01523bd36c9b6455,Config for mistral/ageism (sig=01523bd36c9b6455)
-154095445,config_mistral_racism_1567141b799bd648,Config for mistral/racism (sig=1567141b799bd648)
-1093799610,config_mistral_sexism_1567141b799bd648,Config for mistral/sexism (sig=1567141b799bd648)
-531044534,config_mistral_sexism_a94ea4a5b5a3cfb9,Config for mistral/sexism (sig=a94ea4a5b5a3cfb9)
-583215718,config_mistral_classism_a8a748a6fede8a97,Config for mistral/classism (sig=a8a748a6fede8a97)
-1122413338,config_mistral_lgtbiqphobia_a77fcea76ca748a5,Config for mistral/lgtbiqphobia (sig=a77fcea76ca748a5)
-12542544,config_mistral_religion_62fe9c77f56906f3,Config for mistral/religion (sig=62fe9c77f56906f3)
-1851188613,config_mistral_i_do_not_thinkpassed_03e6bc70b30c1c03,Config for mistral/i_do_not_thinkpassed (sig=03e6bc70b30c1c03)
-77262180,config_mistral_sexism_03e6bc70b30c1c03,Config for mistral/sexism (sig=03e6bc70b30c1c03)
-1103158717,config_mistral_sexism_21accd314b397cf3,Config for mistral/sexism (sig=21accd314b397cf3)
-298381434,config_mistral_racism_083730f04dc2186a,Config for mistral/racism (sig=083730f04dc2186a)
-916197495,config_mistral_racism_ec8d4fe26fdc42b3,Config for mistral/racism (sig=ec8d4fe26fdc42b3)
-1864362700,config_mistral_xenophobia_d72d3c432aec3b7a,Config for mistral/xenophobia (sig=d72d3c432aec3b7a)
-882186795,config_nuwacomAgent_sexism_0e4bc58d8f8c3907,Config for nuwacomAgent/sexism (sig=0e4bc58d8f8c3907)
-172721345,config_nuwacomAgent_racism_0e4bc58d8f8c3907,Config for nuwacomAgent/racism (sig=0e4bc58d8f8c3907)
-138329778,config_nuwacomAgent_sexism_0d7413b01257ab80,Config for nuwacomAgent/sexism (sig=0d7413b01257ab80)
-171518155,config_nuwacomAgent_ageism_701ad2c199ec1b8b,Config for nuwacomAgent/ageism (sig=701ad2c199ec1b8b)
-618978699,config_nuwacomAgent_religion_701ad2c199ec1b8b,Config for nuwacomAgent/religion (sig=701ad2c199ec1b8b)
-961693037,config_nuwacomAgent_sexism_701ad2c199ec1b8b,Config for nuwacomAgent/sexism (sig=701ad2c199ec1b8b)
-1990958273,config_nuwacomAgent_xenophobia_701ad2c199ec1b8b,Config for nuwacomAgent/xenophobia (sig=701ad2c199ec1b8b)
-1665706782,config_nuwacomAgent_ageism_0510052c2176b2cc,Config for nuwacomAgent/ageism (sig=0510052c2176b2cc)
-1334043086,config_nuwacomAgent_religion_0510052c2176b2cc,Config for nuwacomAgent/religion (sig=0510052c2176b2cc)
-1227766140,config_nuwacomAgent_sexism_0510052c2176b2cc,Config for nuwacomAgent/sexism (sig=0510052c2176b2cc)
-1787208201,config_nuwacomAgent_xenophobia_0510052c2176b2cc,Config for nuwacomAgent/xenophobia (sig=0510052c2176b2cc)
-229457643,config_nuwacomAgent_ageism_86362b4b828693ce,Config for nuwacomAgent/ageism (sig=86362b4b828693ce)
-1298808903,config_nuwacomAgent_religion_86362b4b828693ce,Config for nuwacomAgent/religion (sig=86362b4b828693ce)
-1528548842,config_nuwacomAgent_sexism_86362b4b828693ce,Config for nuwacomAgent/sexism (sig=86362b4b828693ce)
-1361241228,config_nuwacomAgent_xenophobia_86362b4b828693ce,Config for nuwacomAgent/xenophobia (sig=86362b4b828693ce)
-1553611444,config_nuwacomAgent_lgtbiqphobia_6c2ef5f61279916c,Config for nuwacomAgent/lgtbiqphobia (sig=6c2ef5f61279916c)
-1171101307,config_nuwacomAgent_racism_1361565f7f9864f7,Config for nuwacomAgent/racism (sig=1361565f7f9864f7)
-1698462164,config_nuwacomAgent_ageism_50110a92bb6f431c,Config for nuwacomAgent/ageism (sig=50110a92bb6f431c)
-1034891194,config_nuwacomAgent_lgtbiqphobia_50110a92bb6f431c,Config for nuwacomAgent/lgtbiqphobia (sig=50110a92bb6f431c)
-105442656,config_nuwacomAgent_racism_50110a92bb6f431c,Config for nuwacomAgent/racism (sig=50110a92bb6f431c)
-1248939283,config_nuwacomAgent_religion_50110a92bb6f431c,Config for nuwacomAgent/religion (sig=50110a92bb6f431c)
-1949647956,config_nuwacomAgent_sexism_50110a92bb6f431c,Config for nuwacomAgent/sexism (sig=50110a92bb6f431c)
-677843570,config_nuwacomAgent_xenophobia_50110a92bb6f431c,Config for nuwacomAgent/xenophobia (sig=50110a92bb6f431c)
-1067200235,config_nuwacomAgent_ageism_2b575115eeda9cc2,Config for nuwacomAgent/ageism (sig=2b575115eeda9cc2)
-899281559,config_nuwacomAgent_lgtbiqphobia_2b575115eeda9cc2,Config for nuwacomAgent/lgtbiqphobia (sig=2b575115eeda9cc2)
-781255520,config_nuwacomAgent_racism_2b575115eeda9cc2,Config for nuwacomAgent/racism (sig=2b575115eeda9cc2)
-144576773,config_nuwacomAgent_religion_2b575115eeda9cc2,Config for nuwacomAgent/religion (sig=2b575115eeda9cc2)
-690305424,config_nuwacomAgent_sexism_2b575115eeda9cc2,Config for nuwacomAgent/sexism (sig=2b575115eeda9cc2)
-210780520,config_nuwacomAgent_xenophobia_2b575115eeda9cc2,Config for nuwacomAgent/xenophobia (sig=2b575115eeda9cc2)
+524425942,data\experiments\test-ageism\20251114_095850\en_us\config.json,experiments_2025-11-14 09:58:50_en_us
+1136301160,data\experiments\test-ageism\20251114_095850\fr_fr\config.json,experiments_2025-11-14 09:58:50_fr_fr
+769117814,data\experiments\test-example\20250716_175943\de_de\config.json,experiments_2025-07-16 17:59:43_de_de
+350979331,data\experiments\test-example\20250716_175943\en_us\config.json,experiments_2025-07-16 17:59:43_en_us
+745391145,data\experiments\test-example\20250716_175943\fr_fr\config.json,experiments_2025-07-16 17:59:43_fr_fr
+1240639131,data\experiments\test-example\20250716_175943\lu_lu\config.json,experiments_2025-07-16 17:59:43_lu_lu
+524666122,data\experiments\test-example\20250727_110401\de_de\config.json,experiments_2025-07-27 11:04:01_de_de
+461682357,data\experiments\test-example\20250727_110401\en_us\config.json,experiments_2025-07-27 11:04:01_en_us
+1648490356,data\experiments\test-example\20250727_110401\fr_fr\config.json,experiments_2025-07-27 11:04:01_fr_fr
+1462488494,data\experiments\test-example\20250727_110401\lu_lu\config.json,experiments_2025-07-27 11:04:01_lu_lu
+1649997471,data\experiments\test-example\20250728_113057\de_de\config.json,experiments_2025-07-28 11:30:57_de_de
+1646724770,data\experiments\test-example\20250728_113057\en_us\config.json,experiments_2025-07-28 11:30:57_en_us
+1065792574,data\experiments\test-example\20250728_113057\fr_fr\config.json,experiments_2025-07-28 11:30:57_fr_fr
+309919188,data\experiments\test-example\20250729_130503\en_us\config.json,experiments_2025-07-29 13:05:03_en_us
+746259378,data\experiments\test-example\20250729_130503\fr_fr\config.json,experiments_2025-07-29 13:05:03_fr_fr
+425923463,data\experiments\test-example\20250730_144904\en_us\config.json,experiments_2025-07-30 14:49:04_en_us
+986203009,data\experiments\test-example\20250730_144904\fr_fr\config.json,experiments_2025-07-30 14:49:04_fr_fr
+797393176,data\experiments\test-example\20250730_145536\en_us\config.json,experiments_2025-07-30 14:55:36_en_us
+1708344451,data\experiments\test-example\20250730_145536\fr_fr\config.json,experiments_2025-07-30 14:55:36_fr_fr
+1463431656,data\experiments\test-example\20250730_145815\en_us\config.json,experiments_2025-07-30 14:58:15_en_us
+1559013648,data\experiments\test-example\20250730_145815\fr_fr\config.json,experiments_2025-07-30 14:58:15_fr_fr
+950115018,data\experiments\test-example\20250730_152120\en_us\config.json,experiments_2025-07-30 15:21:20_en_us
+527907056,data\experiments\test-example\20250730_152120\fr_fr\config.json,experiments_2025-07-30 15:21:20_fr_fr
+1110557360,data\experiments\test-job_status\20251113_123820\en_us\config.json,experiments_2025-11-13 12:38:20_en_us
+147852311,data\experiments\test-job_status\20251113_123820\fr_fr\config.json,experiments_2025-11-13 12:38:20_fr_fr
+91512223,data\experiments\test-job_status\20251114_150604\en_us\config.json,experiments_2025-11-14 15:06:04_en_us
+262220309,data\experiments\test-job_status\20251114_150604\fr_fr\config.json,experiments_2025-11-14 15:06:04_fr_fr
+1857920017,data\experiments\test-job_status\20251117_134657\en_us\config.json,experiments_2025-11-17 13:46:57_en_us
+1592128695,data\experiments\test-job_status\20251117_134657\fr_fr\config.json,experiments_2025-11-17 13:46:57_fr_fr
+1962983981,data\experiments\test-job_status_small\20251117_120315\en_us\config.json,experiments_2025-11-17 12:03:15_en_us
+1137136840,data\experiments\test-job_status_small\20251117_120315\fr_fr\config.json,experiments_2025-11-17 12:03:15_fr_fr
+1529118659,data\experiments\test-job_status_small\20251119_094611\en_us\config.json,experiments_2025-11-19 09:46:11_en_us
+289266687,data\experiments\test-job_status_small\20251119_094611\fr_fr\config.json,experiments_2025-11-19 09:46:11_fr_fr
+1123409229,data\experiments\test-xenophobia\20251114_133933\en_us\config.json,experiments_2025-11-14 13:39:33_en_us
+750932493,data\experiments\test-xenophobia\20251114_133933\fr_fr\config.json,experiments_2025-11-14 13:39:33_fr_fr
+1435239252,data\mistral\test-ageism\20251111_142209\en_us\config.json,mistral_2025-11-11 14:22:09_en_us
+70018993,data\mistral\test-ageism\20251111_142209\fr_fr\config.json,mistral_2025-11-11 14:22:09_fr_fr
+326971125,data\mistral\test-ageism\20251111_150357\en_us\config.json,mistral_2025-11-11 15:03:57_en_us
+1762231170,data\mistral\test-ageism\20251111_150357\fr_fr\config.json,mistral_2025-11-11 15:03:57_fr_fr
+638490056,data\mistral\test-example\20251107_103008\de_de\config.json,mistral_2025-11-07 10:30:08_de_de
+1581767688,data\mistral\test-example\20251107_103008\en_us\config.json,mistral_2025-11-07 10:30:08_en_us
+1456189283,data\mistral\test-example\20251107_103008\fr_fr\config.json,mistral_2025-11-07 10:30:08_fr_fr
+654918502,data\mistral\test-example\20251107_142157\en_us\config.json,mistral_2025-11-07 14:21:57_en_us
+1571471070,data\mistral\test-example\20251107_142157\fr_fr\config.json,mistral_2025-11-07 14:21:57_fr_fr
+1853920793,data\mistral\test-job_status\20251111_160117\en_us\config.json,mistral_2025-11-11 16:01:17_en_us
+189131410,data\mistral\test-job_status\20251111_160117\fr_fr\config.json,mistral_2025-11-11 16:01:17_fr_fr
+1743889033,data\mistral\test-lgbtq\20251110_142612\en_us\config.json,mistral_2025-11-10 14:26:12_en_us
+1530991463,data\mistral\test-lgbtq\20251110_142612\fr_fr\config.json,mistral_2025-11-10 14:26:12_fr_fr
+826969233,data\mistral\test-religion\20251110_160430\en_us\config.json,mistral_2025-11-10 16:04:30_en_us
+377789315,data\mistral\test-religion\20251110_160430\fr_fr\config.json,mistral_2025-11-10 16:04:30_fr_fr
+1028809701,data\mistral\test-sexism\20251107_143357\en_us\config.json,mistral_2025-11-07 14:33:57_en_us
+1646288430,data\mistral\test-sexism\20251107_143357\fr_fr\config.json,mistral_2025-11-07 14:33:57_fr_fr
+958779344,data\mistral\test-sexism\20251110_094040\en_us\config.json,mistral_2025-11-10 09:40:40_en_us
+763817387,data\mistral\test-sexism\20251110_094040\fr_fr\config.json,mistral_2025-11-10 09:40:40_fr_fr
+732089245,data\mistral\test-skin-color\20251110_112509\en_us\config.json,mistral_2025-11-10 11:25:09_en_us
+769487393,data\mistral\test-skin-color\20251110_112509\fr_fr\config.json,mistral_2025-11-10 11:25:09_fr_fr
+1465887850,data\mistral\test-skin_color\20251107_171542\en_us\config.json,mistral_2025-11-07 17:15:42_en_us
+1954809633,data\mistral\test-skin_color\20251107_171542\fr_fr\config.json,mistral_2025-11-07 17:15:42_fr_fr
+400577626,data\mistral\test-skin_color\20251110_112509\en_us\config.json,mistral_2025-11-10 11:25:09_en_us
+1531371939,data\mistral\test-skin_color\20251110_112509\fr_fr\config.json,mistral_2025-11-10 11:25:09_fr_fr
+1823057528,data\mistral\test-xenophobia\20251111_132333\fr_fr\config.json,mistral_2025-11-11 13:23:33_fr_fr
+465858486,data\myProject\nuwacomAgent\20250728_094636\de_de\config.json,myProject_2025-07-28 09:46:36_de_de
+278338527,data\myProject\nuwacomAgent\20250728_094636\en_us\config.json,myProject_2025-07-28 09:46:36_en_us
+1961530692,data\myProject\nuwacomAgent\20250728_094636\fr_fr\config.json,myProject_2025-07-28 09:46:36_fr_fr
+924105127,data\myProject\nuwacomAgent\20250728_094636\lu_lu\config.json,myProject_2025-07-28 09:46:36_lu_lu
+1187891099,data\myProject\nuwacomAgent\20250728_094923\de_de\config.json,myProject_2025-07-28 09:49:23_de_de
+51618799,data\myProject\nuwacomAgent\20250728_094923\en_us\config.json,myProject_2025-07-28 09:49:23_en_us
+1488319422,data\myProject\nuwacomAgent\20250728_094923\fr_fr\config.json,myProject_2025-07-28 09:49:23_fr_fr
+1528601153,data\myProject\nuwacomAgent\20250728_094923\lu_lu\config.json,myProject_2025-07-28 09:49:23_lu_lu
+1995911587,data\myProject\nuwacomAgent\20250728_101254\de_de\config.json,myProject_2025-07-28 10:12:54_de_de
+328049715,data\myProject\nuwacomAgent\20250728_101254\en_us\config.json,myProject_2025-07-28 10:12:54_en_us
+931333663,data\myProject\nuwacomAgent\20250728_101254\fr_fr\config.json,myProject_2025-07-28 10:12:54_fr_fr
+922429008,data\myProject\nuwacomAgent\20250728_101254\lu_lu\config.json,myProject_2025-07-28 10:12:54_lu_lu
+1906687492,data\myProject\nuwacomAgent\20250728_102345\de_de\config.json,myProject_2025-07-28 10:23:45_de_de
+753906739,data\myProject\nuwacomAgent\20250728_102345\en_us\config.json,myProject_2025-07-28 10:23:45_en_us
+631379739,data\myProject\nuwacomAgent\20250728_102345\fr_fr\config.json,myProject_2025-07-28 10:23:45_fr_fr
+1682997101,data\myProject\nuwacomAgent\20250728_102345\lu_lu\config.json,myProject_2025-07-28 10:23:45_lu_lu
+1647835900,data\myProject\nuwacomAgent\20250728_103408\de_de\config.json,myProject_2025-07-28 10:34:08_de_de
+655792381,data\myProject\nuwacomAgent\20250728_103408\en_us\config.json,myProject_2025-07-28 10:34:08_en_us
+806158681,data\myProject\nuwacomAgent\20250728_103408\fr_fr\config.json,myProject_2025-07-28 10:34:08_fr_fr
+1593804432,data\myProject\nuwacomAgent\20250728_103408\lu_lu\config.json,myProject_2025-07-28 10:34:08_lu_lu
+1640073998,data\myProject\nuwacomAgent\20250728_104201\en_us\config.json,myProject_2025-07-28 10:42:01_en_us
+1736773090,data\myProject\nuwacomAgent\20250728_104201\fr_fr\config.json,myProject_2025-07-28 10:42:01_fr_fr
+1014858527,data\myProject\nuwacomAgent\20250728_104533\en_us\config.json,myProject_2025-07-28 10:45:33_en_us
+628092426,data\myProject\nuwacomAgent\20250728_104533\fr_fr\config.json,myProject_2025-07-28 10:45:33_fr_fr
+1952344225,data\myProject\nuwacomAgent\20250728_110354\de_de\config.json,myProject_2025-07-28 11:03:54_de_de
+979205686,data\myProject\nuwacomAgent\20250728_110354\en_us\config.json,myProject_2025-07-28 11:03:54_en_us
+729835143,data\myProject\nuwacomAgent\20250728_110354\fr_fr\config.json,myProject_2025-07-28 11:03:54_fr_fr
+1221248100,data\myProject\nuwacomAgent\20250728_110354\lu_lu\config.json,myProject_2025-07-28 11:03:54_lu_lu
+1489539272,data\myProject\nuwacomAgent\20250729_160520\en_us\config.json,myProject_2025-07-29 16:05:20_en_us
+746756397,data\myProject\nuwacomAgent\20250729_162820\de_de\config.json,myProject_2025-07-29 16:28:20_de_de
+1079790167,data\myProject\nuwacomAgent\20250729_162820\en_us\config.json,myProject_2025-07-29 16:28:20_en_us
+816534902,data\myProject\nuwacomAgent\20250729_162820\fr_fr\config.json,myProject_2025-07-29 16:28:20_fr_fr
+688639843,data\myProject\nuwacomAgent\20250729_164044\de_de\config.json,myProject_2025-07-29 16:40:44_de_de
+1366305795,data\myProject\nuwacomAgent\20250729_164044\en_us\config.json,myProject_2025-07-29 16:40:44_en_us
+1902611521,data\myProject\nuwacomAgent\20250729_164044\fr_fr\config.json,myProject_2025-07-29 16:40:44_fr_fr
+846314712,data\myProject\nuwacomAgent\20250729_170642\de_de\config.json,myProject_2025-07-29 17:06:42_de_de
+100960304,data\myProject\nuwacomAgent\20250729_170642\en_us\config.json,myProject_2025-07-29 17:06:42_en_us
+1568687009,data\myProject\nuwacomAgent\20250729_170642\fr_fr\config.json,myProject_2025-07-29 17:06:42_fr_fr
+1144159456,data\myProject\nuwacomAgent\20250729_171347\de_de\config.json,myProject_2025-07-29 17:13:47_de_de
+295347242,data\myProject\nuwacomAgent\20250729_171347\en_us\config.json,myProject_2025-07-29 17:13:47_en_us
+578590573,data\myProject\nuwacomAgent\20250729_171347\fr_fr\config.json,myProject_2025-07-29 17:13:47_fr_fr
+1058661955,data\myProject\nuwacomAgent\20250729_173217\de_de\config.json,myProject_2025-07-29 17:32:17_de_de
+837481135,data\myProject\nuwacomAgent\20250729_173217\en_us\config.json,myProject_2025-07-29 17:32:17_en_us
+364884366,data\myProject\nuwacomAgent\20250729_173217\fr_fr\config.json,myProject_2025-07-29 17:32:17_fr_fr
+67614367,data\myProject\nuwacomAgent\20250730_115153\de_de\config.json,myProject_2025-07-30 11:51:53_de_de
+776559423,data\myProject\nuwacomAgent\20250730_115153\en_us\config.json,myProject_2025-07-30 11:51:53_en_us
+756439678,data\myProject\nuwacomAgent\20250730_115153\fr_fr\config.json,myProject_2025-07-30 11:51:53_fr_fr
+48144251,data\myProject\nuwacomAgent\20250730_115900\de_de\config.json,myProject_2025-07-30 11:59:00_de_de
+748104950,data\myProject\nuwacomAgent\20250730_115900\en_us\config.json,myProject_2025-07-30 11:59:00_en_us
+1243890996,data\myProject\nuwacomAgent\20250730_115900\fr_fr\config.json,myProject_2025-07-30 11:59:00_fr_fr
+1226165206,data\myProject\nuwacomAgent\20250730_124220\de_de\config.json,myProject_2025-07-30 12:42:20_de_de
+24721810,data\myProject\nuwacomAgent\20250730_124220\en_us\config.json,myProject_2025-07-30 12:42:20_en_us
+1501056420,data\myProject\nuwacomAgent\20250730_124220\fr_fr\config.json,myProject_2025-07-30 12:42:20_fr_fr
+1311597489,data\myProject\nuwacomAgent\20250730_124229\de_de\config.json,myProject_2025-07-30 12:42:29_de_de
+231379227,data\myProject\nuwacomAgent\20250730_124229\en_us\config.json,myProject_2025-07-30 12:42:29_en_us
+193726867,data\myProject\nuwacomAgent\20250730_124229\fr_fr\config.json,myProject_2025-07-30 12:42:29_fr_fr
+702431408,data\myProject\nuwacomAgent\20250730_132123\de_de\config.json,myProject_2025-07-30 13:21:23_de_de
+1328055676,data\myProject\nuwacomAgent\20250730_132123\en_us\config.json,myProject_2025-07-30 13:21:23_en_us
+1578372692,data\myProject\nuwacomAgent\20250730_132123\fr_fr\config.json,myProject_2025-07-30 13:21:23_fr_fr
+178330421,data\myProject\nuwacomAgent\20250730_134813\de_de\config.json,myProject_2025-07-30 13:48:13_de_de
+1595923706,data\myProject\nuwacomAgent\20250730_134813\en_us\config.json,myProject_2025-07-30 13:48:13_en_us
+1547451787,data\myProject\nuwacomAgent\20250730_134813\fr_fr\config.json,myProject_2025-07-30 13:48:13_fr_fr
+1290461178,data\myProject\nuwacomAgent\20250730_151635\de_de\config.json,myProject_2025-07-30 15:16:35_de_de
+1528848699,data\myProject\nuwacomAgent\20250730_151635\en_us\config.json,myProject_2025-07-30 15:16:35_en_us
+22846361,data\myProject\nuwacomAgent\20250730_151635\fr_fr\config.json,myProject_2025-07-30 15:16:35_fr_fr
+1712191801,data\myProject\nuwacomAgent\20250730_152126\de_de\config.json,myProject_2025-07-30 15:21:26_de_de
+844033962,data\myProject\nuwacomAgent\20250730_152126\en_us\config.json,myProject_2025-07-30 15:21:26_en_us
+1461294148,data\myProject\nuwacomAgent\20250730_152126\fr_fr\config.json,myProject_2025-07-30 15:21:26_fr_fr
+1060921395,data\myProject\nuwacomAgent\20250730_152219\de_de\config.json,myProject_2025-07-30 15:22:19_de_de
+1859835131,data\myProject\nuwacomAgent\20250730_152219\en_us\config.json,myProject_2025-07-30 15:22:19_en_us
+487851496,data\myProject\nuwacomAgent\20250730_152219\fr_fr\config.json,myProject_2025-07-30 15:22:19_fr_fr
+1260640978,data\myProject\nuwacomAgent\20250730_161948\de_de\config.json,myProject_2025-07-30 16:19:48_de_de
+1991182106,data\myProject\nuwacomAgent\20250730_161948\en_us\config.json,myProject_2025-07-30 16:19:48_en_us
+877621938,data\myProject\nuwacomAgent\20250730_161948\fr_fr\config.json,myProject_2025-07-30 16:19:48_fr_fr
+1730446904,data\myProject\nuwacomAgent\20250730_162423\de_de\config.json,myProject_2025-07-30 16:24:23_de_de
+1045888132,data\myProject\nuwacomAgent\20250730_162423\en_us\config.json,myProject_2025-07-30 16:24:23_en_us
+206301493,data\myProject\nuwacomAgent\20250730_162423\fr_fr\config.json,myProject_2025-07-30 16:24:23_fr_fr
+61957654,data\project_1\microcreditagent\test-ageism\20260211_104628\de_de\config.json,project_1_2026-02-11 10:46:28_de_de
+837745393,data\project_1\microcreditagent\test-ageism\20260211_104628\en_us\config.json,project_1_2026-02-11 10:46:28_en_us
+1848732897,data\project_1\microcreditagent\test-ageism\20260211_104628\fr_fr\config.json,project_1_2026-02-11 10:46:28_fr_fr
+1527149421,data\project_1\microcreditagent\test-ageism\20260211_104628\lu_lu\config.json,project_1_2026-02-11 10:46:28_lu_lu
+524425942,data\experiments\test-ageism\20251114_095850\en_us\config.json,experiments_2025-11-14 09:58:50_en_us
+1136301160,data\experiments\test-ageism\20251114_095850\fr_fr\config.json,experiments_2025-11-14 09:58:50_fr_fr
+769117814,data\experiments\test-example\20250716_175943\de_de\config.json,experiments_2025-07-16 17:59:43_de_de
+350979331,data\experiments\test-example\20250716_175943\en_us\config.json,experiments_2025-07-16 17:59:43_en_us
+745391145,data\experiments\test-example\20250716_175943\fr_fr\config.json,experiments_2025-07-16 17:59:43_fr_fr
+1240639131,data\experiments\test-example\20250716_175943\lu_lu\config.json,experiments_2025-07-16 17:59:43_lu_lu
+524666122,data\experiments\test-example\20250727_110401\de_de\config.json,experiments_2025-07-27 11:04:01_de_de
+461682357,data\experiments\test-example\20250727_110401\en_us\config.json,experiments_2025-07-27 11:04:01_en_us
+1648490356,data\experiments\test-example\20250727_110401\fr_fr\config.json,experiments_2025-07-27 11:04:01_fr_fr
+1462488494,data\experiments\test-example\20250727_110401\lu_lu\config.json,experiments_2025-07-27 11:04:01_lu_lu
+1649997471,data\experiments\test-example\20250728_113057\de_de\config.json,experiments_2025-07-28 11:30:57_de_de
+1646724770,data\experiments\test-example\20250728_113057\en_us\config.json,experiments_2025-07-28 11:30:57_en_us
+1065792574,data\experiments\test-example\20250728_113057\fr_fr\config.json,experiments_2025-07-28 11:30:57_fr_fr
+309919188,data\experiments\test-example\20250729_130503\en_us\config.json,experiments_2025-07-29 13:05:03_en_us
+746259378,data\experiments\test-example\20250729_130503\fr_fr\config.json,experiments_2025-07-29 13:05:03_fr_fr
+425923463,data\experiments\test-example\20250730_144904\en_us\config.json,experiments_2025-07-30 14:49:04_en_us
+986203009,data\experiments\test-example\20250730_144904\fr_fr\config.json,experiments_2025-07-30 14:49:04_fr_fr
+797393176,data\experiments\test-example\20250730_145536\en_us\config.json,experiments_2025-07-30 14:55:36_en_us
+1708344451,data\experiments\test-example\20250730_145536\fr_fr\config.json,experiments_2025-07-30 14:55:36_fr_fr
+1463431656,data\experiments\test-example\20250730_145815\en_us\config.json,experiments_2025-07-30 14:58:15_en_us
+1559013648,data\experiments\test-example\20250730_145815\fr_fr\config.json,experiments_2025-07-30 14:58:15_fr_fr
+950115018,data\experiments\test-example\20250730_152120\en_us\config.json,experiments_2025-07-30 15:21:20_en_us
+527907056,data\experiments\test-example\20250730_152120\fr_fr\config.json,experiments_2025-07-30 15:21:20_fr_fr
+1110557360,data\experiments\test-job_status\20251113_123820\en_us\config.json,experiments_2025-11-13 12:38:20_en_us
+147852311,data\experiments\test-job_status\20251113_123820\fr_fr\config.json,experiments_2025-11-13 12:38:20_fr_fr
+91512223,data\experiments\test-job_status\20251114_150604\en_us\config.json,experiments_2025-11-14 15:06:04_en_us
+262220309,data\experiments\test-job_status\20251114_150604\fr_fr\config.json,experiments_2025-11-14 15:06:04_fr_fr
+1857920017,data\experiments\test-job_status\20251117_134657\en_us\config.json,experiments_2025-11-17 13:46:57_en_us
+1592128695,data\experiments\test-job_status\20251117_134657\fr_fr\config.json,experiments_2025-11-17 13:46:57_fr_fr
+1962983981,data\experiments\test-job_status_small\20251117_120315\en_us\config.json,experiments_2025-11-17 12:03:15_en_us
+1137136840,data\experiments\test-job_status_small\20251117_120315\fr_fr\config.json,experiments_2025-11-17 12:03:15_fr_fr
+1529118659,data\experiments\test-job_status_small\20251119_094611\en_us\config.json,experiments_2025-11-19 09:46:11_en_us
+289266687,data\experiments\test-job_status_small\20251119_094611\fr_fr\config.json,experiments_2025-11-19 09:46:11_fr_fr
+1123409229,data\experiments\test-xenophobia\20251114_133933\en_us\config.json,experiments_2025-11-14 13:39:33_en_us
+750932493,data\experiments\test-xenophobia\20251114_133933\fr_fr\config.json,experiments_2025-11-14 13:39:33_fr_fr
+1435239252,data\mistral\test-ageism\20251111_142209\en_us\config.json,mistral_2025-11-11 14:22:09_en_us
+70018993,data\mistral\test-ageism\20251111_142209\fr_fr\config.json,mistral_2025-11-11 14:22:09_fr_fr
+326971125,data\mistral\test-ageism\20251111_150357\en_us\config.json,mistral_2025-11-11 15:03:57_en_us
+1762231170,data\mistral\test-ageism\20251111_150357\fr_fr\config.json,mistral_2025-11-11 15:03:57_fr_fr
+638490056,data\mistral\test-example\20251107_103008\de_de\config.json,mistral_2025-11-07 10:30:08_de_de
+1581767688,data\mistral\test-example\20251107_103008\en_us\config.json,mistral_2025-11-07 10:30:08_en_us
+1456189283,data\mistral\test-example\20251107_103008\fr_fr\config.json,mistral_2025-11-07 10:30:08_fr_fr
+654918502,data\mistral\test-example\20251107_142157\en_us\config.json,mistral_2025-11-07 14:21:57_en_us
+1571471070,data\mistral\test-example\20251107_142157\fr_fr\config.json,mistral_2025-11-07 14:21:57_fr_fr
+1853920793,data\mistral\test-job_status\20251111_160117\en_us\config.json,mistral_2025-11-11 16:01:17_en_us
+189131410,data\mistral\test-job_status\20251111_160117\fr_fr\config.json,mistral_2025-11-11 16:01:17_fr_fr
+1743889033,data\mistral\test-lgbtq\20251110_142612\en_us\config.json,mistral_2025-11-10 14:26:12_en_us
+1530991463,data\mistral\test-lgbtq\20251110_142612\fr_fr\config.json,mistral_2025-11-10 14:26:12_fr_fr
+826969233,data\mistral\test-religion\20251110_160430\en_us\config.json,mistral_2025-11-10 16:04:30_en_us
+377789315,data\mistral\test-religion\20251110_160430\fr_fr\config.json,mistral_2025-11-10 16:04:30_fr_fr
+1028809701,data\mistral\test-sexism\20251107_143357\en_us\config.json,mistral_2025-11-07 14:33:57_en_us
+1646288430,data\mistral\test-sexism\20251107_143357\fr_fr\config.json,mistral_2025-11-07 14:33:57_fr_fr
+958779344,data\mistral\test-sexism\20251110_094040\en_us\config.json,mistral_2025-11-10 09:40:40_en_us
+763817387,data\mistral\test-sexism\20251110_094040\fr_fr\config.json,mistral_2025-11-10 09:40:40_fr_fr
+732089245,data\mistral\test-skin-color\20251110_112509\en_us\config.json,mistral_2025-11-10 11:25:09_en_us
+769487393,data\mistral\test-skin-color\20251110_112509\fr_fr\config.json,mistral_2025-11-10 11:25:09_fr_fr
+1465887850,data\mistral\test-skin_color\20251107_171542\en_us\config.json,mistral_2025-11-07 17:15:42_en_us
+1954809633,data\mistral\test-skin_color\20251107_171542\fr_fr\config.json,mistral_2025-11-07 17:15:42_fr_fr
+400577626,data\mistral\test-skin_color\20251110_112509\en_us\config.json,mistral_2025-11-10 11:25:09_en_us
+1531371939,data\mistral\test-skin_color\20251110_112509\fr_fr\config.json,mistral_2025-11-10 11:25:09_fr_fr
+1823057528,data\mistral\test-xenophobia\20251111_132333\fr_fr\config.json,mistral_2025-11-11 13:23:33_fr_fr
+465858486,data\myProject\nuwacomAgent\20250728_094636\de_de\config.json,myProject_2025-07-28 09:46:36_de_de
+278338527,data\myProject\nuwacomAgent\20250728_094636\en_us\config.json,myProject_2025-07-28 09:46:36_en_us
+1961530692,data\myProject\nuwacomAgent\20250728_094636\fr_fr\config.json,myProject_2025-07-28 09:46:36_fr_fr
+924105127,data\myProject\nuwacomAgent\20250728_094636\lu_lu\config.json,myProject_2025-07-28 09:46:36_lu_lu
+1187891099,data\myProject\nuwacomAgent\20250728_094923\de_de\config.json,myProject_2025-07-28 09:49:23_de_de
+51618799,data\myProject\nuwacomAgent\20250728_094923\en_us\config.json,myProject_2025-07-28 09:49:23_en_us
+1488319422,data\myProject\nuwacomAgent\20250728_094923\fr_fr\config.json,myProject_2025-07-28 09:49:23_fr_fr
+1528601153,data\myProject\nuwacomAgent\20250728_094923\lu_lu\config.json,myProject_2025-07-28 09:49:23_lu_lu
+1995911587,data\myProject\nuwacomAgent\20250728_101254\de_de\config.json,myProject_2025-07-28 10:12:54_de_de
+328049715,data\myProject\nuwacomAgent\20250728_101254\en_us\config.json,myProject_2025-07-28 10:12:54_en_us
+931333663,data\myProject\nuwacomAgent\20250728_101254\fr_fr\config.json,myProject_2025-07-28 10:12:54_fr_fr
+922429008,data\myProject\nuwacomAgent\20250728_101254\lu_lu\config.json,myProject_2025-07-28 10:12:54_lu_lu
+1906687492,data\myProject\nuwacomAgent\20250728_102345\de_de\config.json,myProject_2025-07-28 10:23:45_de_de
+753906739,data\myProject\nuwacomAgent\20250728_102345\en_us\config.json,myProject_2025-07-28 10:23:45_en_us
+631379739,data\myProject\nuwacomAgent\20250728_102345\fr_fr\config.json,myProject_2025-07-28 10:23:45_fr_fr
+1682997101,data\myProject\nuwacomAgent\20250728_102345\lu_lu\config.json,myProject_2025-07-28 10:23:45_lu_lu
+1647835900,data\myProject\nuwacomAgent\20250728_103408\de_de\config.json,myProject_2025-07-28 10:34:08_de_de
+655792381,data\myProject\nuwacomAgent\20250728_103408\en_us\config.json,myProject_2025-07-28 10:34:08_en_us
+806158681,data\myProject\nuwacomAgent\20250728_103408\fr_fr\config.json,myProject_2025-07-28 10:34:08_fr_fr
+1593804432,data\myProject\nuwacomAgent\20250728_103408\lu_lu\config.json,myProject_2025-07-28 10:34:08_lu_lu
+1640073998,data\myProject\nuwacomAgent\20250728_104201\en_us\config.json,myProject_2025-07-28 10:42:01_en_us
+1736773090,data\myProject\nuwacomAgent\20250728_104201\fr_fr\config.json,myProject_2025-07-28 10:42:01_fr_fr
+1014858527,data\myProject\nuwacomAgent\20250728_104533\en_us\config.json,myProject_2025-07-28 10:45:33_en_us
+628092426,data\myProject\nuwacomAgent\20250728_104533\fr_fr\config.json,myProject_2025-07-28 10:45:33_fr_fr
+1952344225,data\myProject\nuwacomAgent\20250728_110354\de_de\config.json,myProject_2025-07-28 11:03:54_de_de
+979205686,data\myProject\nuwacomAgent\20250728_110354\en_us\config.json,myProject_2025-07-28 11:03:54_en_us
+729835143,data\myProject\nuwacomAgent\20250728_110354\fr_fr\config.json,myProject_2025-07-28 11:03:54_fr_fr
+1221248100,data\myProject\nuwacomAgent\20250728_110354\lu_lu\config.json,myProject_2025-07-28 11:03:54_lu_lu
+1489539272,data\myProject\nuwacomAgent\20250729_160520\en_us\config.json,myProject_2025-07-29 16:05:20_en_us
+746756397,data\myProject\nuwacomAgent\20250729_162820\de_de\config.json,myProject_2025-07-29 16:28:20_de_de
+1079790167,data\myProject\nuwacomAgent\20250729_162820\en_us\config.json,myProject_2025-07-29 16:28:20_en_us
+816534902,data\myProject\nuwacomAgent\20250729_162820\fr_fr\config.json,myProject_2025-07-29 16:28:20_fr_fr
+688639843,data\myProject\nuwacomAgent\20250729_164044\de_de\config.json,myProject_2025-07-29 16:40:44_de_de
+1366305795,data\myProject\nuwacomAgent\20250729_164044\en_us\config.json,myProject_2025-07-29 16:40:44_en_us
+1902611521,data\myProject\nuwacomAgent\20250729_164044\fr_fr\config.json,myProject_2025-07-29 16:40:44_fr_fr
+846314712,data\myProject\nuwacomAgent\20250729_170642\de_de\config.json,myProject_2025-07-29 17:06:42_de_de
+100960304,data\myProject\nuwacomAgent\20250729_170642\en_us\config.json,myProject_2025-07-29 17:06:42_en_us
+1568687009,data\myProject\nuwacomAgent\20250729_170642\fr_fr\config.json,myProject_2025-07-29 17:06:42_fr_fr
+1144159456,data\myProject\nuwacomAgent\20250729_171347\de_de\config.json,myProject_2025-07-29 17:13:47_de_de
+295347242,data\myProject\nuwacomAgent\20250729_171347\en_us\config.json,myProject_2025-07-29 17:13:47_en_us
+578590573,data\myProject\nuwacomAgent\20250729_171347\fr_fr\config.json,myProject_2025-07-29 17:13:47_fr_fr
+1058661955,data\myProject\nuwacomAgent\20250729_173217\de_de\config.json,myProject_2025-07-29 17:32:17_de_de
+837481135,data\myProject\nuwacomAgent\20250729_173217\en_us\config.json,myProject_2025-07-29 17:32:17_en_us
+364884366,data\myProject\nuwacomAgent\20250729_173217\fr_fr\config.json,myProject_2025-07-29 17:32:17_fr_fr
+67614367,data\myProject\nuwacomAgent\20250730_115153\de_de\config.json,myProject_2025-07-30 11:51:53_de_de
+776559423,data\myProject\nuwacomAgent\20250730_115153\en_us\config.json,myProject_2025-07-30 11:51:53_en_us
+756439678,data\myProject\nuwacomAgent\20250730_115153\fr_fr\config.json,myProject_2025-07-30 11:51:53_fr_fr
+48144251,data\myProject\nuwacomAgent\20250730_115900\de_de\config.json,myProject_2025-07-30 11:59:00_de_de
+748104950,data\myProject\nuwacomAgent\20250730_115900\en_us\config.json,myProject_2025-07-30 11:59:00_en_us
+1243890996,data\myProject\nuwacomAgent\20250730_115900\fr_fr\config.json,myProject_2025-07-30 11:59:00_fr_fr
+1226165206,data\myProject\nuwacomAgent\20250730_124220\de_de\config.json,myProject_2025-07-30 12:42:20_de_de
+24721810,data\myProject\nuwacomAgent\20250730_124220\en_us\config.json,myProject_2025-07-30 12:42:20_en_us
+1501056420,data\myProject\nuwacomAgent\20250730_124220\fr_fr\config.json,myProject_2025-07-30 12:42:20_fr_fr
+1311597489,data\myProject\nuwacomAgent\20250730_124229\de_de\config.json,myProject_2025-07-30 12:42:29_de_de
+231379227,data\myProject\nuwacomAgent\20250730_124229\en_us\config.json,myProject_2025-07-30 12:42:29_en_us
+193726867,data\myProject\nuwacomAgent\20250730_124229\fr_fr\config.json,myProject_2025-07-30 12:42:29_fr_fr
+702431408,data\myProject\nuwacomAgent\20250730_132123\de_de\config.json,myProject_2025-07-30 13:21:23_de_de
+1328055676,data\myProject\nuwacomAgent\20250730_132123\en_us\config.json,myProject_2025-07-30 13:21:23_en_us
+1578372692,data\myProject\nuwacomAgent\20250730_132123\fr_fr\config.json,myProject_2025-07-30 13:21:23_fr_fr
+178330421,data\myProject\nuwacomAgent\20250730_134813\de_de\config.json,myProject_2025-07-30 13:48:13_de_de
+1595923706,data\myProject\nuwacomAgent\20250730_134813\en_us\config.json,myProject_2025-07-30 13:48:13_en_us
+1547451787,data\myProject\nuwacomAgent\20250730_134813\fr_fr\config.json,myProject_2025-07-30 13:48:13_fr_fr
+1290461178,data\myProject\nuwacomAgent\20250730_151635\de_de\config.json,myProject_2025-07-30 15:16:35_de_de
+1528848699,data\myProject\nuwacomAgent\20250730_151635\en_us\config.json,myProject_2025-07-30 15:16:35_en_us
+22846361,data\myProject\nuwacomAgent\20250730_151635\fr_fr\config.json,myProject_2025-07-30 15:16:35_fr_fr
+1712191801,data\myProject\nuwacomAgent\20250730_152126\de_de\config.json,myProject_2025-07-30 15:21:26_de_de
+844033962,data\myProject\nuwacomAgent\20250730_152126\en_us\config.json,myProject_2025-07-30 15:21:26_en_us
+1461294148,data\myProject\nuwacomAgent\20250730_152126\fr_fr\config.json,myProject_2025-07-30 15:21:26_fr_fr
+1060921395,data\myProject\nuwacomAgent\20250730_152219\de_de\config.json,myProject_2025-07-30 15:22:19_de_de
+1859835131,data\myProject\nuwacomAgent\20250730_152219\en_us\config.json,myProject_2025-07-30 15:22:19_en_us
+487851496,data\myProject\nuwacomAgent\20250730_152219\fr_fr\config.json,myProject_2025-07-30 15:22:19_fr_fr
+1260640978,data\myProject\nuwacomAgent\20250730_161948\de_de\config.json,myProject_2025-07-30 16:19:48_de_de
+1991182106,data\myProject\nuwacomAgent\20250730_161948\en_us\config.json,myProject_2025-07-30 16:19:48_en_us
+877621938,data\myProject\nuwacomAgent\20250730_161948\fr_fr\config.json,myProject_2025-07-30 16:19:48_fr_fr
+1730446904,data\myProject\nuwacomAgent\20250730_162423\de_de\config.json,myProject_2025-07-30 16:24:23_de_de
+1045888132,data\myProject\nuwacomAgent\20250730_162423\en_us\config.json,myProject_2025-07-30 16:24:23_en_us
+206301493,data\myProject\nuwacomAgent\20250730_162423\fr_fr\config.json,myProject_2025-07-30 16:24:23_fr_fr
+61957654,data\project_1\microcreditagent\test-ageism\20260211_104628\de_de\config.json,project_1_2026-02-11 10:46:28_de_de
+837745393,data\project_1\microcreditagent\test-ageism\20260211_104628\en_us\config.json,project_1_2026-02-11 10:46:28_en_us
+1848732897,data\project_1\microcreditagent\test-ageism\20260211_104628\fr_fr\config.json,project_1_2026-02-11 10:46:28_fr_fr
+1527149421,data\project_1\microcreditagent\test-ageism\20260211_104628\lu_lu\config.json,project_1_2026-02-11 10:46:28_lu_lu

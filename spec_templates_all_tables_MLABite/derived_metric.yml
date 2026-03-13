@@ -11,7 +11,7 @@ key: ['baseMetric', 'derivedBy']
 columns:
   # baseMetric: type=INTEGER; PK; AUTOINC-LIKE; FK→metric.id
   # Tip: usually omit mapping for autoincrement PKs and let the DB assign them.
-  # baseMetric: { from: "<CSV_baseMetric>", optional: true }
+  baseMetric: { from: "baseMetric", optional: true }
   # derivedBy: type=INTEGER; PK; AUTOINC-LIKE; FK→derived.id
   # Tip: usually omit mapping for autoincrement PKs and let the DB assign them.
-  # derivedBy: { from: "<CSV_derivedBy>", optional: true }
+  derivedBy: { from: "derivedBy", optional: true }

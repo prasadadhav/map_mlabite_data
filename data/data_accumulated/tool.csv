@@ -1,2 +1,18 @@
 id,source,version,name,licensing
-95582095,LIST,vX.x.x,MLABiTe,Open_Source
+1,LIST,vX.xx,MLABiTe,Open_Source
+2,LIST,vX.xx,MLAReject,Open_Source
+3,LIST,vX.xx,MLARagas,Open_Source
+4,SPY Lab (ETH Zurich),vX.xx,AgentDojo,Open_Source
+5,SnT,vX.xx,LLM Eval,Open_Source
+6,SnT,vX.xx,Data Anamalies,Proprietary
+7,SnT,vX.xx,Classification & Regression,Open_Source
+8,SnT,vX.xx,Performance,Open_Source
+9,LIST,vX.xx,Plugin_TBD_1,Open_Source
+10,LIST,vX.xx,Plugin_TBD_2,Open_Source
+11,LIST,vX.xx,Plugin_TBD_3,Open_Source
+12,LIST,vX.xx,Plugin_TBD_4,Open_Source
+13,SnT,vX.xx,Plugin_TBD_5,Open_Source
+14,SnT,vX.xx,Plugin_TBD_6,Open_Source
+15,SnT,vX.xx,Plugin_TBD_7,Open_Source
+16,SnT,vX.xx,Plugin_TBD_8,Open_Source
+17,SOM Research Lab,vX.xx,LangBiTe,Open_Source

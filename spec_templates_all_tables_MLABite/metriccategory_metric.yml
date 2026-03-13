@@ -12,7 +12,7 @@ columns:
   # category: type=INTEGER; PK; AUTOINC-LIKE; FK→metriccategory.id
   # id: { from: "id", optional: true }
   # Tip: usually omit mapping for autoincrement PKs and let the DB assign them.
-  category: { from: "metriccategory_id", optional: true }
+  category: { from: "category", optional: true }
   # metrics: type=INTEGER; PK; AUTOINC-LIKE; FK→metric.id
   # Tip: usually omit mapping for autoincrement PKs and let the DB assign them.
-  metrics: { from: "metric_id", optional: true }
+  metrics: { from: "metrics", optional: true }

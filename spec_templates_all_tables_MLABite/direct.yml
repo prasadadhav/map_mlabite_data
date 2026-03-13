@@ -12,3 +12,7 @@ columns:
   # id: type=INTEGER; PK; AUTOINC-LIKE; FK→metric.id
   # Tip: usually omit mapping for autoincrement PKs and let the DB assign them.
   id: { from: "id", optional: true }
+
+  name: { from: "name" }
+
+  description: { from: "description" }

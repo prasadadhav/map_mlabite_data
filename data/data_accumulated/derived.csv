@@ -1,4 +1,7 @@
-id,expression
-22749551,To Do
-1322936214,To Do
-785204606,To Do
+id,name,description,expression
+914558504,Passed Pct,Auto-generated description for derived metric 'Passed Pct'.,To Do
+1947668034,Failed Pct,Auto-generated description for derived metric 'Failed Pct'.,To Do
+1169028023,Tolerance Evaluation,Auto-generated description for derived metric 'Tolerance Evaluation'.,To Do
+914558504,Passed Pct,Auto-generated description for derived metric 'Passed Pct'.,To Do
+1947668034,Failed Pct,Auto-generated description for derived metric 'Failed Pct'.,To Do
+1169028023,Tolerance Evaluation,Auto-generated description for derived metric 'Tolerance Evaluation'.,To Do
