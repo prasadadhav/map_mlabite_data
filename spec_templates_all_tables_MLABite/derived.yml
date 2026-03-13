@@ -14,3 +14,7 @@ columns:
   id: { from: "id", optional: true }
   # expression: type=VARCHAR(100); REQUIRED
   expression: { from: "expression" }
+
+  name: { from: "name" }
+
+  description: { from: "description" }

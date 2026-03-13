@@ -21,5 +21,9 @@ columns:
   # licensing: type=VARCHAR(11); REQUIRED
   licensing: { from: "licensing" }
   # dataset_id: type=INTEGER; REQUIRED; FK→dataset.id
-  dataset_id: { from: "dataset_id", as_type: int}
+  # dataset_id: { from: "dataset_id", as_type: int}
+
+  name: { from: "name" }
+
+  description: { from: "source" }
 

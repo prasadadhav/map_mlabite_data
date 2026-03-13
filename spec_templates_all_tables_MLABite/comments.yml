@@ -8,6 +8,8 @@ columns:
   
   Name: { from: "Name"}
   
-  Comments: { from: "Comments"}
+  Comment: { from: "Comments"}
 
   TimeStamp: { from : "TimeStamp" }
+
+  user_id: {from : "user_id"}
